@@ -45,8 +45,12 @@ INSTALLED_APPS = [
     'rest_framework',
 
     'accounts',
-    'posts',
+    'equipments',
+    'exercises',
     'comments',
+    'routines',
+    'workouts',
+    'measures',
 ]
 
 MIDDLEWARE = [
@@ -142,7 +146,7 @@ CORS_ALLOW_ALL_ORIGINS = True
 
 REST_FRAMEWORK = {
     "DEFAULT_PERMISSION_CLASSES": [
-        "rest_framework.permissions.IsAuthenticated",
+        # "rest_framework.permissions.IsAuthenticated",
     ],
     'DEFAULT_AUTHENTICATION_CLASSES': (
         'rest_framework_simplejwt.authentication.JWTAuthentication',

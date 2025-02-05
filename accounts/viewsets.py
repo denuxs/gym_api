@@ -15,14 +15,15 @@ class RegisterApiView(APIView):
 
     def post(self, request, format=None):
         user = request.data.copy()
-        user["username"] = user["email"].split("@")[0]
+        # user["username"] = user["email"].split("@")[0]
 
         serializer = UserSerializer(data=user)
         if serializer.is_valid():
 
             User.objects.create_user(
                 user["username"],
-                user["email"],
+                None,
+                # user["email"],
                 user["password"],
                 # first_name=user["first_name"],
                 # last_name=user["last_name"],

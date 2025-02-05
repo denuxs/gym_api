@@ -30,16 +30,26 @@ from rest_framework_simplejwt.views import (
 )
 
 from rest_framework import routers
-from posts.viewsets import PostViewSet
+from comments.viewsets import CommentViewSet
+from equipments.viewsets import EquipmentViewSet
+from exercises.viewsets import ExerciseViewSet
 from accounts.viewsets import UserViewSet, RegisterApiView
+from routines.viewsets import RoutineViewSet
+from workouts.viewsets import WorkoutViewSet
+from measures.viewsets import MeasureViewSet
 
 router = routers.DefaultRouter()
-router.register(r"posts", PostViewSet)
 router.register(r"users", UserViewSet)
+router.register(r"comments", CommentViewSet)
+router.register(r"equipments", EquipmentViewSet)
+router.register(r"exercises", ExerciseViewSet)
+router.register(r"routines", RoutineViewSet)
+router.register(r"workouts", WorkoutViewSet)
+router.register(r"measures", MeasureViewSet)
 
 urlpatterns = [
+    path('', include('rest_framework.urls')),
     path('admin/', admin.site.urls),
-    path('api-auth/', include('rest_framework.urls')),
 
     path("api/", include(router.urls)),
     path('api/auth/token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
