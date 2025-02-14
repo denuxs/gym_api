@@ -7,11 +7,12 @@ User = get_user_model()
 
 
 class Workout(models.Model):
-    name = models.CharField(max_length=140, default="GYM")
+    name = models.CharField(max_length=140)
     description = models.TextField(null=True, blank=True)
-    photo = models.ImageField(
-        upload_to="workouts/", default="default.jpg", blank=True, null=True
-    )
+    photo = models.CharField(max_length=140)
+    # photo = models.ImageField(
+    #     upload_to="workouts/", default="default.jpg", blank=True, null=True
+    # )
 
     user = models.ForeignKey(
         User,

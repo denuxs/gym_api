@@ -1,41 +1,57 @@
 from django.db import models
 from django.contrib.contenttypes.fields import GenericRelation
-from comments.models import Comment
+from catalogs.models import Muscle
+# from comments.models import Comment
 from equipments.models import Equipment
 
 CHEST = "CHEST"
-LEG = "LEG"
+LEGS = "LEGS"
 BACK = "BACK"
-ARM = "ARM"
+ARMS = "ARMS"
+SHOULDER = "SHOULDER"
+ABDOMINALS = "ABDOMINALS"
 
 MUSCLE_CHOICES = (
     (CHEST, "Pecho"),
     (BACK, "Espalda"),
-    (ARM, "Brazo"),
-    # (ABDOMEN, "Abdomen"),
-    # (SHOULDER, "Hombro"),   
-    # (WAIST, "Cintura"),
-    (LEG, "Pierna"),
-    
+    (SHOULDER, "Hombros"),
+    (ARMS, "Brazos"),
+    # (BICEPS, "Bíceps"),
+    # (TRICEPS, "Tríceps"),
+    # (QUADRICEPS, "Cuádriceps"),
+    # (FOREARMS, "Antebrazos"),
+    (ABDOMINALS, "Abdominales"),
+    (LEGS, "Piernas"),
+    # (GLUTES, "Glúteos"),
 )
+
 
 class Exercise(models.Model):
     name = models.CharField(max_length=140)
     description = models.TextField(null=True, blank=True)
-    photo = models.ImageField(
-        upload_to="exercises/photos", default="default.jpg", blank=True, null=True
-    )
-    video = models.FileField(
-        upload_to="exercises/videos", default="default.jpg", blank=True, null=True
-    )
+
+    photo = models.CharField(max_length=140)
+    video = models.CharField(max_length=140)
+
+    # photo = models.ImageField(
+    #     upload_to="exercises/photos", default="default.jpg", blank=True, null=True
+    # )
+    # video = models.FileField(
+    #     upload_to="exercises/videos", default="default.jpg", blank=True, null=True
+    # )
     equipment = models.ForeignKey(
         Equipment,
         on_delete=models.CASCADE,
-        related_name="equipment_catalog_set",
+        # related_name="equipment_catalog_set",
         null=True,
         blank=True,
     )
-    muscle = models.CharField(max_length=10, choices=MUSCLE_CHOICES)
+    # muscle = models.CharField(max_length=10, choices=MUSCLE_CHOICES)
+
+    muscle = models.ForeignKey(
+        Muscle,
+        on_delete=models.CASCADE,
+    )
 
     # level = models.ForeignKey(
     #     Catalog,
@@ -61,7 +77,7 @@ class Exercise(models.Model):
     modified = models.DateTimeField(auto_now=True)
     # deleted = models.DateTimeField(auto_now=True)
 
-    comments = GenericRelation(Comment)
+    # comments = GenericRelation(Comment)
 
     def __str__(self):
         return self.name

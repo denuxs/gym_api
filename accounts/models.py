@@ -4,6 +4,7 @@ from django.contrib.auth.models import AbstractUser
 
 # from workouts.models import Workout
 from core.constants import GENDER_CHOICES, MALE
+# from routines.models import Routine
 
 class User(AbstractUser):
     # email = models.EmailField(
@@ -12,7 +13,7 @@ class User(AbstractUser):
     photo = models.ImageField(
         upload_to="photos/", default="default.jpg", blank=True, null=True
     )
-    gender = models.CharField(max_length=10, choices=GENDER_CHOICES, null=True, default=MALE)
+    # gender = models.CharField(max_length=10, choices=GENDER_CHOICES, null=True, default=MALE)
 
     # gender = models.ForeignKey(
     #     Catalog,
@@ -26,6 +27,7 @@ class User(AbstractUser):
     # height = models.IntegerField(default=0)
 
     # workouts = models.ManyToManyField(Workout)
+    # routines = models.ManyToManyField(Routine)
 
     # username = models.CharField(
     #     max_length=140,

@@ -2,4 +2,9 @@
 from django.contrib import admin
 from .models import Workout
 
-admin.site.register(Workout)
+class WorkoutAdmin(admin.ModelAdmin):
+    list_display = ('name', 'user')
+    list_filter = ('user',)
+    filter_horizontal = ('routines',)
+
+admin.site.register(Workout, WorkoutAdmin)
