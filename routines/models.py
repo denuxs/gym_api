@@ -12,7 +12,7 @@ User = get_user_model()
 class Routine(models.Model):
     name = models.CharField(max_length=140)
     description = models.TextField(null=True, blank=True)
-    photo = models.CharField(max_length=140)
+    photo = models.CharField(max_length=140, null=True, blank=True)
     # gender = models.CharField(max_length=10, choices=GENDER_CHOICES, null=True, default=MALE)
     # level = models.CharField(max_length=10, choices=GENDER_CHOICES, null=True, default=MALE)
     # photo = models.ImageField(

@@ -15,6 +15,7 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
+from django.http import HttpResponse
 from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
@@ -47,15 +48,25 @@ router.register(r"routines", RoutineViewSet)
 router.register(r"workouts", WorkoutViewSet)
 router.register(r"measures", MeasureViewSet)
 
+from django.utils.translation import get_language, gettext as _
+from django.conf.urls.i18n import i18n_patterns
+
+def home(request):
+    print(get_language())
+    message = _("Hello, world")
+    return HttpResponse(message)
+
 urlpatterns = [
     path('', include('rest_framework.urls')),
+    path('home/', home),
     path('admin/', admin.site.urls),
 
     path("api/", include(router.urls)),
     path('api/auth/token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
     path('api/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
 
-    path("api/auth/register/", RegisterApiView.as_view(), name="auth_register"),   
+    path("api/auth/register/", RegisterApiView.as_view(), name="auth_register"),
+    # path('i18n/', include('django.conf.urls.i18n')),
 
 ]
 

@@ -3,7 +3,7 @@ class Equipment(models.Model):
     name = models.CharField(max_length=140)
     # description = models.TextField(null=True, blank=True)
     # weight = models.IntegerField(default=0)
-    photo = models.CharField(max_length=140)
+    photo = models.CharField(max_length=140, null=True, blank=True)
     # photo = models.ImageField(
     #     upload_to="equipments/", default="default.jpg", blank=True, null=True
     # )

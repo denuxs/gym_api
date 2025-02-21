@@ -10,7 +10,7 @@ User = get_user_model()
 class Workout(models.Model):
     name = models.CharField(max_length=140)
     description = models.TextField(null=True, blank=True)
-    photo = models.CharField(max_length=140)
+    photo = models.CharField(max_length=140, null=True, blank=True)
     day = models.IntegerField(default=0, choices=DAYS_OF_WEEK)
     # photo = models.ImageField(
     #     upload_to="workouts/", default="default.jpg", blank=True, null=True

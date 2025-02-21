@@ -30,8 +30,8 @@ class Exercise(models.Model):
     name = models.CharField(max_length=140)
     description = models.TextField(null=True, blank=True)
 
-    photo = models.CharField(max_length=140)
-    video = models.CharField(max_length=140)
+    photo = models.CharField(max_length=140, null=True, blank=True)
+    video = models.CharField(max_length=140, null=True, blank=True)
 
     # photo = models.ImageField(
     #     upload_to="exercises/photos", default="default.jpg", blank=True, null=True
@@ -70,8 +70,8 @@ class Exercise(models.Model):
     #     blank=True,
     # )
 
-    # sets = models.IntegerField(default=0)
-    # repts = models.IntegerField(default=0)
+    sets = models.IntegerField(default=0)
+    repts = models.IntegerField(default=0)
 
     created = models.DateTimeField(auto_now_add=True)
     modified = models.DateTimeField(auto_now=True)
