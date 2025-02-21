@@ -32,4 +32,4 @@ class Workout(models.Model):
         return self.name
 
     class Meta:
-        ordering = ["-id"]
+        ordering = ["day"]
