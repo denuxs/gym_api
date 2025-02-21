@@ -1,5 +1,6 @@
 from django.db import models
 from django.contrib.auth import get_user_model
+from core.constants import GENDER_CHOICES, MALE, DAYS_OF_WEEK
 
 from routines.models import Routine
 
@@ -10,6 +11,7 @@ class Workout(models.Model):
     name = models.CharField(max_length=140)
     description = models.TextField(null=True, blank=True)
     photo = models.CharField(max_length=140)
+    day = models.IntegerField(default=0, choices=DAYS_OF_WEEK)
     # photo = models.ImageField(
     #     upload_to="workouts/", default="default.jpg", blank=True, null=True
     # )

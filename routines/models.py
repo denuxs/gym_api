@@ -22,15 +22,12 @@ class Routine(models.Model):
     modified = models.DateTimeField(auto_now=True)
     # deleted = models.DateTimeField(auto_now=True)
 
-    user = models.ForeignKey(
-        User,
-        on_delete=models.CASCADE,
-        # related_name="equipment_catalog_set",
-    )
+    # user = models.ForeignKey(
+    #     User,
+    #     on_delete=models.CASCADE,
+    #     # related_name="equipment_catalog_set",
+    # )
 
-    # day = models.IntegerField(default=0, choices=DAYS_OF_WEEK)
-
-    # exercises = models.ManyToManyField(Exercise)
     # exercises = models.ManyToManyField(
     #     Exercise, through="RoutineDetail", related_name='+',
     # )

@@ -13,7 +13,7 @@ from django.contrib import admin
 #     model = RoutineDetail
 
 class RoutineAdmin(admin.ModelAdmin):
-    list_display = ("name", "user",)
+    # list_display = ("name", "user",)
     # search_fields = ("name", "user__username")
     list_per_page = 10
     filter_horizontal = ('exercises',)

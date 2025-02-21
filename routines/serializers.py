@@ -22,3 +22,9 @@ class RoutineSerializer(serializers.ModelSerializer):
         model = Routine
 
         fields = "__all__"
+
+    def to_representation(self, instance):
+        representation = super().to_representation(instance)
+        representation['exercises_count'] = instance.exercises.count()
+
+        return representation
