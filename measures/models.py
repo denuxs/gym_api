@@ -14,6 +14,7 @@ class Measure(models.Model):
     comment = models.TextField(null=True, blank=True)
 
     weight = models.FloatField(default=0)
+    height = models.FloatField(default=0)
 
     chest = models.FloatField(default=0)
     abdomen = models.FloatField(default=0)
@@ -22,14 +23,31 @@ class Measure(models.Model):
     arm_left = models.FloatField(default=0)
     arm_right = models.FloatField(default=0)
 
+    forearm = models.FloatField(default=0)
+
     leg_left = models.FloatField(default=0)
     leg_right = models.FloatField(default=0)
 
     waist = models.FloatField(default=0)
     hips = models.FloatField(default=0)
 
-    photo_back = models.CharField(max_length=140, null=True)
-    photo_front = models.CharField(max_length=140, null=True)
+    glutes = models.FloatField(default=0)
+
+    photo_back = models.ImageField(
+        upload_to="measures/", default="default.jpg", blank=True, null=True
+    )
+
+    photo_front = models.ImageField(
+        upload_to="measures/", default="default.jpg", blank=True, null=True
+    )
+
+    photo_left = models.ImageField(
+        upload_to="measures/", default="default.jpg", blank=True, null=True
+    )
+
+    photo_right = models.ImageField(
+        upload_to="measures/", default="default.jpg", blank=True, null=True
+    )
 
     created = models.DateTimeField(auto_now_add=True)
     modified = models.DateTimeField(auto_now=True)

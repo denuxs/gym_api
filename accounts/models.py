@@ -5,8 +5,11 @@ from django.contrib.auth.models import AbstractUser
 
 class User(AbstractUser):
     photo = models.ImageField(
-        upload_to="photos/", default="default.jpg", blank=True, null=True
+        upload_to="users/", default="default.jpg", blank=True, null=True
     )
+
+    phone = models.IntegerField(default=0)
+    age = models.IntegerField(default=0)
 
     class Meta:
         ordering = ["-id"]

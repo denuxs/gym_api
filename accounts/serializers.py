@@ -18,4 +18,6 @@ class UserSerializer(serializers.ModelSerializer):
             "is_active",
             "is_superuser",
             "date_joined",
+            "phone",    
+            "age",
         ]
