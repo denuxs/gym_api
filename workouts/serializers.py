@@ -1,7 +1,7 @@
 from rest_framework import serializers
 
 from accounts.serializers import UserSerializer
-from routines.serializers import RoutineSerializer
+from routines.serializers import RoutineReadSerializer
 
 from .models import Workout
 
@@ -14,7 +14,7 @@ class WorkoutSerializer(serializers.ModelSerializer):
 
 class WorkoutReadSerializer(serializers.ModelSerializer):
     # day = serializers.CharField(source="get_day_display")
-    routines = RoutineSerializer(many=True, read_only=True)
+    routines = RoutineReadSerializer(many=True, read_only=True)
 
     routines_name = serializers.SerializerMethodField()
     user = UserSerializer(read_only=True)

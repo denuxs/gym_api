@@ -37,4 +37,4 @@ class Exercise(models.Model):
         return self.name
 
     class Meta:
-        ordering = ["-id"]
+        ordering = ["muscle"]

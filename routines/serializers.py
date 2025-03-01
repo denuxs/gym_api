@@ -1,6 +1,6 @@
 from rest_framework import serializers
 
-from exercises.serializers import ExerciseSerializer
+from exercises.serializers import ExerciseReadSerializer
 from .models import Routine
 
 class RoutineSerializer(serializers.ModelSerializer):
@@ -11,7 +11,7 @@ class RoutineSerializer(serializers.ModelSerializer):
         fields = "__all__"
 
 class RoutineReadSerializer(serializers.ModelSerializer):
-    exercises = ExerciseSerializer(many=True)
+    exercises = ExerciseReadSerializer(many=True, read_only=True)
 
     class Meta:
         model = Routine
