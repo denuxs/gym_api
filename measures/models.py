@@ -1,3 +1,4 @@
+from email import header
 from django.db import models
 
 from django.contrib.auth import get_user_model
@@ -7,16 +8,27 @@ from uuid import uuid4
 User = get_user_model()
 
 
-def custom_upload(path):
-    def wrapper(instance, filename):
-        ext = filename.split(".")[-1]
-        if instance.pk:
-            filename = "{}.{}".format(instance.pk, ext)
-        else:
-            filename = "{}.{}".format(uuid4().hex, ext)
-        return os.path.join(path, filename)
+def measure_directory_path(instance, filename):
+    ext = filename.split(".")[-1]
+    if instance.pk:
+        filename = "{}.{}".format(instance.pk, ext)
+    else:
+        filename = "{}.{}".format(uuid4().hex, ext)
 
-    return wrapper
+    # file will be uploaded to MEDIA_ROOT/user_<id>/<filename>
+    return "measures/user_{0}/{1}".format(instance.user.id, filename)
+
+
+# def custom_upload(path):
+#     def wrapper(instance, filename):
+#         ext = filename.split(".")[-1]
+#         if instance.pk:
+#             filename = "{}.{}".format(instance.pk, ext)
+#         else:
+#             filename = "{}.{}".format(uuid4().hex, ext)
+#         return os.path.join(path, filename)
+
+#     return wrapper
 
 
 class Measure(models.Model):
@@ -48,28 +60,28 @@ class Measure(models.Model):
     glutes = models.FloatField(default=0)
 
     photo_back = models.ImageField(
-        upload_to=custom_upload("measures/back"),
+        upload_to=measure_directory_path,
         default="default.jpg",
         blank=True,
         null=True,
     )
 
     photo_front = models.ImageField(
-        upload_to=custom_upload("measures/front"),
+        upload_to=measure_directory_path,
         default="default.jpg",
         blank=True,
         null=True,
     )
 
     photo_left = models.ImageField(
-        upload_to=custom_upload("measures/left"),
+        upload_to=measure_directory_path,
         default="default.jpg",
         blank=True,
         null=True,
     )
 
     photo_right = models.ImageField(
-        upload_to=custom_upload("measures/right"),
+        upload_to=measure_directory_path,
         default="default.jpg",
         blank=True,
         null=True,
