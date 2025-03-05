@@ -1,8 +1,22 @@
 from django.db import models
 
 from django.contrib.auth import get_user_model
+import os
+from uuid import uuid4
 
 User = get_user_model()
+
+
+def custom_upload(path):
+    def wrapper(instance, filename):
+        ext = filename.split(".")[-1]
+        if instance.pk:
+            filename = "{}.{}".format(instance.pk, ext)
+        else:
+            filename = "{}.{}".format(uuid4().hex, ext)
+        return os.path.join(path, filename)
+
+    return wrapper
 
 
 class Measure(models.Model):
@@ -34,19 +48,31 @@ class Measure(models.Model):
     glutes = models.FloatField(default=0)
 
     photo_back = models.ImageField(
-        upload_to="measures/", default="default.jpg", blank=True, null=True
+        upload_to=custom_upload("measures/back"),
+        default="default.jpg",
+        blank=True,
+        null=True,
     )
 
     photo_front = models.ImageField(
-        upload_to="measures/", default="default.jpg", blank=True, null=True
+        upload_to=custom_upload("measures/front"),
+        default="default.jpg",
+        blank=True,
+        null=True,
     )
 
     photo_left = models.ImageField(
-        upload_to="measures/", default="default.jpg", blank=True, null=True
+        upload_to=custom_upload("measures/left"),
+        default="default.jpg",
+        blank=True,
+        null=True,
     )
 
     photo_right = models.ImageField(
-        upload_to="measures/", default="default.jpg", blank=True, null=True
+        upload_to=custom_upload("measures/right"),
+        default="default.jpg",
+        blank=True,
+        null=True,
     )
 
     created = models.DateTimeField(auto_now_add=True)

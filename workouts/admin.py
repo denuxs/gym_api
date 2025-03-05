@@ -3,7 +3,8 @@ from .models import Workout
 
 
 class WorkoutAdmin(admin.ModelAdmin):
-    list_display = ("name", "user", "day")
+    list_display = ("user", "day")
+
     list_filter = ("user",)
     filter_horizontal = ("routines",)
 

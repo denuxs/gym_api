@@ -42,7 +42,7 @@ class UserViewSet(viewsets.ModelViewSet):
 
     @action(detail=False)
     def me(self, request):
-        serializer = UserSerializer(request.user)
+        serializer = UserSerializer(request.user, context={'request': request})
         return Response(status=status.HTTP_200_OK, data=serializer.data)
 
     def create(self, request, *args, **kwargs):

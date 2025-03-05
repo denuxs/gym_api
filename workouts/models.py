@@ -8,7 +8,6 @@ User = get_user_model()
 
 
 class Workout(models.Model):
-    name = models.CharField(max_length=140)
     description = models.TextField(null=True, blank=True)
     photo = models.CharField(max_length=140, null=True, blank=True)
     day = models.IntegerField(default=0, choices=DAYS_OF_WEEK)
@@ -31,5 +30,5 @@ class Workout(models.Model):
     def __str__(self):
         return self.name
 
-    class Meta:
-        ordering = ["day"]
+    # class Meta:
+    #     ordering = ["-id'"]
