@@ -8,6 +8,7 @@ from rest_framework.response import Response
 from rest_framework import status
 from rest_framework.views import APIView
 from rest_framework import permissions
+from django_filters.rest_framework import DjangoFilterBackend
 
 from django.contrib.auth import get_user_model
 
@@ -42,7 +43,7 @@ class UserViewSet(viewsets.ModelViewSet):
 
     @action(detail=False)
     def me(self, request):
-        serializer = UserSerializer(request.user, context={'request': request})
+        serializer = UserSerializer(request.user, context={"request": request})
         return Response(status=status.HTTP_200_OK, data=serializer.data)
 
     def create(self, request, *args, **kwargs):

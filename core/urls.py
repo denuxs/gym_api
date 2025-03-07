@@ -31,11 +31,15 @@ from rest_framework_simplejwt.views import (
     TokenBlacklistView,
 )
 
-from rest_framework import routers
+from django.utils.translation import get_language, gettext as _
+from django.conf.urls.i18n import i18n_patterns
+
+from rest_framework import routers, permissions
 from comments.viewsets import CommentViewSet
 from equipments.viewsets import EquipmentViewSet
 from exercises.viewsets import ExerciseViewSet
 from accounts.viewsets import UserViewSet, RegisterApiView
+from posts.viewsets import PostViewSet
 from routines.viewsets import RoutineViewSet
 from workouts.viewsets import WorkoutViewSet
 from measures.viewsets import MeasureViewSet
@@ -44,6 +48,7 @@ from core.dashboard import DashboardApiView
 
 router = routers.DefaultRouter()
 router.register(r"users", UserViewSet)
+router.register(r"posts", PostViewSet)
 router.register(r"comments", CommentViewSet)
 router.register(r"equipments", EquipmentViewSet)
 router.register(r"exercises", ExerciseViewSet)
@@ -52,8 +57,17 @@ router.register(r"workouts", WorkoutViewSet)
 router.register(r"measures", MeasureViewSet)
 router.register(r"muscles", MuscleViewSet)
 
-from django.utils.translation import get_language, gettext as _
-from django.conf.urls.i18n import i18n_patterns
+from drf_yasg.views import get_schema_view
+from drf_yasg import openapi
+
+schema_view = get_schema_view(
+    openapi.Info(
+        title="AFIT API",
+        default_version="v1",
+    ),
+    public=True,
+    permission_classes=(permissions.AllowAny,),
+)
 
 
 def home(request):
@@ -71,7 +85,17 @@ urlpatterns = [
     path("api/token/refresh/", TokenRefreshView.as_view(), name="token_refresh"),
     path("api/auth/register/", RegisterApiView.as_view(), name="auth_register"),
     path("api/dashboard/", DashboardApiView.as_view(), name="dashboard"),
+    path("api/token/blacklist/", TokenBlacklistView.as_view(), name="token_blacklist"),
     # path('i18n/', include('django.conf.urls.i18n')),
+    path(
+        "swagger<format>/", schema_view.without_ui(cache_timeout=0), name="schema-json"
+    ),
+    path(
+        "swagger/",
+        schema_view.with_ui("swagger", cache_timeout=0),
+        name="schema-swagger-ui",
+    ),
+    path("redoc/", schema_view.with_ui("redoc", cache_timeout=0), name="schema-redoc"),
 ]
 
 if settings.DEBUG:
