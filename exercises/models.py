@@ -1,31 +1,34 @@
+from catalogs.models import Catalog
 from django.db import models
 from django.contrib.contenttypes.fields import GenericRelation
-from catalogs.models import Muscle
+
+# from catalogs.models import Muscle
 from comments.models import Comment
-from equipments.models import Equipment
 
 
 class Exercise(models.Model):
     name = models.CharField(max_length=140)
     description = models.TextField(null=True, blank=True)
 
-    photo = models.CharField(max_length=140, null=True, blank=True)
-    video = models.CharField(max_length=140, null=True, blank=True)
+    image = models.ImageField(
+        upload_to="exercises/", default="default.jpg", blank=True, null=True
+    )
 
     equipment = models.ForeignKey(
-        Equipment,
+        Catalog,
         on_delete=models.CASCADE,
-        null=True,
-        blank=True,
+        related_name="equipment_catalog_set",
     )
 
     muscle = models.ForeignKey(
-        Muscle,
+        Catalog,
         on_delete=models.CASCADE,
+        related_name="muscle_catalog_set",
     )
 
     sets = models.IntegerField(default=0)
     repts = models.IntegerField(default=0)
+    weight = models.IntegerField(default=0)
 
     created = models.DateTimeField(auto_now_add=True)
     modified = models.DateTimeField(auto_now=True)

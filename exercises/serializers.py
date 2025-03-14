@@ -1,15 +1,18 @@
 from rest_framework import serializers
 
-from catalogs.serializers import MuscleSerializer
+from catalogs.serializers import CatalogSerializer
+
+# from catalogs.serializers import MuscleSerializer
 
 from .models import Exercise
-from equipments.serializers import EquipmentSerializer
+
+# from equipments.serializers import EquipmentSerializer
 from comments.serializers import CommentReadSerializer, CommentSerializer
 
 
 class ExerciseReadSerializer(serializers.ModelSerializer):
-    equipment = EquipmentSerializer(read_only=True)
-    muscle = MuscleSerializer(read_only=True)
+    equipment = CatalogSerializer(read_only=True)
+    muscle = CatalogSerializer(read_only=True)
 
     # comments = CommentReadSerializer(many=True, read_only=True)
 
