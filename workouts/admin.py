@@ -6,7 +6,7 @@ class WorkoutAdmin(admin.ModelAdmin):
     list_display = ("user", "day")
 
     list_filter = ("user",)
-    filter_horizontal = ("routines",)
+    filter_horizontal = ("exercises",)
 
 
 admin.site.register(Workout, WorkoutAdmin)
