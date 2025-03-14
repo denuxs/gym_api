@@ -36,26 +36,27 @@ from django.conf.urls.i18n import i18n_patterns
 
 from rest_framework import routers, permissions
 from comments.viewsets import CommentViewSet
-from equipments.viewsets import EquipmentViewSet
+
 from exercises.viewsets import ExerciseViewSet
 from accounts.viewsets import UserViewSet, RegisterApiView
+from images.viewsets import ImageViewSet
 from posts.viewsets import PostViewSet
 from routines.viewsets import RoutineViewSet
 from workouts.viewsets import WorkoutViewSet
 from measures.viewsets import MeasureViewSet
-from catalogs.viewsets import MuscleViewSet
+from catalogs.viewsets import CatalogViewSet
 from core.dashboard import DashboardApiView
 
 router = routers.DefaultRouter()
+router.register(r"catalogs", CatalogViewSet)
 router.register(r"users", UserViewSet)
 router.register(r"posts", PostViewSet)
 router.register(r"comments", CommentViewSet)
-router.register(r"equipments", EquipmentViewSet)
+router.register(r"images", ImageViewSet)
 router.register(r"exercises", ExerciseViewSet)
 router.register(r"routines", RoutineViewSet)
 router.register(r"workouts", WorkoutViewSet)
 router.register(r"measures", MeasureViewSet)
-router.register(r"muscles", MuscleViewSet)
 
 from drf_yasg.views import get_schema_view
 from drf_yasg import openapi

@@ -46,7 +46,7 @@ INSTALLED_APPS = [
     "drf_yasg",
     "django_filters",
     "accounts",
-    "equipments",
+    # "equipments",
     "catalogs",
     "exercises",
     "comments",
@@ -54,6 +54,7 @@ INSTALLED_APPS = [
     "workouts",
     "measures",
     "posts",
+    "images",
 ]
 
 MIDDLEWARE = [
