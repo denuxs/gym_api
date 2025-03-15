@@ -1,6 +1,15 @@
 from django.contrib import admin
 
-from catalogs.models import Muscle, Catalog
+from catalogs.models import Catalog
 
-# admin.site.register(Muscle)
-admin.site.register(Catalog)
+
+class CatalogAdmin(admin.ModelAdmin):
+    list_display = (
+        "name",
+        "key",
+    )
+    ordering = ["key"]
+    search_fields = ("name",)
+
+
+admin.site.register(Catalog, CatalogAdmin)

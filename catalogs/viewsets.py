@@ -6,6 +6,7 @@ from django_filters.rest_framework import (
     DjangoFilterBackend,
 )
 
+
 class CatalogViewSet(viewsets.ModelViewSet):
     queryset = Catalog.objects.all()
     serializer_class = CatalogSerializer
@@ -15,14 +16,13 @@ class CatalogViewSet(viewsets.ModelViewSet):
         filters.OrderingFilter,
         filters.SearchFilter,
     ]
-    # search_fields = [
-    #     "user__username",
-    # ]
-    filterset_fields = ["key",]
-    ordering_fields = [
-        "key", "name"
+    search_fields = [
+        "name",
     ]
-    # ordering = ["-id"]
+    filterset_fields = [
+        "key",
+    ]
+    ordering_fields = ["key", "name"]
 
 
 class MuscleViewSet(viewsets.ModelViewSet):

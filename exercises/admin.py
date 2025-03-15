@@ -13,5 +13,8 @@ class ExerciseAdmin(admin.ModelAdmin):
         "muscle",
     )
 
+    ordering = ("muscle",)
+    search_fields = ("name",)
+
 
 admin.site.register(Exercise, ExerciseAdmin)
