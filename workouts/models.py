@@ -3,7 +3,6 @@ from django.contrib.auth import get_user_model
 from core.constants import GENDER_CHOICES, MALE, DAYS_OF_WEEK
 
 from exercises.models import Exercise
-from routines.models import Routine
 
 User = get_user_model()
 
@@ -21,8 +20,12 @@ class Workout(models.Model):
         on_delete=models.CASCADE,
     )
 
-    # routines = models.ManyToManyField(Routine)
-    exercises = models.ManyToManyField(Exercise)
+    # exercises = models.ManyToManyField(Exercise)
+    exercises = models.ManyToManyField(
+        Exercise,
+        through="WorkoutExcercise",
+        related_name="+",
+    )
 
     created = models.DateTimeField(auto_now_add=True)
     modified = models.DateTimeField(auto_now=True)
@@ -33,3 +36,14 @@ class Workout(models.Model):
 
     # class Meta:
     #     ordering = ["-id'"]
+
+
+class WorkoutExcercise(models.Model):
+    exercise = models.ForeignKey(Exercise, on_delete=models.CASCADE)
+    workout = models.ForeignKey(Workout, on_delete=models.CASCADE)
+    sets = models.IntegerField(default=4)
+    repts = models.IntegerField(default=12)
+    weight = models.IntegerField(default=0)
+
+    def __str__(self):
+        return self.workout.name

@@ -32,64 +32,31 @@ def measure_directory_path(instance, filename):
 #     return wrapper
 
 
+def default_muscles():
+    return dict(
+        weight=0,
+        chest=0,
+        abdomen=0,
+        back=0,
+        arm_left=0,
+        arm_right=0,
+        forearm=0,
+        leg_left=0,
+        leg_right=0,
+        waist=0,
+        hips=0,
+        glutes=0,
+    )
+
+
 class Measure(models.Model):
     user = models.ForeignKey(
         User,
         on_delete=models.CASCADE,
     )
     comment = models.TextField(null=True, blank=True)
-
-    # weight = models.FloatField(default=0)
-    # height = models.FloatField(default=0)
-
-    measures = models.JSONField(null=True, blank=True)
-
-    # chest = models.FloatField(default=0)
-    # abdomen = models.FloatField(default=0)
-    # back = models.FloatField(default=0)
-
-    # arm_left = models.FloatField(default=0)
-    # arm_right = models.FloatField(default=0)
-
-    # forearm = models.FloatField(default=0)
-
-    # leg_left = models.FloatField(default=0)
-    # leg_right = models.FloatField(default=0)
-
-    # waist = models.FloatField(default=0)
-    # hips = models.FloatField(default=0)
-
-    # glutes = models.FloatField(default=0)
-
+    measures = models.JSONField(null=True, blank=True, default=default_muscles)
     images = GenericRelation(Image)
-
-    # photo_back = models.ImageField(
-    #     upload_to=measure_directory_path,
-    #     default="default.jpg",
-    #     blank=True,
-    #     null=True,
-    # )
-
-    # photo_front = models.ImageField(
-    #     upload_to=measure_directory_path,
-    #     default="default.jpg",
-    #     blank=True,
-    #     null=True,
-    # )
-
-    # photo_left = models.ImageField(
-    #     upload_to=measure_directory_path,
-    #     default="default.jpg",
-    #     blank=True,
-    #     null=True,
-    # )
-
-    # photo_right = models.ImageField(
-    #     upload_to=measure_directory_path,
-    #     default="default.jpg",
-    #     blank=True,
-    #     null=True,
-    # )
 
     created = models.DateTimeField(auto_now_add=True)
     modified = models.DateTimeField(auto_now=True)
