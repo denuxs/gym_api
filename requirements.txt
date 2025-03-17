@@ -5,3 +5,5 @@ djangorestframework_simplejwt==5.4.0
 pillow==11.1.0
 django-filter==25.1
 drf-yasg==1.21.9
+psycopg2-binary==2.9.10
+python-dotenv==1.0.1

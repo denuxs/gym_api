@@ -41,7 +41,6 @@ from exercises.viewsets import ExerciseViewSet
 from accounts.viewsets import UserViewSet, RegisterApiView
 from images.viewsets import ImageViewSet
 from posts.viewsets import PostViewSet
-from routines.viewsets import RoutineViewSet
 from workouts.viewsets import WorkoutViewSet
 from measures.viewsets import MeasureViewSet
 from catalogs.viewsets import CatalogViewSet
@@ -54,7 +53,6 @@ router.register(r"posts", PostViewSet)
 router.register(r"comments", CommentViewSet)
 router.register(r"images", ImageViewSet)
 router.register(r"exercises", ExerciseViewSet)
-router.register(r"routines", RoutineViewSet)
 router.register(r"workouts", WorkoutViewSet)
 router.register(r"measures", MeasureViewSet)
 
