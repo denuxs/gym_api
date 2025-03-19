@@ -1,5 +1,7 @@
+from rest_framework.decorators import action
 from .models import Workout
 from .serializers import WorkoutSerializer, WorkoutReadSerializer
+from rest_framework.response import Response
 
 from rest_framework import viewsets, filters
 from django_filters.rest_framework import (
@@ -30,3 +32,9 @@ class WorkoutViewSet(viewsets.ModelViewSet):
             return WorkoutSerializer
 
         return WorkoutReadSerializer
+
+    # @action(detail=True, methods=['get'])
+    # def items_not_done(self, request):
+    #     user_count = Item.objects.filter(done=False).count()
+
+    #     return Response(user_count)
