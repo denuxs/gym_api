@@ -10,7 +10,7 @@ class User(AbstractUser):
 
     phone = models.IntegerField(default=0)
     age = models.IntegerField(default=0)
-    firebase_id = models.CharField(max_length=140, null=True, blank=True)
+    fcm_token = models.CharField(max_length=200, null=True, blank=True)
 
     class Meta:
         ordering = ["-id"]

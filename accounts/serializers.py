@@ -20,4 +20,5 @@ class UserSerializer(serializers.ModelSerializer):
             "date_joined",
             "phone",
             "age",
+            "fcm_token",
         ]

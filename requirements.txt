@@ -6,4 +6,5 @@ pillow==11.1.0
 django-filter==25.1
 drf-yasg==1.21.9
 psycopg2-binary==2.9.10
-python-dotenv==1.0.1
+firebase-admin==6.7.0
+django-environ==0.12.0
