@@ -20,7 +20,6 @@ class Workout(models.Model):
         on_delete=models.CASCADE,
     )
 
-    # exercises = models.ManyToManyField(Exercise)
     exercises = models.ManyToManyField(
         Exercise,
         through="WorkoutExcercise",

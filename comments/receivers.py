@@ -3,6 +3,8 @@ from django.db.models.signals import post_save
 
 from exercises.models import Exercise
 from .models import Comment
+import os
+from pathlib import Path
 
 import environ
 
@@ -15,8 +17,12 @@ User = get_user_model()
 import firebase_admin
 from firebase_admin import credentials, messaging
 
+BASE_DIR = Path(__file__).resolve().parent.parent
+
+FIREBASE_ADMIN_CREDENTIAL = os.path.join(BASE_DIR, env("FIREBASE_CREDENTIALS"))
+
 # TODO: valid file path
-cred = credentials.Certificate(env("FIREBASE_CREDENTIALS"))
+cred = credentials.Certificate(FIREBASE_ADMIN_CREDENTIAL)
 firebase_admin.initialize_app(cred)
 
 

@@ -61,6 +61,8 @@ class UserViewSet(viewsets.ModelViewSet):
             first_name=user["first_name"],
             last_name=user["last_name"],
             is_active=user["is_active"],
+            age=user["age"],
+            phone=user["phone"],
         )
 
         headers = self.get_success_headers(serializer.data)
