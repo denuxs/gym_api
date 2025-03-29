@@ -21,11 +21,14 @@ class Comment(models.Model):
     content_type = models.ForeignKey(ContentType, on_delete=models.CASCADE)
     object_id = models.PositiveIntegerField()
     content_object = GenericForeignKey("content_type", "object_id")
+    parent = models.ForeignKey(
+        "self", related_name="children", on_delete=models.CASCADE, blank=True, null=True
+    )
 
     created = models.DateTimeField(auto_now_add=True, null=True)
 
     def __str__(self):
         return self.content
 
-    class Meta:
-        ordering = ["-id"]
+    # class Meta:
+    #     ordering = ["-id"]

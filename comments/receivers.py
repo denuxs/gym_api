@@ -33,7 +33,7 @@ def create_notification(sender, instance, created, **kwargs):
         exercise = Exercise.objects.get(id=instance.object_id)
 
         # TO DO
-        owner = User.objects.get(id=1)
+        owner = User.objects.get(id=exercise.user_id)
 
         message = messaging.Message(
             notification=messaging.Notification(

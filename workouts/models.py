@@ -1,8 +1,9 @@
 from django.db import models
-from django.contrib.auth import get_user_model
 from core.constants import GENDER_CHOICES, MALE, DAYS_OF_WEEK
 
 from exercises.models import Exercise
+
+from django.contrib.auth import get_user_model
 
 User = get_user_model()
 

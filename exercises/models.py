@@ -4,6 +4,9 @@ from django.contrib.contenttypes.fields import GenericRelation
 
 # from catalogs.models import Muscle
 from comments.models import Comment
+from django.contrib.auth import get_user_model
+
+User = get_user_model()
 
 
 class Exercise(models.Model):
@@ -29,6 +32,8 @@ class Exercise(models.Model):
     sets = models.IntegerField(default=0)
     repts = models.IntegerField(default=0)
     weight = models.IntegerField(default=0)
+
+    user = models.ForeignKey(User, on_delete=models.CASCADE, null=True)
 
     created = models.DateTimeField(auto_now_add=True)
     modified = models.DateTimeField(auto_now=True)
