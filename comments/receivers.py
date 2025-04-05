@@ -31,11 +31,12 @@ firebase_admin.initialize_app(cred)
 @receiver(post_save, sender=Comment)
 def create_notification(sender, instance, created, **kwargs):
     if created:
-        user = instance.user.get_full_name()
+        user = instance.user
+        name = user.get_full_name()
         exercise = Exercise.objects.get(id=instance.object_id)
 
         # TO DO
-        owner = User.objects.get(id=exercise.user_id)
+        # owner = User.objects.get(id=exercise.user_id)
 
         # message = messaging.Message(
         #     notification=messaging.Notification(
@@ -47,7 +48,7 @@ def create_notification(sender, instance, created, **kwargs):
         content = ContentType.objects.get_for_model(Comment)
 
         Notification.objects.create(
-            user=owner,
+            user=user,
             content_type=content,
             object_id=instance.id,
             # link=f"/exercises/{exercise.id}/comments",
