@@ -13,9 +13,7 @@ class NotificationViewSet(viewsets.ModelViewSet):
         DjangoFilterBackend,
         filters.OrderingFilter,
     ]
-    filterset_fields = [
-        "user",
-    ]
+    filterset_fields = ["user", "user_to", "is_read"]
     ordering_fields = [
         "id",
     ]

@@ -11,6 +11,13 @@ class Notification(models.Model):
     user = models.ForeignKey(
         User,
         on_delete=models.CASCADE,
+        related_name="notifications",
+    )
+    user_to = models.ForeignKey(
+        User,
+        on_delete=models.CASCADE,
+        null=True,
+        blank=True,
     )
     # content = models.TextField()
 

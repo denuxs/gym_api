@@ -49,6 +49,7 @@ def create_notification(sender, instance, created, **kwargs):
 
         Notification.objects.create(
             user=user,
+            user_to=exercise.user,
             content_type=content,
             object_id=instance.id,
             # link=f"/exercises/{exercise.id}/comments",
