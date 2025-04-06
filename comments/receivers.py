@@ -1,6 +1,7 @@
 from django.dispatch import receiver
 from django.db.models.signals import post_save
 
+from accounts.models import Fcmtoken
 from exercises.models import Exercise
 from .models import Comment
 import os
@@ -34,17 +35,6 @@ def create_notification(sender, instance, created, **kwargs):
         user = instance.user
         name = user.get_full_name()
         exercise = Exercise.objects.get(id=instance.object_id)
-
-        # TO DO
-        # owner = User.objects.get(id=exercise.user_id)
-
-        # message = messaging.Message(
-        #     notification=messaging.Notification(
-        #         title="AFit Trainer",
-        #         body=f"{user} comento sobre el ejercicio {exercise.name}: {instance.content}",
-        #     ),
-        #     token=owner.fcm_token,
-        # )
         content = ContentType.objects.get_for_model(Comment)
 
         Notification.objects.create(
@@ -55,5 +45,19 @@ def create_notification(sender, instance, created, **kwargs):
             # link=f"/exercises/{exercise.id}/comments",
         )
 
-        # response = messaging.send(message)
-        # print(response)
+        data = Fcmtoken.objects.filter(user=exercise.user)
+
+        for item in data:
+            sendNotification(item.token, name, exercise, instance)
+
+
+def sendNotification(fcm_token, name, exercise, instance):
+    message = messaging.Message(
+        notification=messaging.Notification(
+            title="AFit Trainer",
+            body=f"{name} comento sobre el ejercicio {exercise.name}: {instance.content}",
+        ),
+        token=fcm_token,
+    )
+
+    messaging.send(message)
