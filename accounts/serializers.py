@@ -2,6 +2,8 @@ from rest_framework import serializers
 
 from django.contrib.auth import get_user_model
 
+from accounts.models import Fcmtoken
+
 User = get_user_model()
 
 
@@ -38,3 +40,19 @@ class UserReadSerializer(serializers.ModelSerializer):
     class Meta:
         model = User
         exclude = ["password"]
+
+
+class FcmTokenSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Fcmtoken
+        fields = "__all__"
+
+    def create(self, validated_data):
+        token = validated_data.get("token")
+        if token:
+            model = Fcmtoken.objects.filter(token=token).first()
+
+            if not model:
+                return Fcmtoken.objects.create(**validated_data)
+
+            return model

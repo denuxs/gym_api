@@ -34,4 +34,4 @@ class Fcmtoken(models.Model):
     modified = models.DateTimeField(auto_now=True)
 
     def __str__(self):
-        return self.token
+        return self.user.username

@@ -1,4 +1,5 @@
-from .serializers import UserReadSerializer, UserSerializer
+from accounts.models import Fcmtoken
+from .serializers import FcmTokenSerializer, UserReadSerializer, UserSerializer
 
 # from django.contrib.auth.models import User
 from rest_framework.decorators import action
@@ -75,3 +76,15 @@ class UserViewSet(viewsets.ModelViewSet):
     def me(self, request):
         serializer = UserReadSerializer(request.user, context={"request": request})
         return Response(status=status.HTTP_200_OK, data=serializer.data)
+
+
+class FcmTokenViewSet(viewsets.ModelViewSet):
+    queryset = Fcmtoken.objects.all()
+    serializer_class = FcmTokenSerializer
+
+    filter_backends = [
+        DjangoFilterBackend,
+    ]
+    filterset_fields = [
+        "user",
+    ]

@@ -38,7 +38,7 @@ from rest_framework import routers, permissions
 from comments.viewsets import CommentViewSet
 
 from exercises.viewsets import ExerciseViewSet
-from accounts.viewsets import UserViewSet, RegisterApiView
+from accounts.viewsets import UserViewSet, RegisterApiView, FcmTokenViewSet
 from images.viewsets import ImageViewSet
 from notifications.viewsets import NotificationViewSet
 from posts.viewsets import PostViewSet
@@ -58,6 +58,7 @@ router.register(r"workouts", WorkoutViewSet)
 router.register(r"workouts-detail", WorkoutDetailViewSet)
 router.register(r"measures", MeasureViewSet)
 router.register(r"notifications", NotificationViewSet)
+router.register(r"fcmtokens", FcmTokenViewSet)
 
 from drf_yasg.views import get_schema_view
 from drf_yasg import openapi
