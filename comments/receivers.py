@@ -57,6 +57,14 @@ def sendNotification(fcm_token, name, exercise, instance):
             title="AFit Trainer",
             body=f"{name} comento sobre el ejercicio {exercise.name}: {instance.content}",
         ),
+        webpush=messaging.WebpushFCMOptions(
+            link=f"/exercises/{exercise.id}/comments",
+        ),
+        data={
+            "link": f"/exercises/{exercise.id}/comments",
+            "title": "AFit Trainer",
+            "body": f"{name} comento sobre el ejercicio {exercise.name}: {instance.content}",
+        },
         token=fcm_token,
     )
 
