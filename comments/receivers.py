@@ -52,16 +52,18 @@ def create_notification(sender, instance, created, **kwargs):
 
 
 def sendNotification(fcm_token, name, exercise, instance):
+    frontendUrl = env("FRONTEND_URL")
+    options = messaging.WebpushFCMOptions(
+        link=frontendUrl + "/workouts",
+    )
     message = messaging.Message(
         notification=messaging.Notification(
             title="AFit Trainer",
             body=f"{name} comento sobre el ejercicio {exercise.name}: {instance.content}",
         ),
-        webpush=messaging.WebpushFCMOptions(
-            link=f"/exercises/{exercise.id}/comments",
-        ),
+        webpush=messaging.WebpushConfig(fcm_options=options),
         data={
-            "link": f"/exercises/{exercise.id}/comments",
+            "link": frontendUrl + "/workouts",
             "title": "AFit Trainer",
             "body": f"{name} comento sobre el ejercicio {exercise.name}: {instance.content}",
         },
