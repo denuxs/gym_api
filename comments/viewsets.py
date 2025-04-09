@@ -14,7 +14,7 @@ class CommentViewSet(viewsets.ModelViewSet):
         filters.OrderingFilter,
         filters.SearchFilter,
     ]
-    filterset_fields = ["user", "object_id"]
+    filterset_fields = ["user", "object_id", "content_type"]
     ordering_fields = [
         "id",
     ]
