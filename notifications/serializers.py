@@ -18,9 +18,9 @@ class NotificationSerializer(serializers.ModelSerializer):
         model = Notification
         fields = "__all__"
 
-    def to_representation(self, instance):
-        rep = super().to_representation(instance)
+    # def to_representation(self, instance):
+    #     rep = super().to_representation(instance)
 
-        comment = Comment.objects.get(id=rep.get("object_id"))
-        rep["comment"] = CommentSerializer(comment).data
-        return rep
+    #     comment = Comment.objects.get(id=rep.get("object_id"))
+    #     rep["comment"] = CommentSerializer(comment).data
+    #     return rep

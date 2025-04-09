@@ -1,5 +1,5 @@
 from django.dispatch import receiver
-from django.db.models.signals import post_save
+from django.db.models.signals import post_save, post_delete
 
 from accounts.models import Fcmtoken
 from exercises.models import Exercise
@@ -71,3 +71,9 @@ def sendNotification(fcm_token, name, exercise, instance):
     )
 
     messaging.send(message)
+
+
+@receiver(post_delete, sender=Comment)
+def deleteNotification(sender, instance, **kwargs):
+    notification = Notification.objects.get(pk=instance.id)
+    notification.delete()
