@@ -22,4 +22,4 @@ class CatalogViewSet(viewsets.ModelViewSet):
     filterset_fields = [
         "key",
     ]
-    ordering_fields = ["key", "name"]
+    ordering_fields = ["key", "id"]

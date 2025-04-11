@@ -1,4 +1,6 @@
+from rest_framework_simplejwt.serializers import TokenObtainPairSerializer
 from rest_framework import serializers
+from rest_framework_simplejwt.tokens import Token
 
 from django.contrib.auth import get_user_model
 
@@ -40,6 +42,14 @@ class UserReadSerializer(serializers.ModelSerializer):
     class Meta:
         model = User
         exclude = ["password"]
+
+
+class CustomTokenObtainPairSerializer(TokenObtainPairSerializer):
+
+    def validate(self, attrs):
+        data = super().validate(attrs)
+        data["user"] = UserReadSerializer(self.user).data
+        return data
 
 
 class FcmTokenSerializer(serializers.ModelSerializer):

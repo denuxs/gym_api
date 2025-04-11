@@ -24,10 +24,7 @@ from django.conf.urls.static import static
 from rest_framework_simplejwt.views import (
     TokenObtainPairView,
     TokenRefreshView,
-)
-from rest_framework_simplejwt.views import (
-    TokenObtainPairView,
-    TokenRefreshView,
+    TokenVerifyView,
     TokenBlacklistView,
 )
 
@@ -87,6 +84,7 @@ urlpatterns = [
     path("api/", include(router.urls)),
     path("api/auth/token/", TokenObtainPairView.as_view(), name="token_obtain_pair"),
     path("api/token/refresh/", TokenRefreshView.as_view(), name="token_refresh"),
+    path("api/token/verify/", TokenVerifyView.as_view(), name="token_verify"),
     path("api/auth/register/", RegisterApiView.as_view(), name="auth_register"),
     path("api/dashboard/", DashboardApiView.as_view(), name="dashboard"),
     path("api/token/blacklist/", TokenBlacklistView.as_view(), name="token_blacklist"),
