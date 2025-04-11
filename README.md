@@ -2,6 +2,8 @@
 
 API REST para crear rutinas de gimnasio. (**En desarrollo**)
 
+El Frontend esta en Angular 18 [github.com/denuxs/afit-admin](https://github.com/denuxs/afit-admin)
+
 ### Paquetes
 
 - Django 5
@@ -25,6 +27,10 @@ API REST para crear rutinas de gimnasio. (**En desarrollo**)
 - Subida de Imágenes
 - Notificaciones Push
 - Traducción 118n
+
+### Base datos
+
+![`Database`](https://raw.githubusercontent.com/denuxs/gym_api/main/afit.png)
 
 ### Ejecutar app
 
