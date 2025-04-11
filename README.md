@@ -30,7 +30,7 @@ El Frontend esta en Angular 18 [github.com/denuxs/afit-admin](https://github.com
 
 ### Base datos
 
-![`Database`](https://raw.githubusercontent.com/denuxs/gym_api/main/afit.png)
+![`Database`](https://github.com/denuxs/gym_api/blob/main/afit.png)
 
 ### Ejecutar app
 
