@@ -1,5 +1,5 @@
 from .models import Notification
-from .serializers import NotificationSerializer
+from .serializers import NotificationSerializer, NotificationReadSerializer
 
 from rest_framework import viewsets, filters
 from django_filters.rest_framework import DjangoFilterBackend
@@ -17,3 +17,9 @@ class NotificationViewSet(viewsets.ModelViewSet):
     ordering_fields = [
         "id",
     ]
+
+    def get_serializer_class(self):
+        if self.action in ["create", "update", "partial_update", "destroy"]:
+            return NotificationSerializer
+
+        return NotificationReadSerializer
