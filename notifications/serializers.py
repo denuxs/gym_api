@@ -24,6 +24,10 @@ class NotificationReadSerializer(serializers.ModelSerializer):
     def to_representation(self, instance):
         rep = super().to_representation(instance)
 
-        comment = Comment.objects.get(id=rep.get("object_id"))
-        rep["comment"] = CommentSerializer(comment).data
+        try:
+            comment = Comment.objects.get(id=rep.get("object_id"))
+            rep["comment"] = CommentSerializer(comment).data
+        except Comment.DoesNotExist:
+            pass
+
         return rep
