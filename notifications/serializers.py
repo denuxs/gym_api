@@ -1,7 +1,7 @@
 from rest_framework import serializers
 
 from comments.models import Comment
-from comments.serializers import CommentSerializer
+from comments.serializers import CommentReadSerializer
 
 from .models import Notification
 from accounts.serializers import UserReadSerializer
@@ -26,7 +26,7 @@ class NotificationReadSerializer(serializers.ModelSerializer):
 
         try:
             comment = Comment.objects.get(id=rep.get("object_id"))
-            rep["comment"] = CommentSerializer(comment).data
+            rep["comment"] = CommentReadSerializer(comment).data
         except Comment.DoesNotExist:
             pass
 
