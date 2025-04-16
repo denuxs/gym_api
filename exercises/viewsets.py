@@ -5,6 +5,12 @@ from rest_framework import viewsets, filters
 from django_filters.rest_framework import (
     DjangoFilterBackend,
 )
+from rest_framework.decorators import action
+from rest_framework.response import Response
+
+from comments.models import Comment
+from comments.serializers import CommentReadSerializer
+from django.contrib.contenttypes.models import ContentType
 
 
 class ExerciseViewSet(viewsets.ModelViewSet):
@@ -23,10 +29,26 @@ class ExerciseViewSet(viewsets.ModelViewSet):
         "muscle",
         "equipment",
     ]
-    ordering_fields = ["muscle", "equipment"]
+    ordering_fields = ["id", "muscle", "equipment"]
 
     def get_serializer_class(self):
         if self.action in ["create", "update", "partial_update", "destroy"]:
             return ExerciseSerializer
 
         return ExerciseReadSerializer
+
+    @action(["GET"], detail=True, url_path="comments")
+    def comments(self, request, pk):
+        exercise = self.get_object()
+        content = ContentType.objects.get_for_model(Exercise)
+
+        comment = Comment.objects.filter(
+            object_id=exercise.id,
+            content_type=content,
+        )
+
+        serializer = CommentReadSerializer(
+            comment, many=True, context={"request": request}
+        )
+
+        return Response(serializer.data)

@@ -21,7 +21,7 @@ class CommentViewSet(viewsets.ModelViewSet):
     search_fields = [
         "user__username",
     ]
-    ordering = ["-id"]
+    # ordering = ["-id"]
 
     def get_serializer_class(self):
         if self.action in ["create", "update", "partial_update", "destroy"]:
