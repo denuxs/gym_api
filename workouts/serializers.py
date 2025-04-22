@@ -39,18 +39,33 @@ class WorkoutSerializer(serializers.ModelSerializer):
     def update(self, instance, validated_data):
         if "exercises" in self.initial_data:
             exercises = self.initial_data.get("exercises")
+
             # print(instance.exercises.all())
 
             for item in exercises:
-                exercise, created = WorkoutExcercise.objects.update_or_create(
-                    pk=item.get("id"),
-                    workout_id=item.get("workout"),
-                    exercise_id=item.get("exercise"),
-                    description=item.get("description"),
-                    repts=item.get("repts"),
-                    sets=item.get("sets"),
-                    weight=item.get("weight"),
-                )
+                id = item.get("id")
+
+                if not id:
+                    WorkoutExcercise.objects.create(
+                        workout_id=item.get("workout"),
+                        exercise_id=item.get("exercise"),
+                        description=item.get("description"),
+                        repts=item.get("repts"),
+                        sets=item.get("sets"),
+                        weight=item.get("weight"),
+                    )
+                    continue
+
+                find = WorkoutExcercise.objects.get(pk=id)
+                if find:
+                    find.workout_id = item.get("workout")
+                    find.exercise_id = item.get("exercise")
+                    find.description = item.get("description")
+                    find.repts = item.get("repts")
+                    find.sets = item.get("sets")
+                    find.weight = item.get("weight")
+                    find.save()
+
         # instance.workoutexcercise_set.set(details)
         instance.__dict__.update(**validated_data)
         instance.save()
