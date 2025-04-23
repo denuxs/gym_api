@@ -23,8 +23,8 @@ class Image(models.Model):
     def __str__(self):
         return self.photo.url
 
-    class Meta:
-        ordering = ["-id"]
+    # class Meta:
+    #     ordering = ["-id"]
 
     def delete(self, *args, **kwargs):
         # Delete the image file if it exists
