@@ -12,10 +12,14 @@ class MeasureViewSet(viewsets.ModelViewSet):
     filter_backends = [
         DjangoFilterBackend,
         filters.SearchFilter,
+        filters.OrderingFilter,
     ]
     filterset_fields = ["is_active", "user"]
     search_fields = [
         "user__username",
+    ]
+    ordering_fields = [
+        "id",
     ]
 
     def get_serializer_class(self):

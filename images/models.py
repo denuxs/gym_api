@@ -1,6 +1,7 @@
 from django.db import models
 
 from django.contrib.auth import get_user_model
+import os
 
 User = get_user_model()
 
@@ -19,8 +20,16 @@ class Image(models.Model):
     created = models.DateTimeField(auto_now_add=True, null=True)
     modified = models.DateTimeField(auto_now=True)
 
-    # def __str__(self):
-    #     return self.object_id
+    def __str__(self):
+        return self.photo.url
 
     class Meta:
         ordering = ["-id"]
+
+    def delete(self, *args, **kwargs):
+        # Delete the image file if it exists
+        if self.photo:
+            if os.path.isfile(self.photo.path):
+                os.remove(self.photo.path)
+
+        super().delete(*args, **kwargs)

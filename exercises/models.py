@@ -5,6 +5,8 @@ from django.contrib.contenttypes.fields import GenericRelation
 from comments.models import Comment
 from django.contrib.auth import get_user_model
 
+from images.models import Image
+
 User = get_user_model()
 
 
@@ -27,6 +29,7 @@ class Exercise(models.Model):
         on_delete=models.CASCADE,
         related_name="muscle_catalog_set",
     )
+    secondary_muscle = models.JSONField(null=True, blank=True, default=list)
 
     user = models.ForeignKey(User, on_delete=models.CASCADE, null=True)
 
@@ -35,6 +38,7 @@ class Exercise(models.Model):
     # deleted = models.DateTimeField(auto_now=True)
 
     comments = GenericRelation(Comment)
+    images = GenericRelation(Image)
 
     def __str__(self):
         return self.name

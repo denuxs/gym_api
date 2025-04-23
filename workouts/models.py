@@ -36,12 +36,18 @@ class Workout(models.Model):
         return self.name
 
 
+def default_sets():
+    data = []
+    return data.append(dict(repts=0, weight=0))
+
+
 class WorkoutExcercise(models.Model):
     exercise = models.ForeignKey(Exercise, on_delete=models.CASCADE)
     workout = models.ForeignKey(Workout, on_delete=models.CASCADE)
-    sets = models.IntegerField(default=4)
-    repts = models.IntegerField(default=12)
-    weight = models.IntegerField(default=0)
+    data = models.JSONField(null=True, blank=True)
+    sets = models.IntegerField(null=True, default=4)
+    repts = models.IntegerField(null=True, default=12)
+    weight = models.IntegerField(null=True, default=0)
     description = models.TextField(null=True, blank=True)
 
     def __str__(self):
