@@ -4,6 +4,8 @@ from django.contrib.auth.models import AbstractUser
 from django.contrib.contenttypes.fields import GenericRelation
 
 # from notifications.models import Notification
+from images.models import Image
+from django.contrib.contenttypes.models import ContentType
 
 
 class User(AbstractUser):
@@ -22,6 +24,16 @@ class User(AbstractUser):
 
     def __str__(self):
         return self.username
+
+    def delete(self, *args, **kwargs):
+        content = ContentType.objects.get_for_model(User)
+
+        Image.objects.filter(
+            object_id=self.id,
+            content_type=content,
+        ).delete()
+
+        super().delete(*args, **kwargs)
 
 
 class Fcmtoken(models.Model):

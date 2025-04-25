@@ -1,10 +1,5 @@
 from django.db import models
-
-from django.contrib.auth import get_user_model
 import os
-
-User = get_user_model()
-
 from django.contrib.contenttypes.fields import GenericForeignKey
 from django.contrib.contenttypes.models import ContentType
 
@@ -25,11 +20,3 @@ class Image(models.Model):
 
     # class Meta:
     #     ordering = ["-id"]
-
-    def delete(self, *args, **kwargs):
-        # Delete the image file if it exists
-        if self.photo:
-            if os.path.isfile(self.photo.path):
-                os.remove(self.photo.path)
-
-        super().delete(*args, **kwargs)
