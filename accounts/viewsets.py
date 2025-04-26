@@ -16,7 +16,8 @@ from django.contrib.auth import get_user_model
 User = get_user_model()
 from flags.models import FlagState
 
-from .serializers import FlagStateSerializer
+from .serializers import FlagStateSerializer, ContentTypeSerializer
+from django.contrib.contenttypes.models import ContentType
 
 
 class RegisterApiView(APIView):
@@ -84,6 +85,14 @@ class UserViewSet(viewsets.ModelViewSet):
     def flags(self, request):
         models = FlagState.objects.all()
         serializer = FlagStateSerializer(
+            models, many=True, context={"request": request}
+        )
+        return Response(status=status.HTTP_200_OK, data=serializer.data)
+
+    @action(detail=False)
+    def contenttypes(self, request):
+        models = ContentType.objects.all()
+        serializer = ContentTypeSerializer(
             models, many=True, context={"request": request}
         )
         return Response(status=status.HTTP_200_OK, data=serializer.data)

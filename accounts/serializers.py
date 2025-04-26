@@ -7,6 +7,13 @@ from accounts.models import Fcmtoken
 
 User = get_user_model()
 from flags.models import FlagState
+from django.contrib.contenttypes.models import ContentType
+
+
+class ContentTypeSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = ContentType
+        fields = "__all__"
 
 
 class FlagStateSerializer(serializers.ModelSerializer):
