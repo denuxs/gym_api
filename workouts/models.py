@@ -53,3 +53,6 @@ class WorkoutExcercise(models.Model):
 
     def __str__(self):
         return self.workout.name
+
+    class Meta:
+        ordering = ['order']

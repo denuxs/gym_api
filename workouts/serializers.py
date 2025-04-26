@@ -50,6 +50,7 @@ class WorkoutSerializer(serializers.ModelSerializer):
                         workout_id=item.get("workout"),
                         exercise_id=item.get("exercise"),
                         description=item.get("description"),
+                        order=item.get("order"),
                         data=item.get("sets"),
                     )
                     continue
@@ -59,6 +60,7 @@ class WorkoutSerializer(serializers.ModelSerializer):
                     find.workout_id = item.get("workout")
                     find.exercise_id = item.get("exercise")
                     find.description = item.get("description")
+                    find.order = item.get("order")
                     find.data = item.get("sets")
                     find.save()
 
