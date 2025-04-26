@@ -1,1 +1,1998 @@
-[{"model": "admin.logentry", "pk": 1, "fields": {"action_time": "2025-04-15T22:16:21.541Z", "user": 1, "content_type": 12, "object_id": "18", "object_repr": "prueba nuevamente", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 2, "fields": {"action_time": "2025-04-15T22:16:21.541Z", "user": 1, "content_type": 12, "object_id": "17", "object_repr": "otra vez por aca?", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 3, "fields": {"action_time": "2025-04-15T22:16:21.541Z", "user": 1, "content_type": 12, "object_id": "16", "object_repr": "otra vez por aca?", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 4, "fields": {"action_time": "2025-04-15T22:16:21.541Z", "user": 1, "content_type": 12, "object_id": "15", "object_repr": "otra vez por aca?", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 5, "fields": {"action_time": "2025-04-16T06:59:25.306Z", "user": 1, "content_type": 18, "object_id": "14", "object_repr": "DenisL", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 6, "fields": {"action_time": "2025-04-16T06:59:25.306Z", "user": 1, "content_type": 18, "object_id": "13", "object_repr": "DenisL", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 7, "fields": {"action_time": "2025-04-16T06:59:25.306Z", "user": 1, "content_type": 18, "object_id": "12", "object_repr": "DenisL", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 8, "fields": {"action_time": "2025-04-16T06:59:25.306Z", "user": 1, "content_type": 18, "object_id": "11", "object_repr": "DenisL", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 9, "fields": {"action_time": "2025-04-16T06:59:25.306Z", "user": 1, "content_type": 18, "object_id": "10", "object_repr": "DenisL", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 10, "fields": {"action_time": "2025-04-16T06:59:25.306Z", "user": 1, "content_type": 18, "object_id": "9", "object_repr": "DenisL", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 11, "fields": {"action_time": "2025-04-16T06:59:25.306Z", "user": 1, "content_type": 18, "object_id": "8", "object_repr": "DenisL", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 12, "fields": {"action_time": "2025-04-16T06:59:25.306Z", "user": 1, "content_type": 18, "object_id": "7", "object_repr": "DenisL", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 13, "fields": {"action_time": "2025-04-16T06:59:25.306Z", "user": 1, "content_type": 18, "object_id": "6", "object_repr": "DenisL", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 14, "fields": {"action_time": "2025-04-16T06:59:25.306Z", "user": 1, "content_type": 18, "object_id": "5", "object_repr": "DenisL", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 15, "fields": {"action_time": "2025-04-16T06:59:25.306Z", "user": 1, "content_type": 18, "object_id": "4", "object_repr": "DenisL", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 16, "fields": {"action_time": "2025-04-16T06:59:25.306Z", "user": 1, "content_type": 18, "object_id": "3", "object_repr": "DenisL", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 17, "fields": {"action_time": "2025-04-16T06:59:25.306Z", "user": 1, "content_type": 18, "object_id": "2", "object_repr": "DenisL", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 18, "fields": {"action_time": "2025-04-16T06:59:25.306Z", "user": 1, "content_type": 18, "object_id": "1", "object_repr": "DenisL", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 19, "fields": {"action_time": "2025-04-16T07:05:33.922Z", "user": 1, "content_type": 7, "object_id": "76", "object_repr": "Token for StevenB (8590bb4b7554402bac2fbbc6a0998b2b)", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 20, "fields": {"action_time": "2025-04-16T07:05:33.922Z", "user": 1, "content_type": 7, "object_id": "39", "object_repr": "Token for admin (061542ae3b07456482f75f58e9ab1a1a)", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 21, "fields": {"action_time": "2025-04-16T07:05:33.922Z", "user": 1, "content_type": 7, "object_id": "38", "object_repr": "Token for admin (ccffd62de8234034a8b373938c60d269)", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 22, "fields": {"action_time": "2025-04-16T07:05:33.922Z", "user": 1, "content_type": 7, "object_id": "37", "object_repr": "Token for admin (0b955c82bd144c2f87ed248d247e4d3a)", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 23, "fields": {"action_time": "2025-04-16T07:05:33.922Z", "user": 1, "content_type": 7, "object_id": "36", "object_repr": "Token for admin (05bff6da6d2e47beb6ea05dec680b05a)", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 24, "fields": {"action_time": "2025-04-16T07:05:33.923Z", "user": 1, "content_type": 7, "object_id": "35", "object_repr": "Token for admin (8a486d702c794bfb8a06629a1a67d5fa)", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 25, "fields": {"action_time": "2025-04-16T07:05:33.923Z", "user": 1, "content_type": 7, "object_id": "34", "object_repr": "Token for admin (7138f8032107476c9c8771ccba20d0fa)", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 26, "fields": {"action_time": "2025-04-16T07:05:33.923Z", "user": 1, "content_type": 7, "object_id": "33", "object_repr": "Token for admin (8642dfeb6ac84281a71ae8ed557ec247)", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 27, "fields": {"action_time": "2025-04-16T07:05:33.923Z", "user": 1, "content_type": 7, "object_id": "32", "object_repr": "Token for admin (5eac833aa2984f799670bfdfc3f8988c)", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 28, "fields": {"action_time": "2025-04-16T07:05:33.923Z", "user": 1, "content_type": 7, "object_id": "30", "object_repr": "Token for admin (5047500bec60467f991a23998e7171bf)", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 29, "fields": {"action_time": "2025-04-16T07:05:33.923Z", "user": 1, "content_type": 7, "object_id": "29", "object_repr": "Token for admin (ce44917909e24ebeab919c0cd22835f9)", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 30, "fields": {"action_time": "2025-04-16T07:05:33.923Z", "user": 1, "content_type": 7, "object_id": "28", "object_repr": "Token for admin (c6c3d2f582064cf09b1b3a660dcd2c12)", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 31, "fields": {"action_time": "2025-04-16T07:05:33.923Z", "user": 1, "content_type": 7, "object_id": "25", "object_repr": "Token for admin (b9bd5cd560604684acbc7fd8ca2796f3)", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 32, "fields": {"action_time": "2025-04-16T07:05:33.923Z", "user": 1, "content_type": 7, "object_id": "24", "object_repr": "Token for admin (14d6080f48b344d5b5a02a8a1bfceae8)", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 33, "fields": {"action_time": "2025-04-16T07:05:33.923Z", "user": 1, "content_type": 7, "object_id": "20", "object_repr": "Token for admin (ccd6adadac8749c6b20bc36482ccb330)", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 34, "fields": {"action_time": "2025-04-16T07:05:33.923Z", "user": 1, "content_type": 7, "object_id": "9", "object_repr": "Token for admin (eb99140f2c854e33badce5b792bfe87c)", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 35, "fields": {"action_time": "2025-04-16T07:05:33.923Z", "user": 1, "content_type": 7, "object_id": "6", "object_repr": "Token for admin (e7a3ccc3ce4443a29fb88f9164f3d5db)", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 36, "fields": {"action_time": "2025-04-16T07:05:33.923Z", "user": 1, "content_type": 7, "object_id": "5", "object_repr": "Token for admin (97b109d74ec54b8697e2941709c4f81b)", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 37, "fields": {"action_time": "2025-04-16T07:05:33.923Z", "user": 1, "content_type": 7, "object_id": "4", "object_repr": "Token for admin (a42f326fe2e2444582bc4589170062d2)", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 38, "fields": {"action_time": "2025-04-16T07:05:33.923Z", "user": 1, "content_type": 7, "object_id": "3", "object_repr": "Token for admin (9a904c16bcd04675a3af32ba4d4c3b5d)", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 39, "fields": {"action_time": "2025-04-16T07:05:33.923Z", "user": 1, "content_type": 7, "object_id": "2", "object_repr": "Token for admin (27b81d681d6f462f9d748fd5021ac116)", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 40, "fields": {"action_time": "2025-04-16T07:05:33.923Z", "user": 1, "content_type": 7, "object_id": "1", "object_repr": "Token for admin (abc53beebf9047f298be61ce4bae02e5)", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 41, "fields": {"action_time": "2025-04-16T07:05:51.886Z", "user": 1, "content_type": 7, "object_id": "79", "object_repr": "Token for admin (c26b6527ab284f508f2d8dd56b38d83f)", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 42, "fields": {"action_time": "2025-04-16T07:05:51.886Z", "user": 1, "content_type": 7, "object_id": "78", "object_repr": "Token for admin (0c699284bdbb4e888d5c6abcacd8708a)", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 43, "fields": {"action_time": "2025-04-16T07:05:51.886Z", "user": 1, "content_type": 7, "object_id": "77", "object_repr": "Token for admin (13c8e8a1a3724d0180b6054ad6e80103)", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 44, "fields": {"action_time": "2025-04-16T07:05:51.886Z", "user": 1, "content_type": 7, "object_id": "72", "object_repr": "Token for admin (fbb583920fb24cedb8ed77897f4ff5bb)", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 45, "fields": {"action_time": "2025-04-16T07:05:51.886Z", "user": 1, "content_type": 7, "object_id": "71", "object_repr": "Token for admin (d8136537db084b4b84ca5b667783c15d)", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 46, "fields": {"action_time": "2025-04-16T07:05:51.886Z", "user": 1, "content_type": 7, "object_id": "69", "object_repr": "Token for admin (a24c99ae6682450192ec77984d69e7f7)", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 47, "fields": {"action_time": "2025-04-16T07:05:51.886Z", "user": 1, "content_type": 7, "object_id": "68", "object_repr": "Token for admin (b3a3b26023e8498a9c0578b9c8c28d9f)", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 48, "fields": {"action_time": "2025-04-16T07:05:51.886Z", "user": 1, "content_type": 7, "object_id": "67", "object_repr": "Token for admin (a58dc9ce34584e1c94ec0b8ff560a277)", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 49, "fields": {"action_time": "2025-04-16T07:05:51.886Z", "user": 1, "content_type": 7, "object_id": "65", "object_repr": "Token for admin (0c1d09cf4b094f5e85965c45a8e4ac97)", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 50, "fields": {"action_time": "2025-04-16T07:05:51.886Z", "user": 1, "content_type": 7, "object_id": "64", "object_repr": "Token for admin (853b1a5e441d45f0a64361dcb8d6ff67)", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 51, "fields": {"action_time": "2025-04-16T07:05:51.886Z", "user": 1, "content_type": 7, "object_id": "60", "object_repr": "Token for admin (4cf11ea2c1a6421da0bc594dc076c8f6)", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 52, "fields": {"action_time": "2025-04-16T07:05:51.886Z", "user": 1, "content_type": 7, "object_id": "59", "object_repr": "Token for admin (ac8b8c881610496ca7cf50171cb388a1)", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 53, "fields": {"action_time": "2025-04-16T07:05:51.886Z", "user": 1, "content_type": 7, "object_id": "58", "object_repr": "Token for admin (cd186a5e93344b2990d261ac36c145ff)", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 54, "fields": {"action_time": "2025-04-16T07:05:51.886Z", "user": 1, "content_type": 7, "object_id": "56", "object_repr": "Token for admin (081076d9a3904efc9809689409fe0d5a)", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 55, "fields": {"action_time": "2025-04-16T07:05:51.886Z", "user": 1, "content_type": 7, "object_id": "51", "object_repr": "Token for admin (c3f2ff1933bd4fc5a5684237adfef4df)", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 56, "fields": {"action_time": "2025-04-16T07:05:51.886Z", "user": 1, "content_type": 7, "object_id": "49", "object_repr": "Token for admin (b748592cf794430db7aba7f40ce54036)", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 57, "fields": {"action_time": "2025-04-16T07:05:51.886Z", "user": 1, "content_type": 7, "object_id": "48", "object_repr": "Token for admin (2455f258619044eeb261ae175783b43f)", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 58, "fields": {"action_time": "2025-04-16T07:05:51.886Z", "user": 1, "content_type": 7, "object_id": "47", "object_repr": "Token for admin (2695c46ac02d485ebcfa68fd4304371e)", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 59, "fields": {"action_time": "2025-04-16T07:05:51.886Z", "user": 1, "content_type": 7, "object_id": "46", "object_repr": "Token for admin (a2450b7e238d4f81a6f1ed1a358b0159)", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 60, "fields": {"action_time": "2025-04-16T07:05:51.886Z", "user": 1, "content_type": 7, "object_id": "44", "object_repr": "Token for admin (e2dbfbe2c3bb4a258c133d8644edd471)", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 61, "fields": {"action_time": "2025-04-16T07:05:51.886Z", "user": 1, "content_type": 7, "object_id": "42", "object_repr": "Token for admin (4b0ab30e296d4f11897e624363d73a4d)", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 62, "fields": {"action_time": "2025-04-16T07:06:24.633Z", "user": 1, "content_type": 7, "object_id": "75", "object_repr": "Token for StevenB (3174c850b5f54ac2a00263f16a8294bf)", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 63, "fields": {"action_time": "2025-04-16T07:06:24.633Z", "user": 1, "content_type": 7, "object_id": "74", "object_repr": "Token for StevenB (9744afea667f4fdeb2ac7fe8ffb91df5)", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 64, "fields": {"action_time": "2025-04-16T07:06:24.633Z", "user": 1, "content_type": 7, "object_id": "73", "object_repr": "Token for StevenB (cf63f4647247415d9c1b8ecaf78717d5)", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 65, "fields": {"action_time": "2025-04-16T07:06:24.633Z", "user": 1, "content_type": 7, "object_id": "70", "object_repr": "Token for StevenB (ca20c845cc474756ac5328144b84bacc)", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 66, "fields": {"action_time": "2025-04-16T07:06:24.633Z", "user": 1, "content_type": 7, "object_id": "66", "object_repr": "Token for StevenB (715042c3cb364d0ba41c0329a0239a1c)", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 67, "fields": {"action_time": "2025-04-16T07:06:24.633Z", "user": 1, "content_type": 7, "object_id": "63", "object_repr": "Token for StevenB (36a2dc8ab5e64402b11ae0fe9d612c96)", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 68, "fields": {"action_time": "2025-04-16T07:06:24.633Z", "user": 1, "content_type": 7, "object_id": "62", "object_repr": "Token for StevenB (ebaea0a9b54e4763b99d9f78a3215181)", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 69, "fields": {"action_time": "2025-04-16T07:06:24.633Z", "user": 1, "content_type": 7, "object_id": "61", "object_repr": "Token for StevenB (7dcfb4d9c8ab4838af68aa95d79513a5)", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 70, "fields": {"action_time": "2025-04-16T07:06:24.633Z", "user": 1, "content_type": 7, "object_id": "57", "object_repr": "Token for StevenB (5c09faf0566d4b26bfb060c3a6ac26ae)", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 71, "fields": {"action_time": "2025-04-16T07:06:24.633Z", "user": 1, "content_type": 7, "object_id": "55", "object_repr": "Token for StevenB (76408617fb6f4dfba53c89748ac50f0a)", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 72, "fields": {"action_time": "2025-04-16T07:06:24.633Z", "user": 1, "content_type": 7, "object_id": "54", "object_repr": "Token for StevenB (81f06c7828c149b389441083a6556031)", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 73, "fields": {"action_time": "2025-04-16T07:06:24.633Z", "user": 1, "content_type": 7, "object_id": "53", "object_repr": "Token for StevenB (abb6e23c5e704900b935f3dde225bbfb)", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 74, "fields": {"action_time": "2025-04-16T07:06:24.633Z", "user": 1, "content_type": 7, "object_id": "52", "object_repr": "Token for StevenB (96696a0b55f646dbb89d3fa72f04d06b)", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 75, "fields": {"action_time": "2025-04-16T07:06:24.633Z", "user": 1, "content_type": 7, "object_id": "50", "object_repr": "Token for StevenB (7af42a92fb9f477ea19162dd83d389db)", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 76, "fields": {"action_time": "2025-04-16T07:06:24.633Z", "user": 1, "content_type": 7, "object_id": "45", "object_repr": "Token for StevenB (9f39c1a25dc04a218d960509b73bfa50)", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 77, "fields": {"action_time": "2025-04-16T07:06:24.633Z", "user": 1, "content_type": 7, "object_id": "26", "object_repr": "Token for Angelo7 (4c8a7acc3c184deba2a0368942db3556)", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 78, "fields": {"action_time": "2025-04-16T07:06:24.633Z", "user": 1, "content_type": 7, "object_id": "19", "object_repr": "Token for Angelo7 (26bc45df12984a9db3e0927ea4da7590)", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 79, "fields": {"action_time": "2025-04-16T07:06:24.633Z", "user": 1, "content_type": 7, "object_id": "18", "object_repr": "Token for Angelo7 (017a813e3ed94d80a69660d504fa0bd0)", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 80, "fields": {"action_time": "2025-04-16T07:06:24.633Z", "user": 1, "content_type": 7, "object_id": "17", "object_repr": "Token for Angelo7 (540df9c6c3ed4ba08f41c7e1040be77c)", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 81, "fields": {"action_time": "2025-04-16T07:06:24.634Z", "user": 1, "content_type": 7, "object_id": "16", "object_repr": "Token for Angelo7 (c07560501a724fedb14c92d05ad54cf9)", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 82, "fields": {"action_time": "2025-04-16T07:06:24.634Z", "user": 1, "content_type": 7, "object_id": "43", "object_repr": "Token for DenisL (348e3b4176ff434487777b3ca7b09b29)", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 83, "fields": {"action_time": "2025-04-16T07:06:24.634Z", "user": 1, "content_type": 7, "object_id": "41", "object_repr": "Token for DenisL (0e6d602b500f4097b8cfe1c355e9cccb)", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 84, "fields": {"action_time": "2025-04-16T07:06:24.634Z", "user": 1, "content_type": 7, "object_id": "40", "object_repr": "Token for DenisL (4729e891b68645a39b56f9dae60645a2)", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 85, "fields": {"action_time": "2025-04-16T07:06:24.634Z", "user": 1, "content_type": 7, "object_id": "31", "object_repr": "Token for DenisL (3d5d8c4c939a4a7882df610115105273)", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 86, "fields": {"action_time": "2025-04-16T07:06:24.634Z", "user": 1, "content_type": 7, "object_id": "27", "object_repr": "Token for DenisL (5d3587cda2714517804c56749e28f491)", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 87, "fields": {"action_time": "2025-04-16T07:06:24.634Z", "user": 1, "content_type": 7, "object_id": "23", "object_repr": "Token for DenisL (ed8bdddda23b47f49bb870eeb971360c)", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 88, "fields": {"action_time": "2025-04-16T07:06:24.634Z", "user": 1, "content_type": 7, "object_id": "22", "object_repr": "Token for DenisL (a00e1be3eb944c2eb36f0c9c0f65ef8c)", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 89, "fields": {"action_time": "2025-04-16T07:06:24.634Z", "user": 1, "content_type": 7, "object_id": "21", "object_repr": "Token for DenisL (0eba8b786b024a72b38b078b9f82a7e9)", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 90, "fields": {"action_time": "2025-04-16T07:06:24.634Z", "user": 1, "content_type": 7, "object_id": "15", "object_repr": "Token for DenisL (1e3133c57899438bb860a306bdf29078)", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 91, "fields": {"action_time": "2025-04-16T07:06:24.634Z", "user": 1, "content_type": 7, "object_id": "14", "object_repr": "Token for DenisL (7b95ed8c9b7e40e18a5474566e326bbe)", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 92, "fields": {"action_time": "2025-04-16T07:06:24.634Z", "user": 1, "content_type": 7, "object_id": "13", "object_repr": "Token for DenisL (dbb2e9669b0a4084827955be640e8f71)", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 93, "fields": {"action_time": "2025-04-16T07:06:24.634Z", "user": 1, "content_type": 7, "object_id": "12", "object_repr": "Token for DenisL (3939536c847a4f5784e132f684640ed3)", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 94, "fields": {"action_time": "2025-04-16T07:06:24.634Z", "user": 1, "content_type": 7, "object_id": "11", "object_repr": "Token for DenisL (f32dcf50aea94bd7bd9401fdb0066b2a)", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 95, "fields": {"action_time": "2025-04-16T07:06:24.634Z", "user": 1, "content_type": 7, "object_id": "10", "object_repr": "Token for DenisL (30ab2a0df51745da8cf8dde09765c327)", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 96, "fields": {"action_time": "2025-04-16T07:06:24.634Z", "user": 1, "content_type": 7, "object_id": "8", "object_repr": "Token for DenisL (172e0e5fe5824496aded1580d83cf288)", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 97, "fields": {"action_time": "2025-04-16T07:06:24.634Z", "user": 1, "content_type": 7, "object_id": "7", "object_repr": "Token for DenisL (73785cd379ba440da5cd656f58a13cda)", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 98, "fields": {"action_time": "2025-04-16T07:07:15.472Z", "user": 1, "content_type": 9, "object_id": "4", "object_repr": "admin", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 99, "fields": {"action_time": "2025-04-16T07:07:15.472Z", "user": 1, "content_type": 9, "object_id": "3", "object_repr": "DenisL", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 100, "fields": {"action_time": "2025-04-16T07:07:15.472Z", "user": 1, "content_type": 9, "object_id": "2", "object_repr": "DenisL", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 101, "fields": {"action_time": "2025-04-16T07:07:15.472Z", "user": 1, "content_type": 9, "object_id": "1", "object_repr": "admin", "action_flag": 3, "change_message": ""}}, {"model": "auth.permission", "pk": 1, "fields": {"name": "Can add log entry", "content_type": 1, "codename": "add_logentry"}}, {"model": "auth.permission", "pk": 2, "fields": {"name": "Can change log entry", "content_type": 1, "codename": "change_logentry"}}, {"model": "auth.permission", "pk": 3, "fields": {"name": "Can delete log entry", "content_type": 1, "codename": "delete_logentry"}}, {"model": "auth.permission", "pk": 4, "fields": {"name": "Can view log entry", "content_type": 1, "codename": "view_logentry"}}, {"model": "auth.permission", "pk": 5, "fields": {"name": "Can add permission", "content_type": 2, "codename": "add_permission"}}, {"model": "auth.permission", "pk": 6, "fields": {"name": "Can change permission", "content_type": 2, "codename": "change_permission"}}, {"model": "auth.permission", "pk": 7, "fields": {"name": "Can delete permission", "content_type": 2, "codename": "delete_permission"}}, {"model": "auth.permission", "pk": 8, "fields": {"name": "Can view permission", "content_type": 2, "codename": "view_permission"}}, {"model": "auth.permission", "pk": 9, "fields": {"name": "Can add group", "content_type": 3, "codename": "add_group"}}, {"model": "auth.permission", "pk": 10, "fields": {"name": "Can change group", "content_type": 3, "codename": "change_group"}}, {"model": "auth.permission", "pk": 11, "fields": {"name": "Can delete group", "content_type": 3, "codename": "delete_group"}}, {"model": "auth.permission", "pk": 12, "fields": {"name": "Can view group", "content_type": 3, "codename": "view_group"}}, {"model": "auth.permission", "pk": 13, "fields": {"name": "Can add content type", "content_type": 4, "codename": "add_contenttype"}}, {"model": "auth.permission", "pk": 14, "fields": {"name": "Can change content type", "content_type": 4, "codename": "change_contenttype"}}, {"model": "auth.permission", "pk": 15, "fields": {"name": "Can delete content type", "content_type": 4, "codename": "delete_contenttype"}}, {"model": "auth.permission", "pk": 16, "fields": {"name": "Can view content type", "content_type": 4, "codename": "view_contenttype"}}, {"model": "auth.permission", "pk": 17, "fields": {"name": "Can add session", "content_type": 5, "codename": "add_session"}}, {"model": "auth.permission", "pk": 18, "fields": {"name": "Can change session", "content_type": 5, "codename": "change_session"}}, {"model": "auth.permission", "pk": 19, "fields": {"name": "Can delete session", "content_type": 5, "codename": "delete_session"}}, {"model": "auth.permission", "pk": 20, "fields": {"name": "Can view session", "content_type": 5, "codename": "view_session"}}, {"model": "auth.permission", "pk": 21, "fields": {"name": "Can add blacklisted token", "content_type": 6, "codename": "add_blacklistedtoken"}}, {"model": "auth.permission", "pk": 22, "fields": {"name": "Can change blacklisted token", "content_type": 6, "codename": "change_blacklistedtoken"}}, {"model": "auth.permission", "pk": 23, "fields": {"name": "Can delete blacklisted token", "content_type": 6, "codename": "delete_blacklistedtoken"}}, {"model": "auth.permission", "pk": 24, "fields": {"name": "Can view blacklisted token", "content_type": 6, "codename": "view_blacklistedtoken"}}, {"model": "auth.permission", "pk": 25, "fields": {"name": "Can add outstanding token", "content_type": 7, "codename": "add_outstandingtoken"}}, {"model": "auth.permission", "pk": 26, "fields": {"name": "Can change outstanding token", "content_type": 7, "codename": "change_outstandingtoken"}}, {"model": "auth.permission", "pk": 27, "fields": {"name": "Can delete outstanding token", "content_type": 7, "codename": "delete_outstandingtoken"}}, {"model": "auth.permission", "pk": 28, "fields": {"name": "Can view outstanding token", "content_type": 7, "codename": "view_outstandingtoken"}}, {"model": "auth.permission", "pk": 29, "fields": {"name": "Can add user", "content_type": 8, "codename": "add_user"}}, {"model": "auth.permission", "pk": 30, "fields": {"name": "Can change user", "content_type": 8, "codename": "change_user"}}, {"model": "auth.permission", "pk": 31, "fields": {"name": "Can delete user", "content_type": 8, "codename": "delete_user"}}, {"model": "auth.permission", "pk": 32, "fields": {"name": "Can view user", "content_type": 8, "codename": "view_user"}}, {"model": "auth.permission", "pk": 33, "fields": {"name": "Can add fcmtoken", "content_type": 9, "codename": "add_fcmtoken"}}, {"model": "auth.permission", "pk": 34, "fields": {"name": "Can change fcmtoken", "content_type": 9, "codename": "change_fcmtoken"}}, {"model": "auth.permission", "pk": 35, "fields": {"name": "Can delete fcmtoken", "content_type": 9, "codename": "delete_fcmtoken"}}, {"model": "auth.permission", "pk": 36, "fields": {"name": "Can view fcmtoken", "content_type": 9, "codename": "view_fcmtoken"}}, {"model": "auth.permission", "pk": 37, "fields": {"name": "Can add catalog", "content_type": 10, "codename": "add_catalog"}}, {"model": "auth.permission", "pk": 38, "fields": {"name": "Can change catalog", "content_type": 10, "codename": "change_catalog"}}, {"model": "auth.permission", "pk": 39, "fields": {"name": "Can delete catalog", "content_type": 10, "codename": "delete_catalog"}}, {"model": "auth.permission", "pk": 40, "fields": {"name": "Can view catalog", "content_type": 10, "codename": "view_catalog"}}, {"model": "auth.permission", "pk": 41, "fields": {"name": "Can add exercise", "content_type": 11, "codename": "add_exercise"}}, {"model": "auth.permission", "pk": 42, "fields": {"name": "Can change exercise", "content_type": 11, "codename": "change_exercise"}}, {"model": "auth.permission", "pk": 43, "fields": {"name": "Can delete exercise", "content_type": 11, "codename": "delete_exercise"}}, {"model": "auth.permission", "pk": 44, "fields": {"name": "Can view exercise", "content_type": 11, "codename": "view_exercise"}}, {"model": "auth.permission", "pk": 45, "fields": {"name": "Can add comment", "content_type": 12, "codename": "add_comment"}}, {"model": "auth.permission", "pk": 46, "fields": {"name": "Can change comment", "content_type": 12, "codename": "change_comment"}}, {"model": "auth.permission", "pk": 47, "fields": {"name": "Can delete comment", "content_type": 12, "codename": "delete_comment"}}, {"model": "auth.permission", "pk": 48, "fields": {"name": "Can view comment", "content_type": 12, "codename": "view_comment"}}, {"model": "auth.permission", "pk": 49, "fields": {"name": "Can add workout", "content_type": 13, "codename": "add_workout"}}, {"model": "auth.permission", "pk": 50, "fields": {"name": "Can change workout", "content_type": 13, "codename": "change_workout"}}, {"model": "auth.permission", "pk": 51, "fields": {"name": "Can delete workout", "content_type": 13, "codename": "delete_workout"}}, {"model": "auth.permission", "pk": 52, "fields": {"name": "Can view workout", "content_type": 13, "codename": "view_workout"}}, {"model": "auth.permission", "pk": 53, "fields": {"name": "Can add workout excercise", "content_type": 14, "codename": "add_workoutexcercise"}}, {"model": "auth.permission", "pk": 54, "fields": {"name": "Can change workout excercise", "content_type": 14, "codename": "change_workoutexcercise"}}, {"model": "auth.permission", "pk": 55, "fields": {"name": "Can delete workout excercise", "content_type": 14, "codename": "delete_workoutexcercise"}}, {"model": "auth.permission", "pk": 56, "fields": {"name": "Can view workout excercise", "content_type": 14, "codename": "view_workoutexcercise"}}, {"model": "auth.permission", "pk": 57, "fields": {"name": "Can add measure", "content_type": 15, "codename": "add_measure"}}, {"model": "auth.permission", "pk": 58, "fields": {"name": "Can change measure", "content_type": 15, "codename": "change_measure"}}, {"model": "auth.permission", "pk": 59, "fields": {"name": "Can delete measure", "content_type": 15, "codename": "delete_measure"}}, {"model": "auth.permission", "pk": 60, "fields": {"name": "Can view measure", "content_type": 15, "codename": "view_measure"}}, {"model": "auth.permission", "pk": 61, "fields": {"name": "Can add post", "content_type": 16, "codename": "add_post"}}, {"model": "auth.permission", "pk": 62, "fields": {"name": "Can change post", "content_type": 16, "codename": "change_post"}}, {"model": "auth.permission", "pk": 63, "fields": {"name": "Can delete post", "content_type": 16, "codename": "delete_post"}}, {"model": "auth.permission", "pk": 64, "fields": {"name": "Can view post", "content_type": 16, "codename": "view_post"}}, {"model": "auth.permission", "pk": 65, "fields": {"name": "Can add image", "content_type": 17, "codename": "add_image"}}, {"model": "auth.permission", "pk": 66, "fields": {"name": "Can change image", "content_type": 17, "codename": "change_image"}}, {"model": "auth.permission", "pk": 67, "fields": {"name": "Can delete image", "content_type": 17, "codename": "delete_image"}}, {"model": "auth.permission", "pk": 68, "fields": {"name": "Can view image", "content_type": 17, "codename": "view_image"}}, {"model": "auth.permission", "pk": 69, "fields": {"name": "Can add notification", "content_type": 18, "codename": "add_notification"}}, {"model": "auth.permission", "pk": 70, "fields": {"name": "Can change notification", "content_type": 18, "codename": "change_notification"}}, {"model": "auth.permission", "pk": 71, "fields": {"name": "Can delete notification", "content_type": 18, "codename": "delete_notification"}}, {"model": "auth.permission", "pk": 72, "fields": {"name": "Can view notification", "content_type": 18, "codename": "view_notification"}}, {"model": "auth.permission", "pk": 73, "fields": {"name": "Can add jwt token", "content_type": 19, "codename": "add_jwttoken"}}, {"model": "auth.permission", "pk": 74, "fields": {"name": "Can change jwt token", "content_type": 19, "codename": "change_jwttoken"}}, {"model": "auth.permission", "pk": 75, "fields": {"name": "Can delete jwt token", "content_type": 19, "codename": "delete_jwttoken"}}, {"model": "auth.permission", "pk": 76, "fields": {"name": "Can view jwt token", "content_type": 19, "codename": "view_jwttoken"}}, {"model": "contenttypes.contenttype", "pk": 1, "fields": {"app_label": "admin", "model": "logentry"}}, {"model": "contenttypes.contenttype", "pk": 2, "fields": {"app_label": "auth", "model": "permission"}}, {"model": "contenttypes.contenttype", "pk": 3, "fields": {"app_label": "auth", "model": "group"}}, {"model": "contenttypes.contenttype", "pk": 4, "fields": {"app_label": "contenttypes", "model": "contenttype"}}, {"model": "contenttypes.contenttype", "pk": 5, "fields": {"app_label": "sessions", "model": "session"}}, {"model": "contenttypes.contenttype", "pk": 6, "fields": {"app_label": "token_blacklist", "model": "blacklistedtoken"}}, {"model": "contenttypes.contenttype", "pk": 7, "fields": {"app_label": "token_blacklist", "model": "outstandingtoken"}}, {"model": "contenttypes.contenttype", "pk": 8, "fields": {"app_label": "accounts", "model": "user"}}, {"model": "contenttypes.contenttype", "pk": 9, "fields": {"app_label": "accounts", "model": "fcmtoken"}}, {"model": "contenttypes.contenttype", "pk": 10, "fields": {"app_label": "catalogs", "model": "catalog"}}, {"model": "contenttypes.contenttype", "pk": 11, "fields": {"app_label": "exercises", "model": "exercise"}}, {"model": "contenttypes.contenttype", "pk": 12, "fields": {"app_label": "comments", "model": "comment"}}, {"model": "contenttypes.contenttype", "pk": 13, "fields": {"app_label": "workouts", "model": "workout"}}, {"model": "contenttypes.contenttype", "pk": 14, "fields": {"app_label": "workouts", "model": "workoutexcercise"}}, {"model": "contenttypes.contenttype", "pk": 15, "fields": {"app_label": "measures", "model": "measure"}}, {"model": "contenttypes.contenttype", "pk": 16, "fields": {"app_label": "posts", "model": "post"}}, {"model": "contenttypes.contenttype", "pk": 17, "fields": {"app_label": "images", "model": "image"}}, {"model": "contenttypes.contenttype", "pk": 18, "fields": {"app_label": "notifications", "model": "notification"}}, {"model": "contenttypes.contenttype", "pk": 19, "fields": {"app_label": "accounts", "model": "jwttoken"}}, {"model": "sessions.session", "pk": "1tgt5iswq6h6791awtjr7oaf812b2d2m", "fields": {"session_data": ".eJxVjEEOwiAQRe_C2hAKgxCX7j0DmRmmUjWQlHbVeHdt0oVu_3vvbyrhupS0dpnTlNVFDer0uxHyU-oO8gPrvWludZkn0ruiD9r1rWV5XQ_376BgL9_agQiLmCBMZMB6CAxDIIzBQiRhG5kYjT1boNE4byKxy-DRjJaE1PsD_c04nQ:1u1Idy:LUdxe41XPHiBTChujjNy02moIfjyBLmGtCdPDE0EHFY", "expire_date": "2025-04-20T05:34:06.463Z"}}, {"model": "sessions.session", "pk": "f1k6ujda2434233t16ez19b2r6a89j4o", "fields": {"session_data": ".eJxVjEEOwiAQRe_C2hAKgxCX7j0DmRmmUjWQlHbVeHdt0oVu_3vvbyrhupS0dpnTlNVFDer0uxHyU-oO8gPrvWludZkn0ruiD9r1rWV5XQ_376BgL9_agQiLmCBMZMB6CAxDIIzBQiRhG5kYjT1boNE4byKxy-DRjJaE1PsD_c04nQ:1u7Pan:rgUadGTZg-Dmt5MRhd5qCo7CnuqQ3-jijMTIGrokZoY", "expire_date": "2025-05-07T02:12:05.977Z"}}, {"model": "token_blacklist.outstandingtoken", "pk": 80, "fields": {"user": 1, "jti": "02ce2f8d82d149849e379741f7ee26b4", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0NDg3MzY2MywiaWF0IjoxNzQ0Nzg3MjYzLCJqdGkiOiIwMmNlMmY4ZDgyZDE0OTg0OWUzNzk3NDFmN2VlMjZiNCIsInVzZXJfaWQiOjF9.FpLOx-d6Qtgy-6aw3BeBpjdSFRb0khfBp_Ng-rMWfKI", "created_at": "2025-04-16T07:07:43.795Z", "expires_at": "2025-04-17T07:07:43Z"}}, {"model": "token_blacklist.outstandingtoken", "pk": 81, "fields": {"user": 1, "jti": "6edd0e3bbbfd4a7ea74c9ec20bb966c0", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0NDg3MzcwNywiaWF0IjoxNzQ0Nzg3MzA3LCJqdGkiOiI2ZWRkMGUzYmJiZmQ0YTdlYTc0YzllYzIwYmI5NjZjMCIsInVzZXJfaWQiOjF9.VFcovV3jcGql2DkDm_mzQvQEpLfYXuGWQkOpVCepKzU", "created_at": "2025-04-16T07:08:27.602Z", "expires_at": "2025-04-17T07:08:27Z"}}, {"model": "token_blacklist.outstandingtoken", "pk": 82, "fields": {"user": 5, "jti": "640bd6e7f6a04cb88b1dcb3218c649ec", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0NDg3MzczNiwiaWF0IjoxNzQ0Nzg3MzM2LCJqdGkiOiI2NDBiZDZlN2Y2YTA0Y2I4OGIxZGNiMzIxOGM2NDllYyIsInVzZXJfaWQiOjV9._Xybm--NVVJph0jTsbUdbuz2uCTJwzTPnzhosiXmGrk", "created_at": "2025-04-16T07:08:56.227Z", "expires_at": "2025-04-17T07:08:56Z"}}, {"model": "token_blacklist.outstandingtoken", "pk": 83, "fields": {"user": 1, "jti": "f44bcecd36d64883b2e607d236be8dcc", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0NDg3NDgyNCwiaWF0IjoxNzQ0Nzg4NDI0LCJqdGkiOiJmNDRiY2VjZDM2ZDY0ODgzYjJlNjA3ZDIzNmJlOGRjYyIsInVzZXJfaWQiOjF9.v7tBvRm5VNVLPCNjT2bOaCrVmemcXMbnd_ERbpahEgc", "created_at": "2025-04-16T07:27:04.728Z", "expires_at": "2025-04-17T07:27:04Z"}}, {"model": "token_blacklist.outstandingtoken", "pk": 84, "fields": {"user": 1, "jti": "f92bae6f8f1d48709909891f37165f77", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0NDg3NDkzMCwiaWF0IjoxNzQ0Nzg4NTMwLCJqdGkiOiJmOTJiYWU2ZjhmMWQ0ODcwOTkwOTg5MWYzNzE2NWY3NyIsInVzZXJfaWQiOjF9.LUl60TE_N7dsYS5hy9zk4nCfokEwPGH8VUxVQEvVjq0", "created_at": "2025-04-16T07:28:50.359Z", "expires_at": "2025-04-17T07:28:50Z"}}, {"model": "token_blacklist.outstandingtoken", "pk": 85, "fields": {"user": 1, "jti": "a574d76d64b94eb9803ee78a62e5a34c", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0NTAwNjI0NywiaWF0IjoxNzQ0OTE5ODQ3LCJqdGkiOiJhNTc0ZDc2ZDY0Yjk0ZWI5ODAzZWU3OGE2MmU1YTM0YyIsInVzZXJfaWQiOjF9.vMi3JsJ_jZYEjPDIESHQXoRXV40f9CfOQMRuRpdkPxA", "created_at": "2025-04-17T19:57:27.922Z", "expires_at": "2025-04-18T19:57:27Z"}}, {"model": "token_blacklist.outstandingtoken", "pk": 86, "fields": {"user": 1, "jti": "b50c5b0b4b354bf4a53d5446549dbd83", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0NTAwNjI2MSwiaWF0IjoxNzQ0OTE5ODYxLCJqdGkiOiJiNTBjNWIwYjRiMzU0YmY0YTUzZDU0NDY1NDlkYmQ4MyIsInVzZXJfaWQiOjF9.IH_YT2aEFSESsN80NDq9fELBYa_jhvQz3wbb7Xptpfc", "created_at": "2025-04-17T19:57:41.304Z", "expires_at": "2025-04-18T19:57:41Z"}}, {"model": "token_blacklist.outstandingtoken", "pk": 87, "fields": {"user": 5, "jti": "7eebba45c87f41a9abf562f2c2fbaf87", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0NTAwNjM3OSwiaWF0IjoxNzQ0OTE5OTc5LCJqdGkiOiI3ZWViYmE0NWM4N2Y0MWE5YWJmNTYyZjJjMmZiYWY4NyIsInVzZXJfaWQiOjV9.dumozg_OLQ4wrvtNKoETExsuUXPryrd-P-LYjZuEDEU", "created_at": "2025-04-17T19:59:39.420Z", "expires_at": "2025-04-18T19:59:39Z"}}, {"model": "token_blacklist.outstandingtoken", "pk": 88, "fields": {"user": 5, "jti": "b81bce1fd58f40dab5d0c77fcb2532ea", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0NTAyNTI5NiwiaWF0IjoxNzQ0OTM4ODk2LCJqdGkiOiJiODFiY2UxZmQ1OGY0MGRhYjVkMGM3N2ZjYjI1MzJlYSIsInVzZXJfaWQiOjV9.ULhUcx-eZTxPyI8uDSI7d7WMs22XfZsTyiPAiptT474", "created_at": "2025-04-18T01:14:56.963Z", "expires_at": "2025-04-19T01:14:56Z"}}, {"model": "token_blacklist.outstandingtoken", "pk": 89, "fields": {"user": 1, "jti": "58cf9de9ba704ea4bf6fbc4924a963d1", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0NTAyNTQzNywiaWF0IjoxNzQ0OTM5MDM3LCJqdGkiOiI1OGNmOWRlOWJhNzA0ZWE0YmY2ZmJjNDkyNGE5NjNkMSIsInVzZXJfaWQiOjF9.6CZiYeIiG8R55LD0B3GnrGyrLxMaeJeOikjaazbpHfc", "created_at": "2025-04-18T01:17:17.338Z", "expires_at": "2025-04-19T01:17:17Z"}}, {"model": "token_blacklist.outstandingtoken", "pk": 90, "fields": {"user": 5, "jti": "4dc6230338134091aedb596de44e9977", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0NTE3MzA3OSwiaWF0IjoxNzQ1MDg2Njc5LCJqdGkiOiI0ZGM2MjMwMzM4MTM0MDkxYWVkYjU5NmRlNDRlOTk3NyIsInVzZXJfaWQiOjV9.MW_N3B7mDyK_xQ46cLdDbyBKT4B_bQLW32Z8rgoS7PY", "created_at": "2025-04-19T18:17:59.563Z", "expires_at": "2025-04-20T18:17:59Z"}}, {"model": "token_blacklist.outstandingtoken", "pk": 91, "fields": {"user": 1, "jti": "8f10856e651140c78c32d4295900f1e0", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0NTM2Njg0MywiaWF0IjoxNzQ1MjgwNDQzLCJqdGkiOiI4ZjEwODU2ZTY1MTE0MGM3OGMzMmQ0Mjk1OTAwZjFlMCIsInVzZXJfaWQiOjF9.i6w7kkA8cVHVfBLEAnu37JrU883RjodX_lyi_5EBIEA", "created_at": "2025-04-22T00:07:23.193Z", "expires_at": "2025-04-23T00:07:23Z"}}, {"model": "token_blacklist.outstandingtoken", "pk": 92, "fields": {"user": 5, "jti": "d31c51d2a7a8454cbd7af233921eca91", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0NTM2OTc5NSwiaWF0IjoxNzQ1MjgzMzk1LCJqdGkiOiJkMzFjNTFkMmE3YTg0NTRjYmQ3YWYyMzM5MjFlY2E5MSIsInVzZXJfaWQiOjV9.RvRRPJ-f5mECsgaq43fI3RLZ7izqnuy3w4d63Paf3EE", "created_at": "2025-04-22T00:56:35.175Z", "expires_at": "2025-04-23T00:56:35Z"}}, {"model": "token_blacklist.outstandingtoken", "pk": 93, "fields": {"user": 1, "jti": "d906f5a962b44de985f08698841db2d8", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0NTQzNTIwMCwiaWF0IjoxNzQ1MzQ4ODAwLCJqdGkiOiJkOTA2ZjVhOTYyYjQ0ZGU5ODVmMDg2OTg4NDFkYjJkOCIsInVzZXJfaWQiOjF9.PLgO5jXzJIdrtti_rORkJw6B911nlxiegwH0AJJueSo", "created_at": "2025-04-22T19:06:40.446Z", "expires_at": "2025-04-23T19:06:40Z"}}, {"model": "token_blacklist.outstandingtoken", "pk": 94, "fields": {"user": 2, "jti": "ccd0a7fb342a41269af9cf34462ac97e", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0NTQzNTQxMSwiaWF0IjoxNzQ1MzQ5MDExLCJqdGkiOiJjY2QwYTdmYjM0MmE0MTI2OWFmOWNmMzQ0NjJhYzk3ZSIsInVzZXJfaWQiOjJ9.9W0XOc2s7JDvYyddxxMPHVNKe1G721VQH85AGZOUNKI", "created_at": "2025-04-22T19:10:11.696Z", "expires_at": "2025-04-23T19:10:11Z"}}, {"model": "token_blacklist.outstandingtoken", "pk": 95, "fields": {"user": 2, "jti": "9aa1b564128b48d4bad93cf82159cbdb", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0NTQzNTQ2MywiaWF0IjoxNzQ1MzQ5MDYzLCJqdGkiOiI5YWExYjU2NDEyOGI0OGQ0YmFkOTNjZjgyMTU5Y2JkYiIsInVzZXJfaWQiOjJ9.9gJ_TK7doozSz597Ya_LZrnnIumBQSLLjmAS-x7mz0o", "created_at": "2025-04-22T19:11:03.423Z", "expires_at": "2025-04-23T19:11:03Z"}}, {"model": "token_blacklist.outstandingtoken", "pk": 96, "fields": {"user": 5, "jti": "f08ae54c115b49798e255411fb487c62", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0NTQzNjQxNiwiaWF0IjoxNzQ1MzUwMDE2LCJqdGkiOiJmMDhhZTU0YzExNWI0OTc5OGUyNTU0MTFmYjQ4N2M2MiIsInVzZXJfaWQiOjV9.bJWY2QuZ4kloKTcqoLU3QsUs57GhRxp3AZKwHt8m-k0", "created_at": "2025-04-22T19:26:56.206Z", "expires_at": "2025-04-23T19:26:56Z"}}, {"model": "token_blacklist.outstandingtoken", "pk": 97, "fields": {"user": 1, "jti": "1f098fa2fa20475fab7f4272267e6d48", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0NTQzNzc1MCwiaWF0IjoxNzQ1MzUxMzUwLCJqdGkiOiIxZjA5OGZhMmZhMjA0NzVmYWI3ZjQyNzIyNjdlNmQ0OCIsInVzZXJfaWQiOjF9.5cank4jpBp_73-0IO6ZK5TTxcRLzQMGEZegIf6sO2sk", "created_at": "2025-04-22T19:49:10.239Z", "expires_at": "2025-04-23T19:49:10Z"}}, {"model": "token_blacklist.outstandingtoken", "pk": 98, "fields": {"user": 2, "jti": "22cd5c40d97541bfa4ca0321a4dc59f0", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0NTQzODIxNCwiaWF0IjoxNzQ1MzUxODE0LCJqdGkiOiIyMmNkNWM0MGQ5NzU0MWJmYTRjYTAzMjFhNGRjNTlmMCIsInVzZXJfaWQiOjJ9.bSiVcaMoYbTL16W3nx7Fx7XI_Ek20JxKzS7VGOVBfwo", "created_at": "2025-04-22T19:56:54.287Z", "expires_at": "2025-04-23T19:56:54Z"}}, {"model": "token_blacklist.outstandingtoken", "pk": 99, "fields": {"user": 1, "jti": "2ac0e90b886c4be2ace001bd096a1dd6", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0NTQ1NjUzMSwiaWF0IjoxNzQ1MzcwMTMxLCJqdGkiOiIyYWMwZTkwYjg4NmM0YmUyYWNlMDAxYmQwOTZhMWRkNiIsInVzZXJfaWQiOjF9.f42FBg7Sxxc_2W_qEu2rBi6B5JgHbgNjXWol1C9x4GQ", "created_at": "2025-04-23T01:02:11.361Z", "expires_at": "2025-04-24T01:02:11Z"}}, {"model": "token_blacklist.outstandingtoken", "pk": 100, "fields": {"user": 5, "jti": "177182e46e394b29af6ebd0463e2021c", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0NTQ1ODI1OCwiaWF0IjoxNzQ1MzcxODU4LCJqdGkiOiIxNzcxODJlNDZlMzk0YjI5YWY2ZWJkMDQ2M2UyMDIxYyIsInVzZXJfaWQiOjV9.lwrlLosZkoCFe6SpzEe77JoPz0NmmErkYzKXTQBHyL0", "created_at": "2025-04-23T01:30:58.828Z", "expires_at": "2025-04-24T01:30:58Z"}}, {"model": "token_blacklist.outstandingtoken", "pk": 101, "fields": {"user": 5, "jti": "73434eaffc244266b8e132b8ec8d256b", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0NTQ2MjE0NSwiaWF0IjoxNzQ1Mzc1NzQ1LCJqdGkiOiI3MzQzNGVhZmZjMjQ0MjY2YjhlMTMyYjhlYzhkMjU2YiIsInVzZXJfaWQiOjV9.oc0KG4YsE7ClGawOupdv26zxt4a-IwY3sy5l44_VMDE", "created_at": "2025-04-23T02:35:45.554Z", "expires_at": "2025-04-24T02:35:45Z"}}, {"model": "token_blacklist.outstandingtoken", "pk": 102, "fields": {"user": 5, "jti": "b5fe52b0e943414d98fba954adb87ea8", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0NTQ2MzQ0OSwiaWF0IjoxNzQ1Mzc3MDQ5LCJqdGkiOiJiNWZlNTJiMGU5NDM0MTRkOThmYmE5NTRhZGI4N2VhOCIsInVzZXJfaWQiOjV9.FmOrKRdAKkTAXZZ4fCMvaJTXjl_pJzIrobqvdjr00w0", "created_at": "2025-04-23T02:57:29.268Z", "expires_at": "2025-04-24T02:57:29Z"}}, {"model": "token_blacklist.outstandingtoken", "pk": 103, "fields": {"user": 1, "jti": "48d014bfea26493ab724676d9e456296", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0NTQ3ODYwOCwiaWF0IjoxNzQ1MzkyMjA4LCJqdGkiOiI0OGQwMTRiZmVhMjY0OTNhYjcyNDY3NmQ5ZTQ1NjI5NiIsInVzZXJfaWQiOjF9.4RogwEKTi4aDk2NQ-QvMLvQ1-kojMwupchaHsmPD0z4", "created_at": "2025-04-23T07:10:08.793Z", "expires_at": "2025-04-24T07:10:08Z"}}, {"model": "token_blacklist.outstandingtoken", "pk": 104, "fields": {"user": 2, "jti": "b0273550709c43c8b325d8c22a2274a7", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0NTQ3ODYzMiwiaWF0IjoxNzQ1MzkyMjMyLCJqdGkiOiJiMDI3MzU1MDcwOWM0M2M4YjMyNWQ4YzIyYTIyNzRhNyIsInVzZXJfaWQiOjJ9.dLu2Ho4p-5xBnWzX7v5o8Dtrtk_4ftshqq4Z0L0er3A", "created_at": "2025-04-23T07:10:32.507Z", "expires_at": "2025-04-24T07:10:32Z"}}, {"model": "token_blacklist.outstandingtoken", "pk": 105, "fields": {"user": 5, "jti": "3a81757981f3411a99eb941e77417049", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0NTQ3ODgyMiwiaWF0IjoxNzQ1MzkyNDIyLCJqdGkiOiIzYTgxNzU3OTgxZjM0MTFhOTllYjk0MWU3NzQxNzA0OSIsInVzZXJfaWQiOjV9.mXfTtfcx2pSrBswDBXFW6SeO9SJZMgPXKXd8X-cBHyE", "created_at": "2025-04-23T07:13:42.980Z", "expires_at": "2025-04-24T07:13:42Z"}}, {"model": "token_blacklist.outstandingtoken", "pk": 106, "fields": {"user": 1, "jti": "d3151552efe14ed584ba05248cf4b7a3", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0NTQ4NDU5NywiaWF0IjoxNzQ1Mzk4MTk3LCJqdGkiOiJkMzE1MTU1MmVmZTE0ZWQ1ODRiYTA1MjQ4Y2Y0YjdhMyIsInVzZXJfaWQiOjF9.cn27UI2W5UClDqXqbVk9HC76xLgiCT8A5hAkD7hm8EA", "created_at": "2025-04-23T08:49:57.272Z", "expires_at": "2025-04-24T08:49:57Z"}}, {"model": "token_blacklist.outstandingtoken", "pk": 107, "fields": {"user": 5, "jti": "239c878f74664227b45259799a00cb07", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0NTUxNjg2MSwiaWF0IjoxNzQ1NDMwNDYxLCJqdGkiOiIyMzljODc4Zjc0NjY0MjI3YjQ1MjU5Nzk5YTAwY2IwNyIsInVzZXJfaWQiOjV9.I0LTXeMLL11R2r81Z_LeFIx5FODcq87OH2BU1w0AuO4", "created_at": "2025-04-23T17:47:41.434Z", "expires_at": "2025-04-24T17:47:41Z"}}, {"model": "token_blacklist.outstandingtoken", "pk": 108, "fields": {"user": 5, "jti": "46eede7bd3a54f3fb9fe330c836221f4", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0NTUyMzY1MCwiaWF0IjoxNzQ1NDM3MjUwLCJqdGkiOiI0NmVlZGU3YmQzYTU0ZjNmYjlmZTMzMGM4MzYyMjFmNCIsInVzZXJfaWQiOjV9.iMqGhx87Gpu0FqmOBCEoLzONbCgzmqmrjuoOkY9UGoM", "created_at": "2025-04-23T19:40:50.378Z", "expires_at": "2025-04-24T19:40:50Z"}}, {"model": "token_blacklist.outstandingtoken", "pk": 109, "fields": {"user": 5, "jti": "60430b6f10584ac8b6ea1948245cf5e9", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0NTUzMjkwMCwiaWF0IjoxNzQ1NDQ2NTAwLCJqdGkiOiI2MDQzMGI2ZjEwNTg0YWM4YjZlYTE5NDgyNDVjZjVlOSIsInVzZXJfaWQiOjV9.Qy_z9M_9No5zZwuNUBO8aRtJIdQ5sFQ6nrlJJ7SxKhw", "created_at": "2025-04-23T22:15:00.791Z", "expires_at": "2025-04-24T22:15:00Z"}}, {"model": "token_blacklist.outstandingtoken", "pk": 110, "fields": {"user": 1, "jti": "55dd89f475764527a05f48889df5eff1", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0NTUzNDMzOCwiaWF0IjoxNzQ1NDQ3OTM4LCJqdGkiOiI1NWRkODlmNDc1NzY0NTI3YTA1ZjQ4ODg5ZGY1ZWZmMSIsInVzZXJfaWQiOjF9.pNQ98OIsSr4vMVXNUIxCXyp9jeRl4xpWw-4JfR2-7A8", "created_at": "2025-04-23T22:38:58.328Z", "expires_at": "2025-04-24T22:38:58Z"}}, {"model": "token_blacklist.outstandingtoken", "pk": 111, "fields": {"user": 1, "jti": "2b7255879a2a427a989bf046e2791d79", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0NTUzNDMzOSwiaWF0IjoxNzQ1NDQ3OTM5LCJqdGkiOiIyYjcyNTU4NzlhMmE0MjdhOTg5YmYwNDZlMjc5MWQ3OSIsInVzZXJfaWQiOjF9.8Me2JPDVnLhCF4wZPgQjxDvvqsx4Nt4MWAOHmnEK3SM", "created_at": "2025-04-23T22:38:59.887Z", "expires_at": "2025-04-24T22:38:59Z"}}, {"model": "token_blacklist.outstandingtoken", "pk": 112, "fields": {"user": 1, "jti": "7392470f8c3448aa81ddd518ff7dc0db", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0NTUzNTE3MSwiaWF0IjoxNzQ1NDQ4NzcxLCJqdGkiOiI3MzkyNDcwZjhjMzQ0OGFhODFkZGQ1MThmZjdkYzBkYiIsInVzZXJfaWQiOjF9.SNpzt7XtlnLG8darKWZJUgGFbrZwSH2Zw_zDXoeGlAY", "created_at": "2025-04-23T22:52:51.352Z", "expires_at": "2025-04-24T22:52:51Z"}}, {"model": "token_blacklist.outstandingtoken", "pk": 113, "fields": {"user": 5, "jti": "fdce90102f3d4184b4ae29d58a01801f", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0NTU0MjE4MSwiaWF0IjoxNzQ1NDU1NzgxLCJqdGkiOiJmZGNlOTAxMDJmM2Q0MTg0YjRhZTI5ZDU4YTAxODAxZiIsInVzZXJfaWQiOjV9.LkTRVVQcL7hCCT17E99ZrA5T-osN7DImcvV_5rZdiVE", "created_at": "2025-04-24T00:49:41.587Z", "expires_at": "2025-04-25T00:49:41Z"}}, {"model": "token_blacklist.outstandingtoken", "pk": 114, "fields": {"user": 1, "jti": "3bf828627f8a4a6eb4dd0bf68b12f7df", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0NTU0MzYwMiwiaWF0IjoxNzQ1NDU3MjAyLCJqdGkiOiIzYmY4Mjg2MjdmOGE0YTZlYjRkZDBiZjY4YjEyZjdkZiIsInVzZXJfaWQiOjF9.Pd8ecu7uHfDUFsa9SjTCNg7PjujudQHb53A9aCWKpFc", "created_at": "2025-04-24T01:13:22.682Z", "expires_at": "2025-04-25T01:13:22Z"}}, {"model": "token_blacklist.outstandingtoken", "pk": 115, "fields": {"user": 2, "jti": "eeb72af424ac45679ea3919db45d775f", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0NTU0MzYyMCwiaWF0IjoxNzQ1NDU3MjIwLCJqdGkiOiJlZWI3MmFmNDI0YWM0NTY3OWVhMzkxOWRiNDVkNzc1ZiIsInVzZXJfaWQiOjJ9.XNrIRiGMmYw22XqZkf7QptdK5_22hHzjwHHvV9g7eGQ", "created_at": "2025-04-24T01:13:40.489Z", "expires_at": "2025-04-25T01:13:40Z"}}, {"model": "token_blacklist.outstandingtoken", "pk": 116, "fields": {"user": 1, "jti": "2b7da0beacb546078f302c929f905f75", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0NTU0NjAzMSwiaWF0IjoxNzQ1NDU5NjMxLCJqdGkiOiIyYjdkYTBiZWFjYjU0NjA3OGYzMDJjOTI5ZjkwNWY3NSIsInVzZXJfaWQiOjF9.PdBPbZp6HFo4aDhTBcPrX7wRUnS-UdE6NI9e7yQuWPw", "created_at": "2025-04-24T01:53:51.689Z", "expires_at": "2025-04-25T01:53:51Z"}}, {"model": "token_blacklist.outstandingtoken", "pk": 117, "fields": {"user": 1, "jti": "7421f41be7694ba7bc88916734cf5039", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0NTU0NzI1MiwiaWF0IjoxNzQ1NDYwODUyLCJqdGkiOiI3NDIxZjQxYmU3Njk0YmE3YmM4ODkxNjczNGNmNTAzOSIsInVzZXJfaWQiOjF9.N5y3MFpFmqoCCJ0DlZjqFPsiLunZc77j8z24TN4PNS0", "created_at": "2025-04-24T02:14:12.761Z", "expires_at": "2025-04-25T02:14:12Z"}}, {"model": "token_blacklist.outstandingtoken", "pk": 118, "fields": {"user": 5, "jti": "29161e9318c64cf18190a97d953921c5", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0NTU0NzM0MCwiaWF0IjoxNzQ1NDYwOTQwLCJqdGkiOiIyOTE2MWU5MzE4YzY0Y2YxODE5MGE5N2Q5NTM5MjFjNSIsInVzZXJfaWQiOjV9.-4W9qtCfuGxfrm4dWGOugHtXrDy3wDJ8cs1Izt7oWCg", "created_at": "2025-04-24T02:15:40.195Z", "expires_at": "2025-04-25T02:15:40Z"}}, {"model": "token_blacklist.outstandingtoken", "pk": 119, "fields": {"user": 1, "jti": "5838b579be8f4f4d8a6d925203eb6544", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0NTU1OTkwMCwiaWF0IjoxNzQ1NDczNTAwLCJqdGkiOiI1ODM4YjU3OWJlOGY0ZjRkOGE2ZDkyNTIwM2ViNjU0NCIsInVzZXJfaWQiOjF9.54hFHf64IwepEWCqjopQs0YYghixpedfyo-VBZv-PDY", "created_at": "2025-04-24T05:45:00.830Z", "expires_at": "2025-04-25T05:45:00Z"}}, {"model": "token_blacklist.outstandingtoken", "pk": 120, "fields": {"user": 5, "jti": "25015258d39449f993c02ddba243d121", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0NTU1OTk1MSwiaWF0IjoxNzQ1NDczNTUxLCJqdGkiOiIyNTAxNTI1OGQzOTQ0OWY5OTNjMDJkZGJhMjQzZDEyMSIsInVzZXJfaWQiOjV9.Kyfvz6jbCI_lcpg3Yw_J4k5UmjCknWmSx15OEl7t_3o", "created_at": "2025-04-24T05:45:51.872Z", "expires_at": "2025-04-25T05:45:51Z"}}, {"model": "token_blacklist.outstandingtoken", "pk": 121, "fields": {"user": 1, "jti": "fe5944a75307413b9a85d8f62dcd65a2", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0NTU2MTgyMywiaWF0IjoxNzQ1NDc1NDIzLCJqdGkiOiJmZTU5NDRhNzUzMDc0MTNiOWE4NWQ4ZjYyZGNkNjVhMiIsInVzZXJfaWQiOjF9.qXH7-HHP96FG_914t9ajdOb0X2KSbfFq-ZONdDy8Q8o", "created_at": "2025-04-24T06:17:03.848Z", "expires_at": "2025-04-25T06:17:03Z"}}, {"model": "token_blacklist.outstandingtoken", "pk": 122, "fields": {"user": 1, "jti": "80e3a99ddf03448cb81aeba028d05716", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0NTU2MTgyNSwiaWF0IjoxNzQ1NDc1NDI1LCJqdGkiOiI4MGUzYTk5ZGRmMDM0NDhjYjgxYWViYTAyOGQwNTcxNiIsInVzZXJfaWQiOjF9._wF5lCNyxGkIg6O4_fOW5clhB9u9oWahZL2m8iGgtFo", "created_at": "2025-04-24T06:17:05.142Z", "expires_at": "2025-04-25T06:17:05Z"}}, {"model": "token_blacklist.outstandingtoken", "pk": 123, "fields": {"user": 5, "jti": "cd35fe42bafb4f39b8227e7d6bab087f", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0NTYwMDc0MywiaWF0IjoxNzQ1NTE0MzQzLCJqdGkiOiJjZDM1ZmU0MmJhZmI0ZjM5YjgyMjdlN2Q2YmFiMDg3ZiIsInVzZXJfaWQiOjV9.1P8fUyFBlvHjMxGHuQxRfzHTAJkJlk_00BhGYsMkE4U", "created_at": "2025-04-24T17:05:43.496Z", "expires_at": "2025-04-25T17:05:43Z"}}, {"model": "token_blacklist.outstandingtoken", "pk": 124, "fields": {"user": 1, "jti": "aacfe4f218e0444ab27acaa407ab2270", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0NTYwMTQyNywiaWF0IjoxNzQ1NTE1MDI3LCJqdGkiOiJhYWNmZTRmMjE4ZTA0NDRhYjI3YWNhYTQwN2FiMjI3MCIsInVzZXJfaWQiOjF9.ww0b_jD1LOG1E2c0THglXf_9iROlNo5_NSXDYKdnyeQ", "created_at": "2025-04-24T17:17:07.007Z", "expires_at": "2025-04-25T17:17:07Z"}}, {"model": "token_blacklist.outstandingtoken", "pk": 125, "fields": {"user": 5, "jti": "857750127f3e44a78fad2c3b1180f3d5", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0NTYwODQ2MywiaWF0IjoxNzQ1NTIyMDYzLCJqdGkiOiI4NTc3NTAxMjdmM2U0NGE3OGZhZDJjM2IxMTgwZjNkNSIsInVzZXJfaWQiOjV9.yxGCBHsQigOyc5OXzdaLTwqjXXJHTSU6-CgtWTtbOk8", "created_at": "2025-04-24T19:14:23.894Z", "expires_at": "2025-04-25T19:14:23Z"}}, {"model": "token_blacklist.outstandingtoken", "pk": 126, "fields": {"user": 5, "jti": "b6894e8c4cbd43848cb34771189c1ca4", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0NTYxNjk2MSwiaWF0IjoxNzQ1NTMwNTYxLCJqdGkiOiJiNjg5NGU4YzRjYmQ0Mzg0OGNiMzQ3NzExODljMWNhNCIsInVzZXJfaWQiOjV9.FslK9C2I6mMGN3Pw75UhSoGrBPacaDAOW3GW7M8Pack", "created_at": "2025-04-24T21:36:01.464Z", "expires_at": "2025-04-25T21:36:01Z"}}, {"model": "token_blacklist.outstandingtoken", "pk": 127, "fields": {"user": 1, "jti": "df6e77a6701f40c6943ba51ff8ff49ae", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0NTYzMjYyNSwiaWF0IjoxNzQ1NTQ2MjI1LCJqdGkiOiJkZjZlNzdhNjcwMWY0MGM2OTQzYmE1MWZmOGZmNDlhZSIsInVzZXJfaWQiOjF9.6aPH-Z4fF0cnOlUC9TRJxYeOjFJ9KKSqITnT3-ODsXg", "created_at": "2025-04-25T01:57:05.768Z", "expires_at": "2025-04-26T01:57:05Z"}}, {"model": "token_blacklist.outstandingtoken", "pk": 128, "fields": {"user": 5, "jti": "017647ee8f2f43ff822c6c064275fba0", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0NTYzMzkxMiwiaWF0IjoxNzQ1NTQ3NTEyLCJqdGkiOiIwMTc2NDdlZThmMmY0M2ZmODIyYzZjMDY0Mjc1ZmJhMCIsInVzZXJfaWQiOjV9.0F255O5dEeHEtcmztD6pN5t80HhtjGLXSfG0iGEvcPs", "created_at": "2025-04-25T02:18:32.271Z", "expires_at": "2025-04-26T02:18:32Z"}}, {"model": "token_blacklist.outstandingtoken", "pk": 129, "fields": {"user": 5, "jti": "344f1ac222a74c9ca8b246685b8a65c5", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0NTYzNDU3MCwiaWF0IjoxNzQ1NTQ4MTcwLCJqdGkiOiIzNDRmMWFjMjIyYTc0YzljYThiMjQ2Njg1YjhhNjVjNSIsInVzZXJfaWQiOjV9.iU33jLBNFadNMCy-rPsa0nUrSpqEfsm0GBBK9SvS9Y0", "created_at": "2025-04-25T02:29:30.085Z", "expires_at": "2025-04-26T02:29:30Z"}}, {"model": "accounts.user", "pk": 1, "fields": {"password": "pbkdf2_sha256$870000$KKiMwrRiMKYHJkP7LnVlSa$yFM53gHHxyH9P13JhYYW8ZEVf4e5c+ZQAOZ2WyiTtz8=", "last_login": "2025-04-25T01:57:05.794Z", "is_superuser": true, "username": "admin", "first_name": "Admin", "last_name": "Doe", "email": "admin@local.com", "is_staff": true, "is_active": true, "date_joined": "2025-04-06T02:22:21.558Z", "photo": "users/Screenshot_20250416-011202.jpg", "gender": "", "phone": 0, "age": 0, "groups": [], "user_permissions": []}}, {"model": "accounts.user", "pk": 2, "fields": {"password": "pbkdf2_sha256$870000$cmuLrJwmA0dbhZtnGmAdEn$uALuOSyvUQOarItbAyb0XwibG6gfymKjRQfrRWxX8hw=", "last_login": "2025-04-24T01:13:40.514Z", "is_superuser": false, "username": "DenisL", "first_name": "Denis Jos", "last_name": "López", "email": "", "is_staff": false, "is_active": true, "date_joined": "2025-04-06T02:25:12.052Z", "photo": "users/9243bd92-78c0-459a-afc9-9f091a0020bdCover-hlg.png", "gender": "male", "phone": 87183193, "age": 30, "groups": [], "user_permissions": []}}, {"model": "accounts.user", "pk": 3, "fields": {"password": "pbkdf2_sha256$870000$Vf0XpkOnfpGV1naEeMNLAW$3GHm3s/Cro9CzHrriKOYumIuEfKMM46XV977rLhwI8c=", "last_login": "2025-04-06T17:31:55.185Z", "is_superuser": false, "username": "Angelo7", "first_name": "Angelo", "last_name": "Delgado", "email": "", "is_staff": false, "is_active": true, "date_joined": "2025-04-06T02:46:30.420Z", "photo": "users/RETO_CHAMPIONS-Cover.jpg", "gender": "male", "phone": 81048636, "age": 20, "groups": [], "user_permissions": []}}, {"model": "accounts.user", "pk": 4, "fields": {"password": "pbkdf2_sha256$870000$QIOfzWKk7P4CupBa6wRVEG$6kBOraPmpZ6KVXUtNPl7Tz1BQlpU58RjQUhb35UygLo=", "last_login": null, "is_superuser": false, "username": "demo", "first_name": "demo", "last_name": "martinez", "email": "", "is_staff": false, "is_active": true, "date_joined": "2025-04-09T04:15:47.368Z", "photo": "default.jpg", "gender": "male", "phone": 0, "age": 0, "groups": [], "user_permissions": []}}, {"model": "accounts.user", "pk": 5, "fields": {"password": "pbkdf2_sha256$870000$TdDoEV2UC6b62p9tFtZBOd$zVHA37Jgst2QL9JB37rQtqDYZTcAGM5TtJ5FoSkGzaw=", "last_login": "2025-04-25T02:29:30.109Z", "is_superuser": false, "username": "StevenB", "first_name": "Steven", "last_name": "Bermudez", "email": "", "is_staff": false, "is_active": true, "date_joined": "2025-04-09T04:17:47.528Z", "photo": "users/Captura_de_pantalla_2025-04-08_a_las_22.07.32.png", "gender": "male", "phone": 82714401, "age": 22, "groups": [], "user_permissions": []}}, {"model": "accounts.user", "pk": 6, "fields": {"password": "pbkdf2_sha256$870000$Nv9wuMMQccdzarRQCxXKLN$kgfq7/PvvYCdhAY/3dPyWW+Ud2lralqEsiZCYHLMITQ=", "last_login": null, "is_superuser": false, "username": "GabrielaC", "first_name": "Gabriela", "last_name": "Cortéz", "email": "", "is_staff": false, "is_active": true, "date_joined": "2025-04-23T22:50:44.172Z", "photo": "default.jpg", "gender": "female", "phone": 77230481, "age": 31, "groups": [], "user_permissions": []}}, {"model": "accounts.fcmtoken", "pk": 5, "fields": {"user": 1, "token": "ebXgslRkIMiYVdSIazFKJE:APA91bHeBX30RBYDkr4hq33c5BAv0glAIEr56NSmbSy52z4BA4UIiwtMASoux0G82hcjuF2saOLSQLpax78xLRRAZTIcMSONsYk_CuN8913SrE3tnBb5h3k", "device": "Chrome", "is_active": true, "created": "2025-04-16T07:12:35.447Z", "modified": "2025-04-16T07:12:35.447Z"}}, {"model": "catalogs.catalog", "pk": 1, "fields": {"name": "Banca Plana", "key": "equipment", "created": "2025-04-06T02:28:24.627Z", "modified": "2025-04-09T04:45:51.790Z"}}, {"model": "catalogs.catalog", "pk": 2, "fields": {"name": "Banca Declinada", "key": "equipment", "created": "2025-04-06T02:28:35.798Z", "modified": "2025-04-24T18:29:11.043Z"}}, {"model": "catalogs.catalog", "pk": 3, "fields": {"name": "Pecho", "key": "muscle", "created": "2025-04-06T02:28:54.824Z", "modified": "2025-04-09T04:25:17.992Z"}}, {"model": "catalogs.catalog", "pk": 4, "fields": {"name": "Banca inclinada", "key": "equipment", "created": "2025-04-06T02:29:13.651Z", "modified": "2025-04-23T02:29:21.968Z"}}, {"model": "catalogs.catalog", "pk": 5, "fields": {"name": "Press en Máquina Hammer", "key": "equipment", "created": "2025-04-09T04:29:43.810Z", "modified": "2025-04-09T05:05:08.432Z"}}, {"model": "catalogs.catalog", "pk": 6, "fields": {"name": "Banco inclinado", "key": "equipment", "created": "2025-04-09T04:30:01.181Z", "modified": "2025-04-09T04:37:36.708Z"}}, {"model": "catalogs.catalog", "pk": 7, "fields": {"name": "Paralelas o trono (con peso si puede)", "key": "equipment", "created": "2025-04-09T04:30:17.487Z", "modified": "2025-04-09T04:37:52.595Z"}}, {"model": "catalogs.catalog", "pk": 8, "fields": {"name": "Extensión con cuerda", "key": "equipment", "created": "2025-04-09T04:30:49.570Z", "modified": "2025-04-09T04:38:12.044Z"}}, {"model": "catalogs.catalog", "pk": 9, "fields": {"name": "Mancuerna o cuerda", "key": "equipment", "created": "2025-04-09T04:31:11.952Z", "modified": "2025-04-09T04:38:25.715Z"}}, {"model": "catalogs.catalog", "pk": 10, "fields": {"name": "Banca declinada", "key": "equipment", "created": "2025-04-09T04:31:52.497Z", "modified": "2025-04-09T04:38:32.263Z"}}, {"model": "catalogs.catalog", "pk": 11, "fields": {"name": "Triceps", "key": "muscle", "created": "2025-04-09T05:12:25.271Z", "modified": "2025-04-09T05:12:25.271Z"}}, {"model": "catalogs.catalog", "pk": 12, "fields": {"name": "Abdomen", "key": "muscle", "created": "2025-04-09T05:18:32.418Z", "modified": "2025-04-09T05:18:32.418Z"}}, {"model": "catalogs.catalog", "pk": 13, "fields": {"name": "Dominadas con Lastre", "key": "equipment", "created": "2025-04-11T01:30:11.927Z", "modified": "2025-04-11T01:30:11.927Z"}}, {"model": "catalogs.catalog", "pk": 14, "fields": {"name": "Remo Barra T", "key": "equipment", "created": "2025-04-11T01:30:37.728Z", "modified": "2025-04-11T01:30:37.728Z"}}, {"model": "catalogs.catalog", "pk": 15, "fields": {"name": "Mancuerna", "key": "equipment", "created": "2025-04-11T01:32:09.762Z", "modified": "2025-04-11T01:32:53.610Z"}}, {"model": "catalogs.catalog", "pk": 16, "fields": {"name": "Espalda", "key": "muscle", "created": "2025-04-11T01:33:02.404Z", "modified": "2025-04-11T01:33:02.404Z"}}, {"model": "catalogs.catalog", "pk": 17, "fields": {"name": "Bíceps", "key": "muscle", "created": "2025-04-11T01:33:15.650Z", "modified": "2025-04-11T01:33:15.650Z"}}, {"model": "catalogs.catalog", "pk": 18, "fields": {"name": "Polea alta", "key": "equipment", "created": "2025-04-11T01:33:38.530Z", "modified": "2025-04-11T01:33:38.530Z"}}, {"model": "catalogs.catalog", "pk": 19, "fields": {"name": "Cuerda", "key": "equipment", "created": "2025-04-11T01:34:05.775Z", "modified": "2025-04-23T02:29:25.070Z"}}, {"model": "catalogs.catalog", "pk": 20, "fields": {"name": "Barra Z", "key": "equipment", "created": "2025-04-11T01:34:22.135Z", "modified": "2025-04-11T01:34:22.135Z"}}, {"model": "catalogs.catalog", "pk": 21, "fields": {"name": "Cuerda", "key": "equipment", "created": "2025-04-11T01:54:55.878Z", "modified": "2025-04-11T01:54:55.878Z"}}, {"model": "catalogs.catalog", "pk": 22, "fields": {"name": "Barra Libre", "key": "equipment", "created": "2025-04-22T01:07:45.896Z", "modified": "2025-04-22T01:07:45.896Z"}}, {"model": "catalogs.catalog", "pk": 23, "fields": {"name": "Piernas", "key": "muscle", "created": "2025-04-22T01:07:58.982Z", "modified": "2025-04-22T01:07:58.982Z"}}, {"model": "catalogs.catalog", "pk": 24, "fields": {"name": "Leg Press 45°", "key": "equipment", "created": "2025-04-22T01:09:24.411Z", "modified": "2025-04-22T01:09:24.411Z"}}, {"model": "catalogs.catalog", "pk": 25, "fields": {"name": "Barra Olímpica", "key": "equipment", "created": "2025-04-22T01:12:48.668Z", "modified": "2025-04-22T01:12:48.668Z"}}, {"model": "catalogs.catalog", "pk": 26, "fields": {"name": "Extensiones de Pierna", "key": "equipment", "created": "2025-04-22T01:14:38.980Z", "modified": "2025-04-22T01:51:48.460Z"}}, {"model": "catalogs.catalog", "pk": 27, "fields": {"name": "Curl Femoral Tumbado", "key": "equipment", "created": "2025-04-22T01:15:03.478Z", "modified": "2025-04-22T01:15:03.478Z"}}, {"model": "catalogs.catalog", "pk": 28, "fields": {"name": "Máquina Smith", "key": "equipment", "created": "2025-04-22T01:17:14.505Z", "modified": "2025-04-22T01:17:14.506Z"}}, {"model": "catalogs.catalog", "pk": 29, "fields": {"name": "Crossover", "key": "equipment", "created": "2025-04-22T01:17:40.362Z", "modified": "2025-04-22T01:17:40.362Z"}}, {"model": "catalogs.catalog", "pk": 30, "fields": {"name": "Pantorrillas", "key": "muscle", "created": "2025-04-22T01:18:19.155Z", "modified": "2025-04-22T01:18:19.155Z"}}, {"model": "catalogs.catalog", "pk": 31, "fields": {"name": "Femoral", "key": "muscle", "created": "2025-04-22T01:29:22.718Z", "modified": "2025-04-22T01:29:22.718Z"}}, {"model": "catalogs.catalog", "pk": 32, "fields": {"name": "Extensión de piernas", "key": "equipment", "created": "2025-04-22T01:53:07.410Z", "modified": "2025-04-23T02:29:32.137Z"}}, {"model": "catalogs.catalog", "pk": 33, "fields": {"name": "Hombro", "key": "muscle", "created": "2025-04-24T16:56:52.356Z", "modified": "2025-04-24T16:57:00.317Z"}}, {"model": "catalogs.catalog", "pk": 34, "fields": {"name": "Trapecio", "key": "muscle", "created": "2025-04-24T16:57:15.213Z", "modified": "2025-04-24T16:58:04.179Z"}}, {"model": "catalogs.catalog", "pk": 35, "fields": {"name": "Maquina de hombro", "key": "equipment", "created": "2025-04-24T17:38:52.421Z", "modified": "2025-04-24T17:38:52.421Z"}}, {"model": "catalogs.catalog", "pk": 36, "fields": {"name": "Tapete de Yoga", "key": "equipment", "created": "2025-04-24T18:01:39.571Z", "modified": "2025-04-24T18:01:42.371Z"}}, {"model": "catalogs.catalog", "pk": 37, "fields": {"name": "Disco", "key": "equipment", "created": "2025-04-24T18:01:49.536Z", "modified": "2025-04-24T18:01:51.922Z"}}, {"model": "exercises.exercise", "pk": 1, "fields": {"name": "Press en Banca con Barra", "description": "<p>Calentar&nbsp;antes&nbsp;haciendo&nbsp;algunas&nbsp;pechada&nbsp;y&nbsp;estiramiento</p>", "image": "exercises/5d52bcd60a280ee85725fcfa2924b803.gif", "equipment": 1, "muscle": 3, "secondary_muscle": [], "user": 1, "created": "2025-04-06T02:31:07.505Z", "modified": "2025-04-09T04:46:04.765Z"}}, {"model": "exercises.exercise", "pk": 2, "fields": {"name": "Press inclinado con mancuerna", "description": "", "image": "exercises/5e53d49daddb624dbded8f7e2c210b99.gif", "equipment": 6, "muscle": 3, "secondary_muscle": [], "user": 1, "created": "2025-04-09T04:45:26.309Z", "modified": "2025-04-09T04:45:26.309Z"}}, {"model": "exercises.exercise", "pk": 3, "fields": {"name": "Press en Máquina Hammer", "description": "", "image": "exercises/411-272-plate-loaded-isolateral-inclincepressvertical-0059.png", "equipment": 5, "muscle": 3, "secondary_muscle": [], "user": 1, "created": "2025-04-09T04:51:17.876Z", "modified": "2025-04-09T05:05:21.970Z"}}, {"model": "exercises.exercise", "pk": 4, "fields": {"name": "Aperturas en banco inclinado", "description": "", "image": "exercises/.gif", "equipment": 6, "muscle": 3, "secondary_muscle": [], "user": 1, "created": "2025-04-09T05:07:49.467Z", "modified": "2025-04-09T05:07:49.467Z"}}, {"model": "exercises.exercise", "pk": 5, "fields": {"name": "Fondos en paralelas", "description": "<p>Hacerlo&nbsp;con&nbsp;peso&nbsp;es&nbsp;mejor</p>", "image": "exercises/.jpg", "equipment": 7, "muscle": 3, "secondary_muscle": [], "user": 1, "created": "2025-04-09T05:10:04.144Z", "modified": "2025-04-09T05:10:04.144Z"}}, {"model": "exercises.exercise", "pk": 6, "fields": {"name": "Extensión de tríceps en polea alta", "description": "", "image": "exercises/-2.jpg", "equipment": 8, "muscle": 11, "secondary_muscle": [], "user": 1, "created": "2025-04-09T05:12:11.336Z", "modified": "2025-04-09T05:12:50.123Z"}}, {"model": "exercises.exercise", "pk": 7, "fields": {"name": "Copa con mancuerna", "description": "", "image": "exercises/Les_4_Meilleurs_Exercices_Triceps_aux_Haltères_-_Boxlife.gif", "equipment": 9, "muscle": 11, "secondary_muscle": [], "user": 1, "created": "2025-04-09T05:13:53.262Z", "modified": "2025-04-09T05:15:41.287Z"}}, {"model": "exercises.exercise", "pk": 8, "fields": {"name": "Abdominales en banca declinada", "description": "", "image": "exercises/Twisting_Bench_Sit-Up.jpg", "equipment": 10, "muscle": 12, "secondary_muscle": [], "user": 1, "created": "2025-04-09T05:18:14.342Z", "modified": "2025-04-09T05:19:48.287Z"}}, {"model": "exercises.exercise", "pk": 9, "fields": {"name": "Dominadas", "description": "<p>Usar&nbsp;Cinturon&nbsp;con&nbsp;peso.&nbsp;Inicialmente&nbsp;puede&nbsp;ser&nbsp;5&nbsp;libras&nbsp;y&nbsp;luego&nbsp;cada&nbsp;semana&nbsp;vas&nbsp;subiendo.</p>", "image": "exercises/Pull_-_Up.jpg", "equipment": 13, "muscle": 16, "secondary_muscle": [], "user": 1, "created": "2025-04-11T01:38:43.792Z", "modified": "2025-04-11T01:38:43.792Z"}}, {"model": "exercises.exercise", "pk": 10, "fields": {"name": "Remo con barra T", "description": "<p>Usemos&nbsp;el&nbsp;Remo&nbsp;T&nbsp;con&nbsp;apoyo</p>", "image": "exercises/Latissimus_trainieren__Top_9_Übungen_inkl__Bilder__Videos-2.gif", "equipment": 14, "muscle": 16, "secondary_muscle": [], "user": 1, "created": "2025-04-11T01:41:50.469Z", "modified": "2025-04-11T01:41:50.470Z"}}, {"model": "exercises.exercise", "pk": 11, "fields": {"name": "Remo con mancuerna", "description": "<p>Usar&nbsp;peso&nbsp;pesado&nbsp;sin&nbsp;perder&nbsp;la&nbsp;técnica</p>", "image": "exercises/-3.gif", "equipment": 15, "muscle": 16, "secondary_muscle": [], "user": 1, "created": "2025-04-11T01:43:40.813Z", "modified": "2025-04-11T01:43:40.813Z"}}, {"model": "exercises.exercise", "pk": 12, "fields": {"name": "Remo con mancuerna", "description": "<p>Usar&nbsp;peso&nbsp;pesado&nbsp;sin&nbsp;perder&nbsp;la&nbsp;técnica</p>", "image": "exercises/-3_k59KYj8.gif", "equipment": 15, "muscle": 16, "secondary_muscle": [], "user": 1, "created": "2025-04-11T01:43:42.567Z", "modified": "2025-04-11T01:43:42.567Z"}}, {"model": "exercises.exercise", "pk": 13, "fields": {"name": "Jalón al pecho en polea", "description": "<p>Agarre&nbsp;ancho</p>", "image": "exercises/-3.jpg", "equipment": 18, "muscle": 16, "secondary_muscle": [], "user": 1, "created": "2025-04-11T01:54:12.697Z", "modified": "2025-04-11T01:54:12.697Z"}}, {"model": "exercises.exercise", "pk": 14, "fields": {"name": "Face pulls", "description": "<p></p>", "image": "exercises/How_To_Do_Cross_Cable_Face_Pull__Muscles_Worked_And_Benefits.gif", "equipment": 21, "muscle": 16, "secondary_muscle": [], "user": 1, "created": "2025-04-11T01:55:47.726Z", "modified": "2025-04-11T01:55:47.726Z"}}, {"model": "exercises.exercise", "pk": 15, "fields": {"name": "Curl barra Z", "description": "<p>Usar&nbsp;Barra&nbsp;Z&nbsp;y&nbsp;hacerlo&nbsp;de&nbsp;pies</p>", "image": "exercises/-4.gif", "equipment": 20, "muscle": 17, "secondary_muscle": [], "user": 1, "created": "2025-04-11T01:57:32.857Z", "modified": "2025-04-11T01:57:32.857Z"}}, {"model": "exercises.exercise", "pk": 16, "fields": {"name": "Curl barra Z", "description": "<p>Usar&nbsp;Barra&nbsp;Z&nbsp;y&nbsp;hacerlo&nbsp;de&nbsp;pies</p>", "image": "exercises/-4_CVYhIYe.gif", "equipment": 20, "muscle": 17, "secondary_muscle": [], "user": 1, "created": "2025-04-11T01:57:34.726Z", "modified": "2025-04-11T01:57:34.726Z"}}, {"model": "exercises.exercise", "pk": 17, "fields": {"name": "Curl martillo con mancuerna", "description": "<p>Alternado</p>", "image": "exercises/Hammercurls__Ausführung_Fehler__Tipps_zur_Bizepsübung.gif", "equipment": 15, "muscle": 17, "secondary_muscle": [], "user": 1, "created": "2025-04-11T01:58:08.956Z", "modified": "2025-04-11T01:58:08.956Z"}}, {"model": "exercises.exercise", "pk": 18, "fields": {"name": "Curl concentrado", "description": "", "image": "exercises/Ganzkörpertraining_mit_Kurzhanteln__die_7_besten_Übungen.gif", "equipment": 15, "muscle": 17, "secondary_muscle": [], "user": 1, "created": "2025-04-11T01:58:46.545Z", "modified": "2025-04-11T01:58:46.545Z"}}, {"model": "exercises.exercise", "pk": 19, "fields": {"name": "Sentadilla en barra libre", "description": "<p>Pesado&nbsp;y&nbsp;al&nbsp;fallo&nbsp;😎</p>", "image": "exercises/Los_9_Mejores_Ejercicios_para_Glúteos.gif", "equipment": 22, "muscle": 23, "secondary_muscle": [], "user": 1, "created": "2025-04-22T01:24:04.974Z", "modified": "2025-04-22T01:47:55.318Z"}}, {"model": "exercises.exercise", "pk": 20, "fields": {"name": "Prensa de 45°", "description": "<p>Siempre&nbsp;es&nbsp;bueno&nbsp;hacer&nbsp;la&nbsp;primer&nbsp;serie&nbsp;para&nbsp;calentar&nbsp;y&nbsp;probar&nbsp;el&nbsp;peso&nbsp;que&nbsp;usaras.</p>", "image": "exercises/Unknown.gif", "equipment": 24, "muscle": 23, "secondary_muscle": [], "user": 1, "created": "2025-04-22T01:28:10.930Z", "modified": "2025-04-22T01:28:10.930Z"}}, {"model": "exercises.exercise", "pk": 21, "fields": {"name": "Peso Muerto Rumano", "description": "<p><span style=\"color: rgb(0, 0, 0);\">Cudiar&nbsp;la&nbsp;técnica&nbsp;para&nbsp;evitar&nbsp;curvar&nbsp;la&nbsp;espalda.</span></p><p></p><p><strong style=\"color: var(--m3c11);\">Pasos:</strong></p><p><strong style=\"color: var(--m3c11);\">1.&nbsp;Posición&nbsp;inicial:</strong></p><p><span style=\"color: var(--m3c10);\">Coloca&nbsp;los&nbsp;pies&nbsp;a&nbsp;la&nbsp;anchura&nbsp;de&nbsp;las&nbsp;caderas,&nbsp;con&nbsp;la&nbsp;barra&nbsp;sujetas&nbsp;con&nbsp;las&nbsp;manos&nbsp;un&nbsp;poco&nbsp;más&nbsp;anchas&nbsp;que&nbsp;los&nbsp;hombros.&nbsp;</span></p><p></p><p><strong style=\"color: var(--m3c11);\">2.&nbsp;Ligera&nbsp;flexión&nbsp;de&nbsp;rodillas:</strong></p><p><span style=\"color: var(--m3c10);\">Mantén&nbsp;una&nbsp;ligera&nbsp;flexión&nbsp;de&nbsp;las&nbsp;rodillas&nbsp;(15-20&nbsp;grados)&nbsp;para&nbsp;proteger&nbsp;la&nbsp;columna.&nbsp;</span></p><p></p><p><strong style=\"color: var(--m3c11);\">3.&nbsp;Empuje&nbsp;de&nbsp;cadera&nbsp;hacia&nbsp;atrás:</strong></p><p><span style=\"color: var(--m3c10);\">Empuja&nbsp;las&nbsp;caderas&nbsp;hacia&nbsp;atrás,&nbsp;como&nbsp;si&nbsp;quisieras&nbsp;sentarte,&nbsp;manteniendo&nbsp;la&nbsp;espalda&nbsp;recta&nbsp;y&nbsp;el&nbsp;abdomen&nbsp;contraído.&nbsp;</span></p><p></p><p><strong style=\"color: var(--m3c11);\">4.&nbsp;Bajada&nbsp;de&nbsp;la&nbsp;barra:</strong></p><p><span style=\"color: var(--m3c10);\">La&nbsp;barra&nbsp;descienden&nbsp;a&nbsp;lo&nbsp;largo&nbsp;de&nbsp;las&nbsp;piernas,&nbsp;sin&nbsp;flexionar&nbsp;excesivamente&nbsp;las&nbsp;rodillas.&nbsp;</span></p><p></p><p><strong style=\"color: var(--m3c11);\">5.&nbsp;Apertura&nbsp;de&nbsp;cadera:</strong></p><p><span style=\"color: var(--m3c10);\">Una&nbsp;vez&nbsp;que&nbsp;la&nbsp;barra&nbsp;estén&nbsp;a&nbsp;la&nbsp;altura&nbsp;de&nbsp;las&nbsp;rodillas&nbsp;o&nbsp;un&nbsp;poco&nbsp;por&nbsp;debajo,&nbsp;abre&nbsp;la&nbsp;cadera,&nbsp;llevando&nbsp;las&nbsp;caderas&nbsp;hacia&nbsp;delante&nbsp;y&nbsp;volviendo&nbsp;a&nbsp;la&nbsp;posición&nbsp;inicial.&nbsp;</span></p><p></p><p></p><p></p><p></p>", "image": "exercises/.gif_oibmfng", "equipment": 25, "muscle": 31, "secondary_muscle": [], "user": 1, "created": "2025-04-22T01:28:36.151Z", "modified": "2025-04-22T01:35:31.527Z"}}, {"model": "exercises.exercise", "pk": 22, "fields": {"name": "Curl de Femoral", "description": "", "image": "exercises/-2.gif", "equipment": 27, "muscle": 31, "secondary_muscle": [], "user": 1, "created": "2025-04-22T01:37:15.675Z", "modified": "2025-04-22T01:37:15.675Z"}}, {"model": "exercises.exercise", "pk": 23, "fields": {"name": "Elevación de talones", "description": "<p>Hacer&nbsp;el&nbsp;ejercició&nbsp;despacio&nbsp;y&nbsp;con&nbsp;pausa&nbsp;de&nbsp;2&nbsp;segundos&nbsp;al&nbsp;final&nbsp;del&nbsp;recorrido.</p>", "image": "exercises/Wadenheben_stehend__die_beste_Übung_für_massive_Waden.gif", "equipment": 28, "muscle": 30, "secondary_muscle": [], "user": 1, "created": "2025-04-22T01:38:43.403Z", "modified": "2025-04-22T01:38:43.403Z"}}, {"model": "exercises.exercise", "pk": 24, "fields": {"name": "Crunch en Polea", "description": "<p>Sacar&nbsp;el&nbsp;aire&nbsp;al&nbsp;final&nbsp;del&nbsp;recorrido&nbsp;y&nbsp;mantener&nbsp;la&nbsp;técnica.</p>", "image": "exercises/How_To_Do_Cable_Crunch.gif", "equipment": 29, "muscle": 12, "secondary_muscle": [], "user": 1, "created": "2025-04-22T01:41:55.976Z", "modified": "2025-04-22T01:41:55.977Z"}}, {"model": "exercises.exercise", "pk": 25, "fields": {"name": "Extensión de Piernas", "description": "<p><strong>Recomendación:</strong></p><p><strong>La&nbsp;técnica&nbsp;a&nbsp;utilizar&nbsp;es&nbsp;Dropset:&nbsp;</strong></p><p>0&nbsp;descanso&nbsp;entre&nbsp;cada&nbsp;cambio&nbsp;de&nbsp;peso.&nbsp;Peso&nbsp;inicial&nbsp;justo&nbsp;para&nbsp;que&nbsp;saques&nbsp;15,&nbsp;luego&nbsp;le&nbsp;bajas&nbsp;el&nbsp;peso&nbsp;un&nbsp;poco&nbsp;(20%)&nbsp;y&nbsp;haces&nbsp;otras&nbsp;15,&nbsp;luego&nbsp;le&nbsp;bajas&nbsp;el&nbsp;peso&nbsp;nuevamente&nbsp;(30%)&nbsp;y&nbsp;haces&nbsp;15.&nbsp;Descansas&nbsp;2&nbsp;minutos&nbsp;y&nbsp;luego&nbsp;lo&nbsp;vollves&nbsp;a&nbsp;repetir.</p><p>Bajá&nbsp;lentamente&nbsp;manteniendo&nbsp;tensión&nbsp;(no&nbsp;dejes&nbsp;que&nbsp;el&nbsp;peso&nbsp;caiga&nbsp;tan&nbsp;rápido).</p><p>Cuando&nbsp;este&nbsp;arriba&nbsp;sostenelo&nbsp;1&nbsp;segundo.</p>", "image": "exercises/.jpg_Y0SY12Z", "equipment": 26, "muscle": 23, "secondary_muscle": [], "user": 1, "created": "2025-04-22T02:07:01.909Z", "modified": "2025-04-22T02:07:01.909Z"}}, {"model": "exercises.exercise", "pk": 26, "fields": {"name": "Press Militar con Barra", "description": "<h3><span style=\"color: rgb(0, 0, 0);\">⚠️&nbsp;Técnica&nbsp;clave&nbsp;de&nbsp;pies:</span></h3><ul><li><span style=\"color: rgb(0, 0, 0);\">Sin&nbsp;arquear&nbsp;exageradamente&nbsp;la&nbsp;espalda.</span></li><li><span style=\"color: rgb(0, 0, 0);\">Pies&nbsp;al&nbsp;ancho&nbsp;de&nbsp;los&nbsp;hombros.</span></li><li><span style=\"color: rgb(0, 0, 0);\">La&nbsp;barra&nbsp;debe&nbsp;subir&nbsp;</span><strong style=\"color: rgb(0, 0, 0);\">por&nbsp;delante&nbsp;de&nbsp;la&nbsp;cara</strong><span style=\"color: rgb(0, 0, 0);\">,&nbsp;no&nbsp;detrás&nbsp;de&nbsp;la&nbsp;cabeza.</span></li></ul><p></p>", "image": "exercises/00c8c91fb98526bc4c47fafdfdc9be2f.gif", "equipment": 25, "muscle": 33, "secondary_muscle": [], "user": 1, "created": "2025-04-24T17:15:38.022Z", "modified": "2025-04-24T17:15:38.022Z"}}, {"model": "exercises.exercise", "pk": 27, "fields": {"name": "Elevaciones Laterales con Mancuernas", "description": "<h3><span style=\"color: rgb(0, 0, 0);\">🔧&nbsp;Tips&nbsp;técnicos:</span></h3><ul><li><span style=\"color: rgb(0, 0, 0);\">Brazos&nbsp;ligeramente&nbsp;flexionados</span></li><li><span style=\"color: rgb(0, 0, 0);\">No&nbsp;levantar&nbsp;más&nbsp;allá&nbsp;del&nbsp;nivel&nbsp;de&nbsp;los&nbsp;hombros.</span></li><li><span style=\"color: rgb(0, 0, 0);\">Mantener&nbsp;tensión&nbsp;constante,&nbsp;evitar&nbsp;el&nbsp;&quot;balanceo&quot;&nbsp;excesivo.</span></li><li><span style=\"color: rgb(0, 0, 0);\">Si&nbsp;ves&nbsp;que&nbsp;al&nbsp;final&nbsp;de&nbsp;la&nbsp;serie&nbsp;perdes&nbsp;control,&nbsp;se&nbsp;puede&nbsp;usar&nbsp;el&nbsp;impulso&nbsp;moderado&nbsp;en&nbsp;las&nbsp;2&nbsp;últimas&nbsp;repeticiones&nbsp;para&nbsp;aumentar&nbsp;intensidad.</span></li></ul><p></p>", "image": "exercises/7fbfa707a27d67141dba4c94e47bb2ec.gif", "equipment": 15, "muscle": 33, "secondary_muscle": [], "user": 1, "created": "2025-04-24T17:28:09.720Z", "modified": "2025-04-24T17:28:09.720Z"}}, {"model": "exercises.exercise", "pk": 28, "fields": {"name": "Elevaciones Frontales con Barra", "description": "<h3><span style=\"color: rgb(0, 0, 0);\">⚠️&nbsp;Errores&nbsp;a&nbsp;evitar:</span></h3><ul><li><span style=\"color: rgb(0, 0, 0);\">Usar&nbsp;demasiado&nbsp;peso&nbsp;y&nbsp;terminar&nbsp;&quot;tirando&quot;&nbsp;la&nbsp;barra&nbsp;con&nbsp;la&nbsp;espalda&nbsp;baja.</span></li><li><span style=\"color: rgb(0, 0, 0);\">Elevar&nbsp;por&nbsp;encima&nbsp;de&nbsp;los&nbsp;ojos.</span></li><li><span style=\"color: rgb(0, 0, 0);\">Apoyarse&nbsp;en&nbsp;el&nbsp;rebote&nbsp;en&nbsp;lugar&nbsp;de&nbsp;controlar.</span></li></ul><p></p>", "image": "exercises/bdb3e21ac00ad922aae483cab0c0c2dc.gif", "equipment": 25, "muscle": 33, "secondary_muscle": [], "user": 1, "created": "2025-04-24T17:35:18.766Z", "modified": "2025-04-24T17:35:18.766Z"}}, {"model": "exercises.exercise", "pk": 29, "fields": {"name": "Elevacion Posterior con Maquina", "description": "<h3><span style=\"color: rgb(0, 0, 0);\">🏋️&nbsp;Sugerencias:</span></h3><ul><li><span style=\"color: rgb(0, 0, 0);\">Usar&nbsp;la&nbsp;maquina&nbsp;que&nbsp;esta&nbsp;en&nbsp;la&nbsp;planta&nbsp;baja,&nbsp;se&nbsp;parece&nbsp;a&nbsp;la&nbsp;de&nbsp;la&nbsp;imágen.</span></li><li>Usar&nbsp;el&nbsp;agarre&nbsp;prono&nbsp;(palmas&nbsp;hacia&nbsp;abajo).</li><li>Poner&nbsp;el&nbsp;eje&nbsp;de&nbsp;la&nbsp;máquina&nbsp;a&nbsp;la&nbsp;altura&nbsp;de&nbsp;tu&nbsp;cintura</li><li>No&nbsp;hacer&nbsp;trampa&nbsp;ni&nbsp;balanceo</li></ul><p></p>", "image": "exercises/Station-elevation-laterale-murale-Lateral-Shoulder-Raise-Machine-76404098_J1b2Bqu.jpg.webp", "equipment": 35, "muscle": 33, "secondary_muscle": [], "user": 1, "created": "2025-04-24T17:43:42.766Z", "modified": "2025-04-24T17:50:38.678Z"}}, {"model": "exercises.exercise", "pk": 30, "fields": {"name": "Encogimientos de hombro", "description": "<h3><span style=\"color: rgb(0, 0, 0);\">🔧&nbsp;</span><strong style=\"color: rgb(0, 0, 0);\">Tips&nbsp;técnicos&nbsp;clave:</strong></h3><h3><span style=\"color: rgb(0, 0, 0);\">🔹&nbsp;Posición&nbsp;inicial:</span></h3><ul><li><strong style=\"color: rgb(0, 0, 0);\">De&nbsp;pie</strong><span style=\"color: rgb(0, 0, 0);\">,&nbsp;espalda&nbsp;recta,&nbsp;mirada&nbsp;al&nbsp;frente.</span></li><li><span style=\"color: rgb(0, 0, 0);\">Pies&nbsp;al&nbsp;ancho&nbsp;de&nbsp;los&nbsp;hombros.</span></li><li><span style=\"color: rgb(0, 0, 0);\">Agarre&nbsp;neutro&nbsp;(con&nbsp;mancuernas&nbsp;a&nbsp;los&nbsp;lados&nbsp;del&nbsp;cuerpo)</span></li><li><span style=\"color: rgb(0, 0, 0);\">Brazos&nbsp;completamente&nbsp;extendidos,&nbsp;</span><strong style=\"color: rgb(0, 0, 0);\">sin&nbsp;flexionar&nbsp;los&nbsp;codos</strong><span style=\"color: rgb(0, 0, 0);\">.</span></li><li>Detenerse&nbsp;1&nbsp;segundo&nbsp;al&nbsp;estar&nbsp;arriba&nbsp;y&nbsp;contrae&nbsp;los&nbsp;trapecio&nbsp;fuerte.</li></ul><p></p>", "image": "exercises/3375a97d4df29cf74794b71e3439a1fc.gif", "equipment": 15, "muscle": 34, "secondary_muscle": [], "user": 1, "created": "2025-04-24T17:54:40.459Z", "modified": "2025-04-24T17:54:40.459Z"}}, {"model": "exercises.exercise", "pk": 31, "fields": {"name": "Plancha Abdominal", "description": "<h3><span style=\"color: rgb(0, 0, 0);\">🔧&nbsp;</span><strong style=\"color: rgb(0, 0, 0);\">Técnica&nbsp;correcta&nbsp;paso&nbsp;a&nbsp;paso:</strong></h3><ol><li><strong style=\"color: rgb(0, 0, 0);\">Posición&nbsp;inicial:</strong><ul><li><span style=\"color: rgb(0, 0, 0);\">Antebrazos&nbsp;apoyados&nbsp;en&nbsp;el&nbsp;suelo,&nbsp;</span><strong style=\"color: rgb(0, 0, 0);\">codos&nbsp;justo&nbsp;debajo&nbsp;de&nbsp;los&nbsp;hombros</strong><span style=\"color: rgb(0, 0, 0);\">.</span></li><li><span style=\"color: rgb(0, 0, 0);\">Piernas&nbsp;extendidas,&nbsp;puntas&nbsp;de&nbsp;los&nbsp;pies&nbsp;apoyadas.</span></li><li><span style=\"color: rgb(0, 0, 0);\">Cuerpo&nbsp;formando&nbsp;una&nbsp;</span><strong style=\"color: rgb(0, 0, 0);\">línea&nbsp;recta&nbsp;desde&nbsp;la&nbsp;cabeza&nbsp;hasta&nbsp;los&nbsp;talones</strong></li><li>No&nbsp;contengas&nbsp;la&nbsp;respiración</li></ul></li></ol><p></p>", "image": "exercises/65bad0c0b29846b7ff4d82c312dd4471.gif", "equipment": 36, "muscle": 12, "secondary_muscle": [], "user": 1, "created": "2025-04-24T18:06:01.075Z", "modified": "2025-04-24T18:06:01.075Z"}}, {"model": "exercises.exercise", "pk": 32, "fields": {"name": "Crunch en Banco Declinado", "description": "<h3><span style=\"color: rgb(0, 0, 0);\">🧠&nbsp;Tips&nbsp;adicionales:</span></h3><ul><li>Podes&nbsp;utilizar&nbsp;la&nbsp;banca&nbsp;negra&nbsp;o&nbsp;la&nbsp;banca&nbsp;azul</li><li>Podes&nbsp;utilizar&nbsp;un&nbsp;disco&nbsp;con&nbsp;un&nbsp;peso&nbsp;que&nbsp;no&nbsp;se&nbsp;te&nbsp;dificulte&nbsp;levantarlo&nbsp;ni&nbsp;poner&nbsp;en&nbsp;riesgo&nbsp;la&nbsp;espalda&nbsp;baja.</li></ul><p></p>", "image": "exercises/2840156e1d2e1745bce5e784be7b7607.jpg", "equipment": 2, "muscle": 12, "secondary_muscle": [], "user": 1, "created": "2025-04-24T18:28:16.354Z", "modified": "2025-04-24T18:29:32.651Z"}}, {"model": "comments.comment", "pk": 19, "fields": {"user": 5, "photo": "default.jpg", "content": "probando notificaciones", "content_type": 11, "object_id": 1, "parent": null, "created": "2025-04-16T07:13:30.699Z", "deleted": null}}, {"model": "comments.comment", "pk": 20, "fields": {"user": 5, "photo": "default.jpg", "content": "pls especificar con cuanto peso por serie", "content_type": 11, "object_id": 2, "parent": null, "created": "2025-04-16T07:17:07.591Z", "deleted": null}}, {"model": "workouts.workout", "pk": 1, "fields": {"name": "Volumen", "description": "<p>Aquí&nbsp;vamos&nbsp;a&nbsp;ir&nbsp;incrementando&nbsp;el&nbsp;peso&nbsp;en&nbsp;cada&nbsp;serie</p>", "day": 1, "photo": "default.jpg", "user": 2, "created": "2025-04-06T02:26:26.172Z", "modified": "2025-04-22T02:35:26.458Z", "is_active": true, "deleted": null}}, {"model": "workouts.workout", "pk": 2, "fields": {"name": "Pecho + Tríceps (Push)", "description": "<p><span style=\"color: rgb(0, 0, 0);\">90&nbsp;a&nbsp;120&nbsp;min</span></p><p>Rutina:&nbsp;Hipertrofia&nbsp;con&nbsp;técnica&nbsp;avanzada&nbsp;(dropsets,&nbsp;rest-pause,&nbsp;superseries)</p><p><span style=\"color: rgb(0, 0, 0);\">Esta&nbsp;rutina&nbsp;busca&nbsp;desarrollo&nbsp;muscular&nbsp;simétrico,&nbsp;denso&nbsp;y&nbsp;estético.</span></p>", "day": 1, "photo": "default.jpg", "user": 5, "created": "2025-04-09T04:41:10.033Z", "modified": "2025-04-23T02:19:36.483Z", "is_active": true, "deleted": null}}, {"model": "workouts.workout", "pk": 3, "fields": {"name": "Espalda + Bíceps (Pull)", "description": "<p>En&nbsp;toda&nbsp;la&nbsp;rutina&nbsp;tenes&nbsp;que&nbsp;darle&nbsp;un&nbsp;descanso&nbsp;calculado&nbsp;(2min)&nbsp;para&nbsp;que&nbsp;en&nbsp;la&nbsp;siguiente&nbsp;serie&nbsp;tengas&nbsp;energia&nbsp;y&nbsp;a&nbsp;su&nbsp;vez&nbsp;llegues&nbsp;al&nbsp;fallo&nbsp;muscular.</p>", "day": 2, "photo": "default.jpg", "user": 5, "created": "2025-04-11T01:29:50.299Z", "modified": "2025-04-23T02:22:00.966Z", "is_active": true, "deleted": null}}, {"model": "workouts.workout", "pk": 4, "fields": {"name": "Piernas (Cuádriceps y Femoral)", "description": "<p>Realizar&nbsp;adecuadamente&nbsp;un&nbsp;estiramiento&nbsp;de&nbsp;los&nbsp;músculos&nbsp;y&nbsp;calentar&nbsp;antes&nbsp;de&nbsp;iniciar.</p>", "day": 3, "photo": "default.jpg", "user": 5, "created": "2025-04-22T01:44:04.561Z", "modified": "2025-04-23T02:25:13.298Z", "is_active": true, "deleted": null}}, {"model": "workouts.workout", "pk": 5, "fields": {"name": "Hombros + Trapecio + Abs", "description": "<h3><span style=\"color: rgb(0, 0, 0);\">🧠&nbsp;En&nbsp;General:</span></h3><ul><li><span style=\"color: rgb(0, 0, 0);\">Hacé&nbsp;un&nbsp;</span><strong style=\"color: rgb(0, 0, 0);\">calentamiento&nbsp;</strong><span style=\"color: rgb(0, 0, 0);\">con&nbsp;mancuernas&nbsp;livianas&nbsp;o&nbsp;movimientos&nbsp;de&nbsp;movilidad&nbsp;articular&nbsp;(círculos&nbsp;de&nbsp;hombros,&nbsp;etc).</span></li><li>Respetar&nbsp;el&nbsp;orden&nbsp;de&nbsp;los&nbsp;ejercicios</li></ul><p></p><p><strong style=\"color: rgb(0, 0, 0);\">Tiempo&nbsp;de&nbsp;descanso&nbsp;entre&nbsp;series:</strong></p><ul><li><strong style=\"color: rgb(0, 0, 0);\">Compuestos&nbsp;(press&nbsp;militar):</strong><span style=\"color: rgb(0, 0, 0);\">&nbsp;60-90&nbsp;seg.</span></li><li><strong style=\"color: rgb(0, 0, 0);\">Aislamiento&nbsp;(elevaciones,&nbsp;pájaros,&nbsp;encogimientos):</strong><span style=\"color: rgb(0, 0, 0);\">&nbsp;45-60&nbsp;seg.</span></li><li><strong style=\"color: rgb(0, 0, 0);\">Abs:</strong><span style=\"color: rgb(0, 0, 0);\">&nbsp;30-45&nbsp;seg.</span></li></ul>", "day": 4, "photo": "default.jpg", "user": 5, "created": "2025-04-24T18:38:16.000Z", "modified": "2025-04-24T20:51:34.447Z", "is_active": true, "deleted": null}}, {"model": "workouts.workoutexcercise", "pk": 5, "fields": {"exercise": 2, "workout": 2, "data": [{"rept": 12, "weight": 5}, {"rept": 12, "weight": 5}, {"rept": 12, "weight": 5}, {"rept": 12, "weight": 5}], "sets": 4, "repts": 12, "weight": 0, "description": ""}}, {"model": "workouts.workoutexcercise", "pk": 6, "fields": {"exercise": 3, "workout": 2, "data": [{"rept": 12, "weight": 5}, {"rept": 12, "weight": 5}, {"rept": 12, "weight": 5}], "sets": 3, "repts": 12, "weight": 0, "description": ""}}, {"model": "workouts.workoutexcercise", "pk": 7, "fields": {"exercise": 4, "workout": 2, "data": [{"rept": 15, "weight": 5}, {"rept": 15, "weight": 5}, {"rept": 15, "weight": 5}], "sets": 3, "repts": 15, "weight": 0, "description": ""}}, {"model": "workouts.workoutexcercise", "pk": 8, "fields": {"exercise": 5, "workout": 2, "data": [{"rept": 10, "weight": 5}, {"rept": 10, "weight": 5}, {"rept": 10, "weight": 5}], "sets": 3, "repts": 10, "weight": 0, "description": ""}}, {"model": "workouts.workoutexcercise", "pk": 9, "fields": {"exercise": 6, "workout": 2, "data": [{"rept": 15, "weight": 5}, {"rept": 15, "weight": 5}, {"rept": 15, "weight": 5}, {"rept": 15, "weight": 5}], "sets": 4, "repts": 15, "weight": 0, "description": ""}}, {"model": "workouts.workoutexcercise", "pk": 10, "fields": {"exercise": 7, "workout": 2, "data": [{"rept": 15, "weight": 5}, {"rept": 15, "weight": 5}, {"rept": 15, "weight": 5}], "sets": 3, "repts": 15, "weight": 0, "description": ""}}, {"model": "workouts.workoutexcercise", "pk": 11, "fields": {"exercise": 8, "workout": 2, "data": [{"rept": 20, "weight": 5}, {"rept": 20, "weight": 5}, {"rept": 20, "weight": 5}, {"rept": 20, "weight": 5}], "sets": 4, "repts": 20, "weight": 0, "description": ""}}, {"model": "workouts.workoutexcercise", "pk": 12, "fields": {"exercise": 9, "workout": 3, "data": [{"rept": 10, "weight": 5}, {"rept": 10, "weight": 5}, {"rept": 10, "weight": 5}, {"rept": 10, "weight": 5}], "sets": 4, "repts": 10, "weight": 0, "description": ""}}, {"model": "workouts.workoutexcercise", "pk": 13, "fields": {"exercise": 10, "workout": 3, "data": [{"rept": 10, "weight": 5}, {"rept": 10, "weight": 5}, {"rept": 10, "weight": 5}, {"rept": 10, "weight": 5}], "sets": 4, "repts": 10, "weight": 0, "description": ""}}, {"model": "workouts.workoutexcercise", "pk": 14, "fields": {"exercise": 11, "workout": 3, "data": [{"rept": 12, "weight": 5}, {"rept": 12, "weight": 5}, {"rept": 12, "weight": 5}], "sets": 3, "repts": 12, "weight": 0, "description": ""}}, {"model": "workouts.workoutexcercise", "pk": 15, "fields": {"exercise": 13, "workout": 3, "data": [{"rept": 15, "weight": 5}, {"rept": 15, "weight": 5}, {"rept": 15, "weight": 5}], "sets": 3, "repts": 15, "weight": 0, "description": ""}}, {"model": "workouts.workoutexcercise", "pk": 16, "fields": {"exercise": 14, "workout": 3, "data": [{"rept": 15, "weight": 5}, {"rept": 15, "weight": 5}, {"rept": 15, "weight": 5}], "sets": 3, "repts": 15, "weight": 0, "description": ""}}, {"model": "workouts.workoutexcercise", "pk": 17, "fields": {"exercise": 15, "workout": 3, "data": [{"rept": 10, "weight": 5}, {"rept": 10, "weight": 5}, {"rept": 10, "weight": 5}, {"rept": 10, "weight": 5}], "sets": 4, "repts": 10, "weight": 0, "description": ""}}, {"model": "workouts.workoutexcercise", "pk": 18, "fields": {"exercise": 17, "workout": 3, "data": [{"rept": 12, "weight": 5}, {"rept": 12, "weight": 5}, {"rept": 12, "weight": 5}], "sets": 3, "repts": 12, "weight": 0, "description": ""}}, {"model": "workouts.workoutexcercise", "pk": 19, "fields": {"exercise": 18, "workout": 3, "data": [{"rept": 15, "weight": 5}, {"rept": 15, "weight": 5}], "sets": 2, "repts": 15, "weight": 0, "description": ""}}, {"model": "workouts.workoutexcercise", "pk": 20, "fields": {"exercise": 19, "workout": 4, "data": [{"rept": 8, "weight": 5}, {"rept": 8, "weight": 5}, {"rept": 8, "weight": 5}, {"rept": 8, "weight": 5}, {"rept": 8, "weight": 5}], "sets": 5, "repts": 8, "weight": 0, "description": ""}}, {"model": "workouts.workoutexcercise", "pk": 21, "fields": {"exercise": 20, "workout": 4, "data": [{"rept": 12, "weight": 5}, {"rept": 12, "weight": 5}, {"rept": 12, "weight": 5}, {"rept": 12, "weight": 5}], "sets": 4, "repts": 12, "weight": 0, "description": ""}}, {"model": "workouts.workoutexcercise", "pk": 22, "fields": {"exercise": 21, "workout": 4, "data": [{"rept": 10, "weight": 5}, {"rept": 10, "weight": 5}, {"rept": 10, "weight": 5}, {"rept": 10, "weight": 5}], "sets": 4, "repts": 10, "weight": 0, "description": ""}}, {"model": "workouts.workoutexcercise", "pk": 24, "fields": {"exercise": 25, "workout": 4, "data": [{"rept": 15, "weight": 5}, {"rept": 15, "weight": 5}, {"rept": 15, "weight": 5}], "sets": 3, "repts": 15, "weight": 0, "description": ""}}, {"model": "workouts.workoutexcercise", "pk": 25, "fields": {"exercise": 22, "workout": 4, "data": [{"rept": 15, "weight": 5}, {"rept": 15, "weight": 5}, {"rept": 15, "weight": 5}], "sets": 3, "repts": 15, "weight": 0, "description": ""}}, {"model": "workouts.workoutexcercise", "pk": 26, "fields": {"exercise": 23, "workout": 4, "data": [{"rept": 20, "weight": 5}, {"rept": 20, "weight": 5}, {"rept": 20, "weight": 5}, {"rept": 20, "weight": 5}, {"rept": 20, "weight": 5}], "sets": 5, "repts": 20, "weight": 0, "description": ""}}, {"model": "workouts.workoutexcercise", "pk": 27, "fields": {"exercise": 24, "workout": 4, "data": [{"rept": 15, "weight": 5}, {"rept": 15, "weight": 5}, {"rept": 15, "weight": 5}, {"rept": 15, "weight": 5}], "sets": 4, "repts": 15, "weight": 0, "description": ""}}, {"model": "workouts.workoutexcercise", "pk": 28, "fields": {"exercise": 1, "workout": 1, "data": null, "sets": 3, "repts": 8, "weight": 0, "description": ""}}, {"model": "workouts.workoutexcercise", "pk": 29, "fields": {"exercise": 26, "workout": 5, "data": [{"sets": 4, "rept": 8, "weight": 0}], "sets": 4, "repts": 12, "weight": 0, "description": ""}}, {"model": "workouts.workoutexcercise", "pk": 30, "fields": {"exercise": 27, "workout": 5, "data": [{"sets": 4, "rept": 15, "weight": 0}], "sets": 4, "repts": 12, "weight": 0, "description": ""}}, {"model": "workouts.workoutexcercise", "pk": 31, "fields": {"exercise": 28, "workout": 5, "data": [{"sets": 3, "rept": 12, "weight": 0}], "sets": 4, "repts": 12, "weight": 0, "description": ""}}, {"model": "workouts.workoutexcercise", "pk": 32, "fields": {"exercise": 29, "workout": 5, "data": [{"sets": 3, "rept": 15, "weight": 0}], "sets": 4, "repts": 12, "weight": 0, "description": ""}}, {"model": "workouts.workoutexcercise", "pk": 33, "fields": {"exercise": 30, "workout": 5, "data": [{"sets": 4, "rept": 20, "weight": 0}], "sets": 4, "repts": 12, "weight": 0, "description": ""}}, {"model": "workouts.workoutexcercise", "pk": 34, "fields": {"exercise": 31, "workout": 5, "data": [{"sets": 4, "rept": 1, "weight": 0}], "sets": 4, "repts": 12, "weight": 0, "description": "El número 1 indica el tiempo 1 min."}}, {"model": "workouts.workoutexcercise", "pk": 35, "fields": {"exercise": 32, "workout": 5, "data": [{"sets": 4, "rept": 20, "weight": 0}], "sets": 4, "repts": 12, "weight": 0, "description": ""}}, {"model": "measures.measure", "pk": 1, "fields": {"user": 5, "comment": "", "measures": {"abdomen": 0, "arm_left": 0, "arm_right": 0, "back": 0, "chest": 0, "forearm": 0, "glutes": 0, "hips": 0, "leg_left": 0, "leg_right": 0, "waist": 0, "weight": "110"}, "created": "2025-04-22T19:07:12.683Z", "modified": "2025-04-23T19:41:08.855Z", "is_active": true, "deleted": null}}, {"model": "measures.measure", "pk": 2, "fields": {"user": 5, "comment": "", "measures": {"abdomen": 0, "arm_left": 0, "arm_right": 0, "back": 0, "chest": 0, "forearm": 0, "glutes": 0, "hips": 0, "leg_left": 0, "leg_right": 0, "waist": 0, "weight": "120"}, "created": "2025-04-22T19:07:33.956Z", "modified": "2025-04-23T19:41:13.543Z", "is_active": true, "deleted": null}}, {"model": "images.image", "pk": 1, "fields": {"photo": "images/back.png", "content_type": 10, "object_id": 16, "created": "2025-04-23T02:27:19.701Z", "modified": "2025-04-23T02:27:19.701Z"}}, {"model": "images.image", "pk": 2, "fields": {"photo": "images/biceps.png", "content_type": 10, "object_id": 17, "created": "2025-04-23T02:27:36.110Z", "modified": "2025-04-23T02:27:36.110Z"}}, {"model": "images.image", "pk": 3, "fields": {"photo": "images/abs.png", "content_type": 10, "object_id": 12, "created": "2025-04-23T02:28:26.475Z", "modified": "2025-04-23T02:28:26.475Z"}}, {"model": "images.image", "pk": 4, "fields": {"photo": "images/chest.png", "content_type": 10, "object_id": 3, "created": "2025-04-23T02:28:38.475Z", "modified": "2025-04-23T02:28:38.475Z"}}, {"model": "images.image", "pk": 5, "fields": {"photo": "images/triceps.png", "content_type": 10, "object_id": 11, "created": "2025-04-23T02:29:50.651Z", "modified": "2025-04-23T02:29:50.651Z"}}, {"model": "notifications.notification", "pk": 19, "fields": {"user": 5, "user_to": 1, "content_type": 12, "object_id": 19, "is_read": false, "link": null, "created": "2025-04-16T07:13:30.730Z"}}, {"model": "notifications.notification", "pk": 20, "fields": {"user": 5, "user_to": 1, "content_type": 12, "object_id": 20, "is_read": false, "link": null, "created": "2025-04-16T07:17:07.631Z"}}]
+[
+  {
+    "model": "accounts.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$870000$KKiMwrRiMKYHJkP7LnVlSa$yFM53gHHxyH9P13JhYYW8ZEVf4e5c+ZQAOZ2WyiTtz8=",
+      "last_login": "2025-04-25T01:57:05.794Z",
+      "is_superuser": true,
+      "username": "admin",
+      "first_name": "Admin",
+      "last_name": "Doe",
+      "email": "admin@local.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2025-04-06T02:22:21.558Z",
+      "photo": "users/Screenshot_20250416-011202.jpg",
+      "gender": "",
+      "phone": 0,
+      "age": 0,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "accounts.user",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$870000$cmuLrJwmA0dbhZtnGmAdEn$uALuOSyvUQOarItbAyb0XwibG6gfymKjRQfrRWxX8hw=",
+      "last_login": "2025-04-24T01:13:40.514Z",
+      "is_superuser": false,
+      "username": "DenisL",
+      "first_name": "Denis Jos",
+      "last_name": "López",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2025-04-06T02:25:12.052Z",
+      "photo": "users/9243bd92-78c0-459a-afc9-9f091a0020bdCover-hlg.png",
+      "gender": "male",
+      "phone": 87183193,
+      "age": 30,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "accounts.user",
+    "pk": 3,
+    "fields": {
+      "password": "pbkdf2_sha256$870000$Vf0XpkOnfpGV1naEeMNLAW$3GHm3s/Cro9CzHrriKOYumIuEfKMM46XV977rLhwI8c=",
+      "last_login": "2025-04-06T17:31:55.185Z",
+      "is_superuser": false,
+      "username": "Angelo7",
+      "first_name": "Angelo",
+      "last_name": "Delgado",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2025-04-06T02:46:30.420Z",
+      "photo": "users/RETO_CHAMPIONS-Cover.jpg",
+      "gender": "male",
+      "phone": 81048636,
+      "age": 20,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "accounts.user",
+    "pk": 4,
+    "fields": {
+      "password": "pbkdf2_sha256$870000$QIOfzWKk7P4CupBa6wRVEG$6kBOraPmpZ6KVXUtNPl7Tz1BQlpU58RjQUhb35UygLo=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "demo",
+      "first_name": "demo",
+      "last_name": "martinez",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2025-04-09T04:15:47.368Z",
+      "photo": "default.jpg",
+      "gender": "male",
+      "phone": 0,
+      "age": 0,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "accounts.user",
+    "pk": 5,
+    "fields": {
+      "password": "pbkdf2_sha256$870000$TdDoEV2UC6b62p9tFtZBOd$zVHA37Jgst2QL9JB37rQtqDYZTcAGM5TtJ5FoSkGzaw=",
+      "last_login": "2025-04-25T02:29:30.109Z",
+      "is_superuser": false,
+      "username": "StevenB",
+      "first_name": "Steven",
+      "last_name": "Bermudez",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2025-04-09T04:17:47.528Z",
+      "photo": "users/Captura_de_pantalla_2025-04-08_a_las_22.07.32.png",
+      "gender": "male",
+      "phone": 82714401,
+      "age": 22,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "accounts.user",
+    "pk": 6,
+    "fields": {
+      "password": "pbkdf2_sha256$870000$Nv9wuMMQccdzarRQCxXKLN$kgfq7/PvvYCdhAY/3dPyWW+Ud2lralqEsiZCYHLMITQ=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "GabrielaC",
+      "first_name": "Gabriela",
+      "last_name": "Cortéz",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2025-04-23T22:50:44.172Z",
+      "photo": "default.jpg",
+      "gender": "female",
+      "phone": 77230481,
+      "age": 31,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "accounts.fcmtoken",
+    "pk": 5,
+    "fields": {
+      "user": 1,
+      "token": "ebXgslRkIMiYVdSIazFKJE:APA91bHeBX30RBYDkr4hq33c5BAv0glAIEr56NSmbSy52z4BA4UIiwtMASoux0G82hcjuF2saOLSQLpax78xLRRAZTIcMSONsYk_CuN8913SrE3tnBb5h3k",
+      "device": "Chrome",
+      "is_active": true,
+      "created": "2025-04-16T07:12:35.447Z",
+      "modified": "2025-04-16T07:12:35.447Z"
+    }
+  },
+  {
+    "model": "catalogs.catalog",
+    "pk": 1,
+    "fields": {
+      "name": "Banca Plana",
+      "key": "equipment",
+      "created": "2025-04-06T02:28:24.627Z",
+      "modified": "2025-04-09T04:45:51.790Z"
+    }
+  },
+  {
+    "model": "catalogs.catalog",
+    "pk": 2,
+    "fields": {
+      "name": "Banca Declinada",
+      "key": "equipment",
+      "created": "2025-04-06T02:28:35.798Z",
+      "modified": "2025-04-24T18:29:11.043Z"
+    }
+  },
+  {
+    "model": "catalogs.catalog",
+    "pk": 3,
+    "fields": {
+      "name": "Pecho",
+      "key": "muscle",
+      "created": "2025-04-06T02:28:54.824Z",
+      "modified": "2025-04-09T04:25:17.992Z"
+    }
+  },
+  {
+    "model": "catalogs.catalog",
+    "pk": 4,
+    "fields": {
+      "name": "Banca inclinada",
+      "key": "equipment",
+      "created": "2025-04-06T02:29:13.651Z",
+      "modified": "2025-04-23T02:29:21.968Z"
+    }
+  },
+  {
+    "model": "catalogs.catalog",
+    "pk": 5,
+    "fields": {
+      "name": "Press en Máquina Hammer",
+      "key": "equipment",
+      "created": "2025-04-09T04:29:43.810Z",
+      "modified": "2025-04-09T05:05:08.432Z"
+    }
+  },
+  {
+    "model": "catalogs.catalog",
+    "pk": 6,
+    "fields": {
+      "name": "Banco inclinado",
+      "key": "equipment",
+      "created": "2025-04-09T04:30:01.181Z",
+      "modified": "2025-04-09T04:37:36.708Z"
+    }
+  },
+  {
+    "model": "catalogs.catalog",
+    "pk": 7,
+    "fields": {
+      "name": "Paralelas o trono (con peso si puede)",
+      "key": "equipment",
+      "created": "2025-04-09T04:30:17.487Z",
+      "modified": "2025-04-09T04:37:52.595Z"
+    }
+  },
+  {
+    "model": "catalogs.catalog",
+    "pk": 8,
+    "fields": {
+      "name": "Extensión con cuerda",
+      "key": "equipment",
+      "created": "2025-04-09T04:30:49.570Z",
+      "modified": "2025-04-09T04:38:12.044Z"
+    }
+  },
+  {
+    "model": "catalogs.catalog",
+    "pk": 9,
+    "fields": {
+      "name": "Mancuerna o cuerda",
+      "key": "equipment",
+      "created": "2025-04-09T04:31:11.952Z",
+      "modified": "2025-04-09T04:38:25.715Z"
+    }
+  },
+  {
+    "model": "catalogs.catalog",
+    "pk": 10,
+    "fields": {
+      "name": "Banca declinada",
+      "key": "equipment",
+      "created": "2025-04-09T04:31:52.497Z",
+      "modified": "2025-04-09T04:38:32.263Z"
+    }
+  },
+  {
+    "model": "catalogs.catalog",
+    "pk": 11,
+    "fields": {
+      "name": "Triceps",
+      "key": "muscle",
+      "created": "2025-04-09T05:12:25.271Z",
+      "modified": "2025-04-09T05:12:25.271Z"
+    }
+  },
+  {
+    "model": "catalogs.catalog",
+    "pk": 12,
+    "fields": {
+      "name": "Abdomen",
+      "key": "muscle",
+      "created": "2025-04-09T05:18:32.418Z",
+      "modified": "2025-04-09T05:18:32.418Z"
+    }
+  },
+  {
+    "model": "catalogs.catalog",
+    "pk": 13,
+    "fields": {
+      "name": "Dominadas con Lastre",
+      "key": "equipment",
+      "created": "2025-04-11T01:30:11.927Z",
+      "modified": "2025-04-11T01:30:11.927Z"
+    }
+  },
+  {
+    "model": "catalogs.catalog",
+    "pk": 14,
+    "fields": {
+      "name": "Remo Barra T",
+      "key": "equipment",
+      "created": "2025-04-11T01:30:37.728Z",
+      "modified": "2025-04-11T01:30:37.728Z"
+    }
+  },
+  {
+    "model": "catalogs.catalog",
+    "pk": 15,
+    "fields": {
+      "name": "Mancuerna",
+      "key": "equipment",
+      "created": "2025-04-11T01:32:09.762Z",
+      "modified": "2025-04-11T01:32:53.610Z"
+    }
+  },
+  {
+    "model": "catalogs.catalog",
+    "pk": 16,
+    "fields": {
+      "name": "Espalda",
+      "key": "muscle",
+      "created": "2025-04-11T01:33:02.404Z",
+      "modified": "2025-04-11T01:33:02.404Z"
+    }
+  },
+  {
+    "model": "catalogs.catalog",
+    "pk": 17,
+    "fields": {
+      "name": "Bíceps",
+      "key": "muscle",
+      "created": "2025-04-11T01:33:15.650Z",
+      "modified": "2025-04-11T01:33:15.650Z"
+    }
+  },
+  {
+    "model": "catalogs.catalog",
+    "pk": 18,
+    "fields": {
+      "name": "Polea alta",
+      "key": "equipment",
+      "created": "2025-04-11T01:33:38.530Z",
+      "modified": "2025-04-11T01:33:38.530Z"
+    }
+  },
+  {
+    "model": "catalogs.catalog",
+    "pk": 19,
+    "fields": {
+      "name": "Cuerda",
+      "key": "equipment",
+      "created": "2025-04-11T01:34:05.775Z",
+      "modified": "2025-04-23T02:29:25.070Z"
+    }
+  },
+  {
+    "model": "catalogs.catalog",
+    "pk": 20,
+    "fields": {
+      "name": "Barra Z",
+      "key": "equipment",
+      "created": "2025-04-11T01:34:22.135Z",
+      "modified": "2025-04-11T01:34:22.135Z"
+    }
+  },
+  {
+    "model": "catalogs.catalog",
+    "pk": 21,
+    "fields": {
+      "name": "Cuerda",
+      "key": "equipment",
+      "created": "2025-04-11T01:54:55.878Z",
+      "modified": "2025-04-11T01:54:55.878Z"
+    }
+  },
+  {
+    "model": "catalogs.catalog",
+    "pk": 22,
+    "fields": {
+      "name": "Barra Libre",
+      "key": "equipment",
+      "created": "2025-04-22T01:07:45.896Z",
+      "modified": "2025-04-22T01:07:45.896Z"
+    }
+  },
+  {
+    "model": "catalogs.catalog",
+    "pk": 23,
+    "fields": {
+      "name": "Piernas",
+      "key": "muscle",
+      "created": "2025-04-22T01:07:58.982Z",
+      "modified": "2025-04-22T01:07:58.982Z"
+    }
+  },
+  {
+    "model": "catalogs.catalog",
+    "pk": 24,
+    "fields": {
+      "name": "Leg Press 45°",
+      "key": "equipment",
+      "created": "2025-04-22T01:09:24.411Z",
+      "modified": "2025-04-22T01:09:24.411Z"
+    }
+  },
+  {
+    "model": "catalogs.catalog",
+    "pk": 25,
+    "fields": {
+      "name": "Barra Olímpica",
+      "key": "equipment",
+      "created": "2025-04-22T01:12:48.668Z",
+      "modified": "2025-04-22T01:12:48.668Z"
+    }
+  },
+  {
+    "model": "catalogs.catalog",
+    "pk": 26,
+    "fields": {
+      "name": "Extensiones de Pierna",
+      "key": "equipment",
+      "created": "2025-04-22T01:14:38.980Z",
+      "modified": "2025-04-22T01:51:48.460Z"
+    }
+  },
+  {
+    "model": "catalogs.catalog",
+    "pk": 27,
+    "fields": {
+      "name": "Curl Femoral Tumbado",
+      "key": "equipment",
+      "created": "2025-04-22T01:15:03.478Z",
+      "modified": "2025-04-22T01:15:03.478Z"
+    }
+  },
+  {
+    "model": "catalogs.catalog",
+    "pk": 28,
+    "fields": {
+      "name": "Máquina Smith",
+      "key": "equipment",
+      "created": "2025-04-22T01:17:14.505Z",
+      "modified": "2025-04-22T01:17:14.506Z"
+    }
+  },
+  {
+    "model": "catalogs.catalog",
+    "pk": 29,
+    "fields": {
+      "name": "Crossover",
+      "key": "equipment",
+      "created": "2025-04-22T01:17:40.362Z",
+      "modified": "2025-04-22T01:17:40.362Z"
+    }
+  },
+  {
+    "model": "catalogs.catalog",
+    "pk": 30,
+    "fields": {
+      "name": "Pantorrillas",
+      "key": "muscle",
+      "created": "2025-04-22T01:18:19.155Z",
+      "modified": "2025-04-22T01:18:19.155Z"
+    }
+  },
+  {
+    "model": "catalogs.catalog",
+    "pk": 31,
+    "fields": {
+      "name": "Femoral",
+      "key": "muscle",
+      "created": "2025-04-22T01:29:22.718Z",
+      "modified": "2025-04-22T01:29:22.718Z"
+    }
+  },
+  {
+    "model": "catalogs.catalog",
+    "pk": 32,
+    "fields": {
+      "name": "Extensión de piernas",
+      "key": "equipment",
+      "created": "2025-04-22T01:53:07.410Z",
+      "modified": "2025-04-23T02:29:32.137Z"
+    }
+  },
+  {
+    "model": "catalogs.catalog",
+    "pk": 33,
+    "fields": {
+      "name": "Hombro",
+      "key": "muscle",
+      "created": "2025-04-24T16:56:52.356Z",
+      "modified": "2025-04-24T16:57:00.317Z"
+    }
+  },
+  {
+    "model": "catalogs.catalog",
+    "pk": 34,
+    "fields": {
+      "name": "Trapecio",
+      "key": "muscle",
+      "created": "2025-04-24T16:57:15.213Z",
+      "modified": "2025-04-24T16:58:04.179Z"
+    }
+  },
+  {
+    "model": "catalogs.catalog",
+    "pk": 35,
+    "fields": {
+      "name": "Maquina de hombro",
+      "key": "equipment",
+      "created": "2025-04-24T17:38:52.421Z",
+      "modified": "2025-04-24T17:38:52.421Z"
+    }
+  },
+  {
+    "model": "catalogs.catalog",
+    "pk": 36,
+    "fields": {
+      "name": "Tapete de Yoga",
+      "key": "equipment",
+      "created": "2025-04-24T18:01:39.571Z",
+      "modified": "2025-04-24T18:01:42.371Z"
+    }
+  },
+  {
+    "model": "catalogs.catalog",
+    "pk": 37,
+    "fields": {
+      "name": "Disco",
+      "key": "equipment",
+      "created": "2025-04-24T18:01:49.536Z",
+      "modified": "2025-04-24T18:01:51.922Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 1,
+    "fields": {
+      "name": "Press en Banca con Barra",
+      "description": "<p>Calentar&nbsp;antes&nbsp;haciendo&nbsp;algunas&nbsp;pechada&nbsp;y&nbsp;estiramiento</p>",
+      "image": "exercises/5d52bcd60a280ee85725fcfa2924b803.gif",
+      "equipment": 1,
+      "muscle": 3,
+      "secondary_muscle": [],
+      "user": 1,
+      "created": "2025-04-06T02:31:07.505Z",
+      "modified": "2025-04-09T04:46:04.765Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 2,
+    "fields": {
+      "name": "Press inclinado con mancuerna",
+      "description": "",
+      "image": "exercises/5e53d49daddb624dbded8f7e2c210b99.gif",
+      "equipment": 6,
+      "muscle": 3,
+      "secondary_muscle": [],
+      "user": 1,
+      "created": "2025-04-09T04:45:26.309Z",
+      "modified": "2025-04-09T04:45:26.309Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 3,
+    "fields": {
+      "name": "Press en Máquina Hammer",
+      "description": "",
+      "image": "exercises/411-272-plate-loaded-isolateral-inclincepressvertical-0059.png",
+      "equipment": 5,
+      "muscle": 3,
+      "secondary_muscle": [],
+      "user": 1,
+      "created": "2025-04-09T04:51:17.876Z",
+      "modified": "2025-04-09T05:05:21.970Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 4,
+    "fields": {
+      "name": "Aperturas en banco inclinado",
+      "description": "",
+      "image": "exercises/.gif",
+      "equipment": 6,
+      "muscle": 3,
+      "secondary_muscle": [],
+      "user": 1,
+      "created": "2025-04-09T05:07:49.467Z",
+      "modified": "2025-04-09T05:07:49.467Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 5,
+    "fields": {
+      "name": "Fondos en paralelas",
+      "description": "<p>Hacerlo&nbsp;con&nbsp;peso&nbsp;es&nbsp;mejor</p>",
+      "image": "exercises/.jpg",
+      "equipment": 7,
+      "muscle": 3,
+      "secondary_muscle": [],
+      "user": 1,
+      "created": "2025-04-09T05:10:04.144Z",
+      "modified": "2025-04-09T05:10:04.144Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 6,
+    "fields": {
+      "name": "Extensión de tríceps en polea alta",
+      "description": "",
+      "image": "exercises/-2.jpg",
+      "equipment": 8,
+      "muscle": 11,
+      "secondary_muscle": [],
+      "user": 1,
+      "created": "2025-04-09T05:12:11.336Z",
+      "modified": "2025-04-09T05:12:50.123Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 7,
+    "fields": {
+      "name": "Copa con mancuerna",
+      "description": "",
+      "image": "exercises/Les_4_Meilleurs_Exercices_Triceps_aux_Haltères_-_Boxlife.gif",
+      "equipment": 9,
+      "muscle": 11,
+      "secondary_muscle": [],
+      "user": 1,
+      "created": "2025-04-09T05:13:53.262Z",
+      "modified": "2025-04-09T05:15:41.287Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 8,
+    "fields": {
+      "name": "Abdominales en banca declinada",
+      "description": "",
+      "image": "exercises/Twisting_Bench_Sit-Up.jpg",
+      "equipment": 10,
+      "muscle": 12,
+      "secondary_muscle": [],
+      "user": 1,
+      "created": "2025-04-09T05:18:14.342Z",
+      "modified": "2025-04-09T05:19:48.287Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 9,
+    "fields": {
+      "name": "Dominadas",
+      "description": "<p>Usar&nbsp;Cinturon&nbsp;con&nbsp;peso.&nbsp;Inicialmente&nbsp;puede&nbsp;ser&nbsp;5&nbsp;libras&nbsp;y&nbsp;luego&nbsp;cada&nbsp;semana&nbsp;vas&nbsp;subiendo.</p>",
+      "image": "exercises/Pull_-_Up.jpg",
+      "equipment": 13,
+      "muscle": 16,
+      "secondary_muscle": [],
+      "user": 1,
+      "created": "2025-04-11T01:38:43.792Z",
+      "modified": "2025-04-11T01:38:43.792Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 10,
+    "fields": {
+      "name": "Remo con barra T",
+      "description": "<p>Usemos&nbsp;el&nbsp;Remo&nbsp;T&nbsp;con&nbsp;apoyo</p>",
+      "image": "exercises/Latissimus_trainieren__Top_9_Übungen_inkl__Bilder__Videos-2.gif",
+      "equipment": 14,
+      "muscle": 16,
+      "secondary_muscle": [],
+      "user": 1,
+      "created": "2025-04-11T01:41:50.469Z",
+      "modified": "2025-04-11T01:41:50.470Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 11,
+    "fields": {
+      "name": "Remo con mancuerna",
+      "description": "<p>Usar&nbsp;peso&nbsp;pesado&nbsp;sin&nbsp;perder&nbsp;la&nbsp;técnica</p>",
+      "image": "exercises/-3.gif",
+      "equipment": 15,
+      "muscle": 16,
+      "secondary_muscle": [],
+      "user": 1,
+      "created": "2025-04-11T01:43:40.813Z",
+      "modified": "2025-04-11T01:43:40.813Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 12,
+    "fields": {
+      "name": "Remo con mancuerna",
+      "description": "<p>Usar&nbsp;peso&nbsp;pesado&nbsp;sin&nbsp;perder&nbsp;la&nbsp;técnica</p>",
+      "image": "exercises/-3_k59KYj8.gif",
+      "equipment": 15,
+      "muscle": 16,
+      "secondary_muscle": [],
+      "user": 1,
+      "created": "2025-04-11T01:43:42.567Z",
+      "modified": "2025-04-11T01:43:42.567Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 13,
+    "fields": {
+      "name": "Jalón al pecho en polea",
+      "description": "<p>Agarre&nbsp;ancho</p>",
+      "image": "exercises/-3.jpg",
+      "equipment": 18,
+      "muscle": 16,
+      "secondary_muscle": [],
+      "user": 1,
+      "created": "2025-04-11T01:54:12.697Z",
+      "modified": "2025-04-11T01:54:12.697Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 14,
+    "fields": {
+      "name": "Face pulls",
+      "description": "<p></p>",
+      "image": "exercises/How_To_Do_Cross_Cable_Face_Pull__Muscles_Worked_And_Benefits.gif",
+      "equipment": 21,
+      "muscle": 16,
+      "secondary_muscle": [],
+      "user": 1,
+      "created": "2025-04-11T01:55:47.726Z",
+      "modified": "2025-04-11T01:55:47.726Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 15,
+    "fields": {
+      "name": "Curl barra Z",
+      "description": "<p>Usar&nbsp;Barra&nbsp;Z&nbsp;y&nbsp;hacerlo&nbsp;de&nbsp;pies</p>",
+      "image": "exercises/-4.gif",
+      "equipment": 20,
+      "muscle": 17,
+      "secondary_muscle": [],
+      "user": 1,
+      "created": "2025-04-11T01:57:32.857Z",
+      "modified": "2025-04-11T01:57:32.857Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 16,
+    "fields": {
+      "name": "Curl barra Z",
+      "description": "<p>Usar&nbsp;Barra&nbsp;Z&nbsp;y&nbsp;hacerlo&nbsp;de&nbsp;pies</p>",
+      "image": "exercises/-4_CVYhIYe.gif",
+      "equipment": 20,
+      "muscle": 17,
+      "secondary_muscle": [],
+      "user": 1,
+      "created": "2025-04-11T01:57:34.726Z",
+      "modified": "2025-04-11T01:57:34.726Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 17,
+    "fields": {
+      "name": "Curl martillo con mancuerna",
+      "description": "<p>Alternado</p>",
+      "image": "exercises/Hammercurls__Ausführung_Fehler__Tipps_zur_Bizepsübung.gif",
+      "equipment": 15,
+      "muscle": 17,
+      "secondary_muscle": [],
+      "user": 1,
+      "created": "2025-04-11T01:58:08.956Z",
+      "modified": "2025-04-11T01:58:08.956Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 18,
+    "fields": {
+      "name": "Curl concentrado",
+      "description": "",
+      "image": "exercises/Ganzkörpertraining_mit_Kurzhanteln__die_7_besten_Übungen.gif",
+      "equipment": 15,
+      "muscle": 17,
+      "secondary_muscle": [],
+      "user": 1,
+      "created": "2025-04-11T01:58:46.545Z",
+      "modified": "2025-04-11T01:58:46.545Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 19,
+    "fields": {
+      "name": "Sentadilla en barra libre",
+      "description": "<p>Pesado&nbsp;y&nbsp;al&nbsp;fallo&nbsp;😎</p>",
+      "image": "exercises/Los_9_Mejores_Ejercicios_para_Glúteos.gif",
+      "equipment": 22,
+      "muscle": 23,
+      "secondary_muscle": [],
+      "user": 1,
+      "created": "2025-04-22T01:24:04.974Z",
+      "modified": "2025-04-22T01:47:55.318Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 20,
+    "fields": {
+      "name": "Prensa de 45°",
+      "description": "<p>Siempre&nbsp;es&nbsp;bueno&nbsp;hacer&nbsp;la&nbsp;primer&nbsp;serie&nbsp;para&nbsp;calentar&nbsp;y&nbsp;probar&nbsp;el&nbsp;peso&nbsp;que&nbsp;usaras.</p>",
+      "image": "exercises/Unknown.gif",
+      "equipment": 24,
+      "muscle": 23,
+      "secondary_muscle": [],
+      "user": 1,
+      "created": "2025-04-22T01:28:10.930Z",
+      "modified": "2025-04-22T01:28:10.930Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 21,
+    "fields": {
+      "name": "Peso Muerto Rumano",
+      "description": "<p><span style=\"color: rgb(0, 0, 0);\">Cudiar&nbsp;la&nbsp;técnica&nbsp;para&nbsp;evitar&nbsp;curvar&nbsp;la&nbsp;espalda.</span></p><p></p><p><strong style=\"color: var(--m3c11);\">Pasos:</strong></p><p><strong style=\"color: var(--m3c11);\">1.&nbsp;Posición&nbsp;inicial:</strong></p><p><span style=\"color: var(--m3c10);\">Coloca&nbsp;los&nbsp;pies&nbsp;a&nbsp;la&nbsp;anchura&nbsp;de&nbsp;las&nbsp;caderas,&nbsp;con&nbsp;la&nbsp;barra&nbsp;sujetas&nbsp;con&nbsp;las&nbsp;manos&nbsp;un&nbsp;poco&nbsp;más&nbsp;anchas&nbsp;que&nbsp;los&nbsp;hombros.&nbsp;</span></p><p></p><p><strong style=\"color: var(--m3c11);\">2.&nbsp;Ligera&nbsp;flexión&nbsp;de&nbsp;rodillas:</strong></p><p><span style=\"color: var(--m3c10);\">Mantén&nbsp;una&nbsp;ligera&nbsp;flexión&nbsp;de&nbsp;las&nbsp;rodillas&nbsp;(15-20&nbsp;grados)&nbsp;para&nbsp;proteger&nbsp;la&nbsp;columna.&nbsp;</span></p><p></p><p><strong style=\"color: var(--m3c11);\">3.&nbsp;Empuje&nbsp;de&nbsp;cadera&nbsp;hacia&nbsp;atrás:</strong></p><p><span style=\"color: var(--m3c10);\">Empuja&nbsp;las&nbsp;caderas&nbsp;hacia&nbsp;atrás,&nbsp;como&nbsp;si&nbsp;quisieras&nbsp;sentarte,&nbsp;manteniendo&nbsp;la&nbsp;espalda&nbsp;recta&nbsp;y&nbsp;el&nbsp;abdomen&nbsp;contraído.&nbsp;</span></p><p></p><p><strong style=\"color: var(--m3c11);\">4.&nbsp;Bajada&nbsp;de&nbsp;la&nbsp;barra:</strong></p><p><span style=\"color: var(--m3c10);\">La&nbsp;barra&nbsp;descienden&nbsp;a&nbsp;lo&nbsp;largo&nbsp;de&nbsp;las&nbsp;piernas,&nbsp;sin&nbsp;flexionar&nbsp;excesivamente&nbsp;las&nbsp;rodillas.&nbsp;</span></p><p></p><p><strong style=\"color: var(--m3c11);\">5.&nbsp;Apertura&nbsp;de&nbsp;cadera:</strong></p><p><span style=\"color: var(--m3c10);\">Una&nbsp;vez&nbsp;que&nbsp;la&nbsp;barra&nbsp;estén&nbsp;a&nbsp;la&nbsp;altura&nbsp;de&nbsp;las&nbsp;rodillas&nbsp;o&nbsp;un&nbsp;poco&nbsp;por&nbsp;debajo,&nbsp;abre&nbsp;la&nbsp;cadera,&nbsp;llevando&nbsp;las&nbsp;caderas&nbsp;hacia&nbsp;delante&nbsp;y&nbsp;volviendo&nbsp;a&nbsp;la&nbsp;posición&nbsp;inicial.&nbsp;</span></p><p></p><p></p><p></p><p></p>",
+      "image": "exercises/.gif_oibmfng",
+      "equipment": 25,
+      "muscle": 31,
+      "secondary_muscle": [],
+      "user": 1,
+      "created": "2025-04-22T01:28:36.151Z",
+      "modified": "2025-04-22T01:35:31.527Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 22,
+    "fields": {
+      "name": "Curl de Femoral",
+      "description": "",
+      "image": "exercises/-2.gif",
+      "equipment": 27,
+      "muscle": 31,
+      "secondary_muscle": [],
+      "user": 1,
+      "created": "2025-04-22T01:37:15.675Z",
+      "modified": "2025-04-22T01:37:15.675Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 23,
+    "fields": {
+      "name": "Elevación de talones",
+      "description": "<p>Hacer&nbsp;el&nbsp;ejercició&nbsp;despacio&nbsp;y&nbsp;con&nbsp;pausa&nbsp;de&nbsp;2&nbsp;segundos&nbsp;al&nbsp;final&nbsp;del&nbsp;recorrido.</p>",
+      "image": "exercises/Wadenheben_stehend__die_beste_Übung_für_massive_Waden.gif",
+      "equipment": 28,
+      "muscle": 30,
+      "secondary_muscle": [],
+      "user": 1,
+      "created": "2025-04-22T01:38:43.403Z",
+      "modified": "2025-04-22T01:38:43.403Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 24,
+    "fields": {
+      "name": "Crunch en Polea",
+      "description": "<p>Sacar&nbsp;el&nbsp;aire&nbsp;al&nbsp;final&nbsp;del&nbsp;recorrido&nbsp;y&nbsp;mantener&nbsp;la&nbsp;técnica.</p>",
+      "image": "exercises/How_To_Do_Cable_Crunch.gif",
+      "equipment": 29,
+      "muscle": 12,
+      "secondary_muscle": [],
+      "user": 1,
+      "created": "2025-04-22T01:41:55.976Z",
+      "modified": "2025-04-22T01:41:55.977Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 25,
+    "fields": {
+      "name": "Extensión de Piernas",
+      "description": "<p><strong>Recomendación:</strong></p><p><strong>La&nbsp;técnica&nbsp;a&nbsp;utilizar&nbsp;es&nbsp;Dropset:&nbsp;</strong></p><p>0&nbsp;descanso&nbsp;entre&nbsp;cada&nbsp;cambio&nbsp;de&nbsp;peso.&nbsp;Peso&nbsp;inicial&nbsp;justo&nbsp;para&nbsp;que&nbsp;saques&nbsp;15,&nbsp;luego&nbsp;le&nbsp;bajas&nbsp;el&nbsp;peso&nbsp;un&nbsp;poco&nbsp;(20%)&nbsp;y&nbsp;haces&nbsp;otras&nbsp;15,&nbsp;luego&nbsp;le&nbsp;bajas&nbsp;el&nbsp;peso&nbsp;nuevamente&nbsp;(30%)&nbsp;y&nbsp;haces&nbsp;15.&nbsp;Descansas&nbsp;2&nbsp;minutos&nbsp;y&nbsp;luego&nbsp;lo&nbsp;vollves&nbsp;a&nbsp;repetir.</p><p>Bajá&nbsp;lentamente&nbsp;manteniendo&nbsp;tensión&nbsp;(no&nbsp;dejes&nbsp;que&nbsp;el&nbsp;peso&nbsp;caiga&nbsp;tan&nbsp;rápido).</p><p>Cuando&nbsp;este&nbsp;arriba&nbsp;sostenelo&nbsp;1&nbsp;segundo.</p>",
+      "image": "exercises/.jpg_Y0SY12Z",
+      "equipment": 26,
+      "muscle": 23,
+      "secondary_muscle": [],
+      "user": 1,
+      "created": "2025-04-22T02:07:01.909Z",
+      "modified": "2025-04-22T02:07:01.909Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 26,
+    "fields": {
+      "name": "Press Militar con Barra",
+      "description": "<h3><span style=\"color: rgb(0, 0, 0);\">⚠️&nbsp;Técnica&nbsp;clave&nbsp;de&nbsp;pies:</span></h3><ul><li><span style=\"color: rgb(0, 0, 0);\">Sin&nbsp;arquear&nbsp;exageradamente&nbsp;la&nbsp;espalda.</span></li><li><span style=\"color: rgb(0, 0, 0);\">Pies&nbsp;al&nbsp;ancho&nbsp;de&nbsp;los&nbsp;hombros.</span></li><li><span style=\"color: rgb(0, 0, 0);\">La&nbsp;barra&nbsp;debe&nbsp;subir&nbsp;</span><strong style=\"color: rgb(0, 0, 0);\">por&nbsp;delante&nbsp;de&nbsp;la&nbsp;cara</strong><span style=\"color: rgb(0, 0, 0);\">,&nbsp;no&nbsp;detrás&nbsp;de&nbsp;la&nbsp;cabeza.</span></li></ul><p></p>",
+      "image": "exercises/00c8c91fb98526bc4c47fafdfdc9be2f.gif",
+      "equipment": 25,
+      "muscle": 33,
+      "secondary_muscle": [],
+      "user": 1,
+      "created": "2025-04-24T17:15:38.022Z",
+      "modified": "2025-04-24T17:15:38.022Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 27,
+    "fields": {
+      "name": "Elevaciones Laterales con Mancuernas",
+      "description": "<h3><span style=\"color: rgb(0, 0, 0);\">🔧&nbsp;Tips&nbsp;técnicos:</span></h3><ul><li><span style=\"color: rgb(0, 0, 0);\">Brazos&nbsp;ligeramente&nbsp;flexionados</span></li><li><span style=\"color: rgb(0, 0, 0);\">No&nbsp;levantar&nbsp;más&nbsp;allá&nbsp;del&nbsp;nivel&nbsp;de&nbsp;los&nbsp;hombros.</span></li><li><span style=\"color: rgb(0, 0, 0);\">Mantener&nbsp;tensión&nbsp;constante,&nbsp;evitar&nbsp;el&nbsp;&quot;balanceo&quot;&nbsp;excesivo.</span></li><li><span style=\"color: rgb(0, 0, 0);\">Si&nbsp;ves&nbsp;que&nbsp;al&nbsp;final&nbsp;de&nbsp;la&nbsp;serie&nbsp;perdes&nbsp;control,&nbsp;se&nbsp;puede&nbsp;usar&nbsp;el&nbsp;impulso&nbsp;moderado&nbsp;en&nbsp;las&nbsp;2&nbsp;últimas&nbsp;repeticiones&nbsp;para&nbsp;aumentar&nbsp;intensidad.</span></li></ul><p></p>",
+      "image": "exercises/7fbfa707a27d67141dba4c94e47bb2ec.gif",
+      "equipment": 15,
+      "muscle": 33,
+      "secondary_muscle": [],
+      "user": 1,
+      "created": "2025-04-24T17:28:09.720Z",
+      "modified": "2025-04-24T17:28:09.720Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 28,
+    "fields": {
+      "name": "Elevaciones Frontales con Barra",
+      "description": "<h3><span style=\"color: rgb(0, 0, 0);\">⚠️&nbsp;Errores&nbsp;a&nbsp;evitar:</span></h3><ul><li><span style=\"color: rgb(0, 0, 0);\">Usar&nbsp;demasiado&nbsp;peso&nbsp;y&nbsp;terminar&nbsp;&quot;tirando&quot;&nbsp;la&nbsp;barra&nbsp;con&nbsp;la&nbsp;espalda&nbsp;baja.</span></li><li><span style=\"color: rgb(0, 0, 0);\">Elevar&nbsp;por&nbsp;encima&nbsp;de&nbsp;los&nbsp;ojos.</span></li><li><span style=\"color: rgb(0, 0, 0);\">Apoyarse&nbsp;en&nbsp;el&nbsp;rebote&nbsp;en&nbsp;lugar&nbsp;de&nbsp;controlar.</span></li></ul><p></p>",
+      "image": "exercises/bdb3e21ac00ad922aae483cab0c0c2dc.gif",
+      "equipment": 25,
+      "muscle": 33,
+      "secondary_muscle": [],
+      "user": 1,
+      "created": "2025-04-24T17:35:18.766Z",
+      "modified": "2025-04-24T17:35:18.766Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 29,
+    "fields": {
+      "name": "Elevacion Posterior con Maquina",
+      "description": "<h3><span style=\"color: rgb(0, 0, 0);\">🏋️&nbsp;Sugerencias:</span></h3><ul><li><span style=\"color: rgb(0, 0, 0);\">Usar&nbsp;la&nbsp;maquina&nbsp;que&nbsp;esta&nbsp;en&nbsp;la&nbsp;planta&nbsp;baja,&nbsp;se&nbsp;parece&nbsp;a&nbsp;la&nbsp;de&nbsp;la&nbsp;imágen.</span></li><li>Usar&nbsp;el&nbsp;agarre&nbsp;prono&nbsp;(palmas&nbsp;hacia&nbsp;abajo).</li><li>Poner&nbsp;el&nbsp;eje&nbsp;de&nbsp;la&nbsp;máquina&nbsp;a&nbsp;la&nbsp;altura&nbsp;de&nbsp;tu&nbsp;cintura</li><li>No&nbsp;hacer&nbsp;trampa&nbsp;ni&nbsp;balanceo</li></ul><p></p>",
+      "image": "exercises/Station-elevation-laterale-murale-Lateral-Shoulder-Raise-Machine-76404098_J1b2Bqu.jpg.webp",
+      "equipment": 35,
+      "muscle": 33,
+      "secondary_muscle": [],
+      "user": 1,
+      "created": "2025-04-24T17:43:42.766Z",
+      "modified": "2025-04-24T17:50:38.678Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 30,
+    "fields": {
+      "name": "Encogimientos de hombro",
+      "description": "<h3><span style=\"color: rgb(0, 0, 0);\">🔧&nbsp;</span><strong style=\"color: rgb(0, 0, 0);\">Tips&nbsp;técnicos&nbsp;clave:</strong></h3><h3><span style=\"color: rgb(0, 0, 0);\">🔹&nbsp;Posición&nbsp;inicial:</span></h3><ul><li><strong style=\"color: rgb(0, 0, 0);\">De&nbsp;pie</strong><span style=\"color: rgb(0, 0, 0);\">,&nbsp;espalda&nbsp;recta,&nbsp;mirada&nbsp;al&nbsp;frente.</span></li><li><span style=\"color: rgb(0, 0, 0);\">Pies&nbsp;al&nbsp;ancho&nbsp;de&nbsp;los&nbsp;hombros.</span></li><li><span style=\"color: rgb(0, 0, 0);\">Agarre&nbsp;neutro&nbsp;(con&nbsp;mancuernas&nbsp;a&nbsp;los&nbsp;lados&nbsp;del&nbsp;cuerpo)</span></li><li><span style=\"color: rgb(0, 0, 0);\">Brazos&nbsp;completamente&nbsp;extendidos,&nbsp;</span><strong style=\"color: rgb(0, 0, 0);\">sin&nbsp;flexionar&nbsp;los&nbsp;codos</strong><span style=\"color: rgb(0, 0, 0);\">.</span></li><li>Detenerse&nbsp;1&nbsp;segundo&nbsp;al&nbsp;estar&nbsp;arriba&nbsp;y&nbsp;contrae&nbsp;los&nbsp;trapecio&nbsp;fuerte.</li></ul><p></p>",
+      "image": "exercises/3375a97d4df29cf74794b71e3439a1fc.gif",
+      "equipment": 15,
+      "muscle": 34,
+      "secondary_muscle": [],
+      "user": 1,
+      "created": "2025-04-24T17:54:40.459Z",
+      "modified": "2025-04-24T17:54:40.459Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 31,
+    "fields": {
+      "name": "Plancha Abdominal",
+      "description": "<h3><span style=\"color: rgb(0, 0, 0);\">🔧&nbsp;</span><strong style=\"color: rgb(0, 0, 0);\">Técnica&nbsp;correcta&nbsp;paso&nbsp;a&nbsp;paso:</strong></h3><ol><li><strong style=\"color: rgb(0, 0, 0);\">Posición&nbsp;inicial:</strong><ul><li><span style=\"color: rgb(0, 0, 0);\">Antebrazos&nbsp;apoyados&nbsp;en&nbsp;el&nbsp;suelo,&nbsp;</span><strong style=\"color: rgb(0, 0, 0);\">codos&nbsp;justo&nbsp;debajo&nbsp;de&nbsp;los&nbsp;hombros</strong><span style=\"color: rgb(0, 0, 0);\">.</span></li><li><span style=\"color: rgb(0, 0, 0);\">Piernas&nbsp;extendidas,&nbsp;puntas&nbsp;de&nbsp;los&nbsp;pies&nbsp;apoyadas.</span></li><li><span style=\"color: rgb(0, 0, 0);\">Cuerpo&nbsp;formando&nbsp;una&nbsp;</span><strong style=\"color: rgb(0, 0, 0);\">línea&nbsp;recta&nbsp;desde&nbsp;la&nbsp;cabeza&nbsp;hasta&nbsp;los&nbsp;talones</strong></li><li>No&nbsp;contengas&nbsp;la&nbsp;respiración</li></ul></li></ol><p></p>",
+      "image": "exercises/65bad0c0b29846b7ff4d82c312dd4471.gif",
+      "equipment": 36,
+      "muscle": 12,
+      "secondary_muscle": [],
+      "user": 1,
+      "created": "2025-04-24T18:06:01.075Z",
+      "modified": "2025-04-24T18:06:01.075Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 32,
+    "fields": {
+      "name": "Crunch en Banco Declinado",
+      "description": "<h3><span style=\"color: rgb(0, 0, 0);\">🧠&nbsp;Tips&nbsp;adicionales:</span></h3><ul><li>Podes&nbsp;utilizar&nbsp;la&nbsp;banca&nbsp;negra&nbsp;o&nbsp;la&nbsp;banca&nbsp;azul</li><li>Podes&nbsp;utilizar&nbsp;un&nbsp;disco&nbsp;con&nbsp;un&nbsp;peso&nbsp;que&nbsp;no&nbsp;se&nbsp;te&nbsp;dificulte&nbsp;levantarlo&nbsp;ni&nbsp;poner&nbsp;en&nbsp;riesgo&nbsp;la&nbsp;espalda&nbsp;baja.</li></ul><p></p>",
+      "image": "exercises/2840156e1d2e1745bce5e784be7b7607.jpg",
+      "equipment": 2,
+      "muscle": 12,
+      "secondary_muscle": [],
+      "user": 1,
+      "created": "2025-04-24T18:28:16.354Z",
+      "modified": "2025-04-24T18:29:32.651Z"
+    }
+  },
+  {
+    "model": "comments.comment",
+    "pk": 19,
+    "fields": {
+      "user": 5,
+      "photo": "default.jpg",
+      "content": "probando notificaciones",
+      "content_type": 11,
+      "object_id": 1,
+      "parent": null,
+      "created": "2025-04-16T07:13:30.699Z",
+      "deleted": null
+    }
+  },
+  {
+    "model": "comments.comment",
+    "pk": 20,
+    "fields": {
+      "user": 5,
+      "photo": "default.jpg",
+      "content": "pls especificar con cuanto peso por serie",
+      "content_type": 11,
+      "object_id": 2,
+      "parent": null,
+      "created": "2025-04-16T07:17:07.591Z",
+      "deleted": null
+    }
+  },
+  {
+    "model": "workouts.workout",
+    "pk": 1,
+    "fields": {
+      "name": "Volumen",
+      "description": "<p>Aquí&nbsp;vamos&nbsp;a&nbsp;ir&nbsp;incrementando&nbsp;el&nbsp;peso&nbsp;en&nbsp;cada&nbsp;serie</p>",
+      "day": 1,
+      "photo": "default.jpg",
+      "user": 2,
+      "created": "2025-04-06T02:26:26.172Z",
+      "modified": "2025-04-22T02:35:26.458Z",
+      "is_active": true,
+      "deleted": null
+    }
+  },
+  {
+    "model": "workouts.workout",
+    "pk": 2,
+    "fields": {
+      "name": "Pecho + Tríceps (Push)",
+      "description": "<p><span style=\"color: rgb(0, 0, 0);\">90&nbsp;a&nbsp;120&nbsp;min</span></p><p>Rutina:&nbsp;Hipertrofia&nbsp;con&nbsp;técnica&nbsp;avanzada&nbsp;(dropsets,&nbsp;rest-pause,&nbsp;superseries)</p><p><span style=\"color: rgb(0, 0, 0);\">Esta&nbsp;rutina&nbsp;busca&nbsp;desarrollo&nbsp;muscular&nbsp;simétrico,&nbsp;denso&nbsp;y&nbsp;estético.</span></p>",
+      "day": 1,
+      "photo": "default.jpg",
+      "user": 5,
+      "created": "2025-04-09T04:41:10.033Z",
+      "modified": "2025-04-23T02:19:36.483Z",
+      "is_active": true,
+      "deleted": null
+    }
+  },
+  {
+    "model": "workouts.workout",
+    "pk": 3,
+    "fields": {
+      "name": "Espalda + Bíceps (Pull)",
+      "description": "<p>En&nbsp;toda&nbsp;la&nbsp;rutina&nbsp;tenes&nbsp;que&nbsp;darle&nbsp;un&nbsp;descanso&nbsp;calculado&nbsp;(2min)&nbsp;para&nbsp;que&nbsp;en&nbsp;la&nbsp;siguiente&nbsp;serie&nbsp;tengas&nbsp;energia&nbsp;y&nbsp;a&nbsp;su&nbsp;vez&nbsp;llegues&nbsp;al&nbsp;fallo&nbsp;muscular.</p>",
+      "day": 2,
+      "photo": "default.jpg",
+      "user": 5,
+      "created": "2025-04-11T01:29:50.299Z",
+      "modified": "2025-04-23T02:22:00.966Z",
+      "is_active": true,
+      "deleted": null
+    }
+  },
+  {
+    "model": "workouts.workout",
+    "pk": 4,
+    "fields": {
+      "name": "Piernas (Cuádriceps y Femoral)",
+      "description": "<p>Realizar&nbsp;adecuadamente&nbsp;un&nbsp;estiramiento&nbsp;de&nbsp;los&nbsp;músculos&nbsp;y&nbsp;calentar&nbsp;antes&nbsp;de&nbsp;iniciar.</p>",
+      "day": 3,
+      "photo": "default.jpg",
+      "user": 5,
+      "created": "2025-04-22T01:44:04.561Z",
+      "modified": "2025-04-23T02:25:13.298Z",
+      "is_active": true,
+      "deleted": null
+    }
+  },
+  {
+    "model": "workouts.workout",
+    "pk": 5,
+    "fields": {
+      "name": "Hombros + Trapecio + Abs",
+      "description": "<h3><span style=\"color: rgb(0, 0, 0);\">🧠&nbsp;En&nbsp;General:</span></h3><ul><li><span style=\"color: rgb(0, 0, 0);\">Hacé&nbsp;un&nbsp;</span><strong style=\"color: rgb(0, 0, 0);\">calentamiento&nbsp;</strong><span style=\"color: rgb(0, 0, 0);\">con&nbsp;mancuernas&nbsp;livianas&nbsp;o&nbsp;movimientos&nbsp;de&nbsp;movilidad&nbsp;articular&nbsp;(círculos&nbsp;de&nbsp;hombros,&nbsp;etc).</span></li><li>Respetar&nbsp;el&nbsp;orden&nbsp;de&nbsp;los&nbsp;ejercicios</li></ul><p></p><p><strong style=\"color: rgb(0, 0, 0);\">Tiempo&nbsp;de&nbsp;descanso&nbsp;entre&nbsp;series:</strong></p><ul><li><strong style=\"color: rgb(0, 0, 0);\">Compuestos&nbsp;(press&nbsp;militar):</strong><span style=\"color: rgb(0, 0, 0);\">&nbsp;60-90&nbsp;seg.</span></li><li><strong style=\"color: rgb(0, 0, 0);\">Aislamiento&nbsp;(elevaciones,&nbsp;pájaros,&nbsp;encogimientos):</strong><span style=\"color: rgb(0, 0, 0);\">&nbsp;45-60&nbsp;seg.</span></li><li><strong style=\"color: rgb(0, 0, 0);\">Abs:</strong><span style=\"color: rgb(0, 0, 0);\">&nbsp;30-45&nbsp;seg.</span></li></ul>",
+      "day": 4,
+      "photo": "default.jpg",
+      "user": 5,
+      "created": "2025-04-24T18:38:16.000Z",
+      "modified": "2025-04-24T20:51:34.447Z",
+      "is_active": true,
+      "deleted": null
+    }
+  },
+  {
+    "model": "workouts.workoutexcercise",
+    "pk": 5,
+    "fields": {
+      "exercise": 2,
+      "workout": 2,
+      "data": [
+        {
+          "rept": 12,
+          "weight": 5
+        },
+        {
+          "rept": 12,
+          "weight": 5
+        },
+        {
+          "rept": 12,
+          "weight": 5
+        },
+        {
+          "rept": 12,
+          "weight": 5
+        }
+      ],
+      "sets": 4,
+      "repts": 12,
+      "weight": 0,
+      "description": ""
+    }
+  },
+  {
+    "model": "workouts.workoutexcercise",
+    "pk": 6,
+    "fields": {
+      "exercise": 3,
+      "workout": 2,
+      "data": [
+        {
+          "rept": 12,
+          "weight": 5
+        },
+        {
+          "rept": 12,
+          "weight": 5
+        },
+        {
+          "rept": 12,
+          "weight": 5
+        }
+      ],
+      "sets": 3,
+      "repts": 12,
+      "weight": 0,
+      "description": ""
+    }
+  },
+  {
+    "model": "workouts.workoutexcercise",
+    "pk": 7,
+    "fields": {
+      "exercise": 4,
+      "workout": 2,
+      "data": [
+        {
+          "rept": 15,
+          "weight": 5
+        },
+        {
+          "rept": 15,
+          "weight": 5
+        },
+        {
+          "rept": 15,
+          "weight": 5
+        }
+      ],
+      "sets": 3,
+      "repts": 15,
+      "weight": 0,
+      "description": ""
+    }
+  },
+  {
+    "model": "workouts.workoutexcercise",
+    "pk": 8,
+    "fields": {
+      "exercise": 5,
+      "workout": 2,
+      "data": [
+        {
+          "rept": 10,
+          "weight": 5
+        },
+        {
+          "rept": 10,
+          "weight": 5
+        },
+        {
+          "rept": 10,
+          "weight": 5
+        }
+      ],
+      "sets": 3,
+      "repts": 10,
+      "weight": 0,
+      "description": ""
+    }
+  },
+  {
+    "model": "workouts.workoutexcercise",
+    "pk": 9,
+    "fields": {
+      "exercise": 6,
+      "workout": 2,
+      "data": [
+        {
+          "rept": 15,
+          "weight": 5
+        },
+        {
+          "rept": 15,
+          "weight": 5
+        },
+        {
+          "rept": 15,
+          "weight": 5
+        },
+        {
+          "rept": 15,
+          "weight": 5
+        }
+      ],
+      "sets": 4,
+      "repts": 15,
+      "weight": 0,
+      "description": ""
+    }
+  },
+  {
+    "model": "workouts.workoutexcercise",
+    "pk": 10,
+    "fields": {
+      "exercise": 7,
+      "workout": 2,
+      "data": [
+        {
+          "rept": 15,
+          "weight": 5
+        },
+        {
+          "rept": 15,
+          "weight": 5
+        },
+        {
+          "rept": 15,
+          "weight": 5
+        }
+      ],
+      "sets": 3,
+      "repts": 15,
+      "weight": 0,
+      "description": ""
+    }
+  },
+  {
+    "model": "workouts.workoutexcercise",
+    "pk": 11,
+    "fields": {
+      "exercise": 8,
+      "workout": 2,
+      "data": [
+        {
+          "rept": 20,
+          "weight": 5
+        },
+        {
+          "rept": 20,
+          "weight": 5
+        },
+        {
+          "rept": 20,
+          "weight": 5
+        },
+        {
+          "rept": 20,
+          "weight": 5
+        }
+      ],
+      "sets": 4,
+      "repts": 20,
+      "weight": 0,
+      "description": ""
+    }
+  },
+  {
+    "model": "workouts.workoutexcercise",
+    "pk": 12,
+    "fields": {
+      "exercise": 9,
+      "workout": 3,
+      "data": [
+        {
+          "rept": 10,
+          "weight": 5
+        },
+        {
+          "rept": 10,
+          "weight": 5
+        },
+        {
+          "rept": 10,
+          "weight": 5
+        },
+        {
+          "rept": 10,
+          "weight": 5
+        }
+      ],
+      "sets": 4,
+      "repts": 10,
+      "weight": 0,
+      "description": ""
+    }
+  },
+  {
+    "model": "workouts.workoutexcercise",
+    "pk": 13,
+    "fields": {
+      "exercise": 10,
+      "workout": 3,
+      "data": [
+        {
+          "rept": 10,
+          "weight": 5
+        },
+        {
+          "rept": 10,
+          "weight": 5
+        },
+        {
+          "rept": 10,
+          "weight": 5
+        },
+        {
+          "rept": 10,
+          "weight": 5
+        }
+      ],
+      "sets": 4,
+      "repts": 10,
+      "weight": 0,
+      "description": ""
+    }
+  },
+  {
+    "model": "workouts.workoutexcercise",
+    "pk": 14,
+    "fields": {
+      "exercise": 11,
+      "workout": 3,
+      "data": [
+        {
+          "rept": 12,
+          "weight": 5
+        },
+        {
+          "rept": 12,
+          "weight": 5
+        },
+        {
+          "rept": 12,
+          "weight": 5
+        }
+      ],
+      "sets": 3,
+      "repts": 12,
+      "weight": 0,
+      "description": ""
+    }
+  },
+  {
+    "model": "workouts.workoutexcercise",
+    "pk": 15,
+    "fields": {
+      "exercise": 13,
+      "workout": 3,
+      "data": [
+        {
+          "rept": 15,
+          "weight": 5
+        },
+        {
+          "rept": 15,
+          "weight": 5
+        },
+        {
+          "rept": 15,
+          "weight": 5
+        }
+      ],
+      "sets": 3,
+      "repts": 15,
+      "weight": 0,
+      "description": ""
+    }
+  },
+  {
+    "model": "workouts.workoutexcercise",
+    "pk": 16,
+    "fields": {
+      "exercise": 14,
+      "workout": 3,
+      "data": [
+        {
+          "rept": 15,
+          "weight": 5
+        },
+        {
+          "rept": 15,
+          "weight": 5
+        },
+        {
+          "rept": 15,
+          "weight": 5
+        }
+      ],
+      "sets": 3,
+      "repts": 15,
+      "weight": 0,
+      "description": ""
+    }
+  },
+  {
+    "model": "workouts.workoutexcercise",
+    "pk": 17,
+    "fields": {
+      "exercise": 15,
+      "workout": 3,
+      "data": [
+        {
+          "rept": 10,
+          "weight": 5
+        },
+        {
+          "rept": 10,
+          "weight": 5
+        },
+        {
+          "rept": 10,
+          "weight": 5
+        },
+        {
+          "rept": 10,
+          "weight": 5
+        }
+      ],
+      "sets": 4,
+      "repts": 10,
+      "weight": 0,
+      "description": ""
+    }
+  },
+  {
+    "model": "workouts.workoutexcercise",
+    "pk": 18,
+    "fields": {
+      "exercise": 17,
+      "workout": 3,
+      "data": [
+        {
+          "rept": 12,
+          "weight": 5
+        },
+        {
+          "rept": 12,
+          "weight": 5
+        },
+        {
+          "rept": 12,
+          "weight": 5
+        }
+      ],
+      "sets": 3,
+      "repts": 12,
+      "weight": 0,
+      "description": ""
+    }
+  },
+  {
+    "model": "workouts.workoutexcercise",
+    "pk": 19,
+    "fields": {
+      "exercise": 18,
+      "workout": 3,
+      "data": [
+        {
+          "rept": 15,
+          "weight": 5
+        },
+        {
+          "rept": 15,
+          "weight": 5
+        }
+      ],
+      "sets": 2,
+      "repts": 15,
+      "weight": 0,
+      "description": ""
+    }
+  },
+  {
+    "model": "workouts.workoutexcercise",
+    "pk": 20,
+    "fields": {
+      "exercise": 19,
+      "workout": 4,
+      "data": [
+        {
+          "rept": 8,
+          "weight": 5
+        },
+        {
+          "rept": 8,
+          "weight": 5
+        },
+        {
+          "rept": 8,
+          "weight": 5
+        },
+        {
+          "rept": 8,
+          "weight": 5
+        },
+        {
+          "rept": 8,
+          "weight": 5
+        }
+      ],
+      "sets": 5,
+      "repts": 8,
+      "weight": 0,
+      "description": ""
+    }
+  },
+  {
+    "model": "workouts.workoutexcercise",
+    "pk": 21,
+    "fields": {
+      "exercise": 20,
+      "workout": 4,
+      "data": [
+        {
+          "rept": 12,
+          "weight": 5
+        },
+        {
+          "rept": 12,
+          "weight": 5
+        },
+        {
+          "rept": 12,
+          "weight": 5
+        },
+        {
+          "rept": 12,
+          "weight": 5
+        }
+      ],
+      "sets": 4,
+      "repts": 12,
+      "weight": 0,
+      "description": ""
+    }
+  },
+  {
+    "model": "workouts.workoutexcercise",
+    "pk": 22,
+    "fields": {
+      "exercise": 21,
+      "workout": 4,
+      "data": [
+        {
+          "rept": 10,
+          "weight": 5
+        },
+        {
+          "rept": 10,
+          "weight": 5
+        },
+        {
+          "rept": 10,
+          "weight": 5
+        },
+        {
+          "rept": 10,
+          "weight": 5
+        }
+      ],
+      "sets": 4,
+      "repts": 10,
+      "weight": 0,
+      "description": ""
+    }
+  },
+  {
+    "model": "workouts.workoutexcercise",
+    "pk": 24,
+    "fields": {
+      "exercise": 25,
+      "workout": 4,
+      "data": [
+        {
+          "rept": 15,
+          "weight": 5
+        },
+        {
+          "rept": 15,
+          "weight": 5
+        },
+        {
+          "rept": 15,
+          "weight": 5
+        }
+      ],
+      "sets": 3,
+      "repts": 15,
+      "weight": 0,
+      "description": ""
+    }
+  },
+  {
+    "model": "workouts.workoutexcercise",
+    "pk": 25,
+    "fields": {
+      "exercise": 22,
+      "workout": 4,
+      "data": [
+        {
+          "rept": 15,
+          "weight": 5
+        },
+        {
+          "rept": 15,
+          "weight": 5
+        },
+        {
+          "rept": 15,
+          "weight": 5
+        }
+      ],
+      "sets": 3,
+      "repts": 15,
+      "weight": 0,
+      "description": ""
+    }
+  },
+  {
+    "model": "workouts.workoutexcercise",
+    "pk": 26,
+    "fields": {
+      "exercise": 23,
+      "workout": 4,
+      "data": [
+        {
+          "rept": 20,
+          "weight": 5
+        },
+        {
+          "rept": 20,
+          "weight": 5
+        },
+        {
+          "rept": 20,
+          "weight": 5
+        },
+        {
+          "rept": 20,
+          "weight": 5
+        },
+        {
+          "rept": 20,
+          "weight": 5
+        }
+      ],
+      "sets": 5,
+      "repts": 20,
+      "weight": 0,
+      "description": ""
+    }
+  },
+  {
+    "model": "workouts.workoutexcercise",
+    "pk": 27,
+    "fields": {
+      "exercise": 24,
+      "workout": 4,
+      "data": [
+        {
+          "rept": 15,
+          "weight": 5
+        },
+        {
+          "rept": 15,
+          "weight": 5
+        },
+        {
+          "rept": 15,
+          "weight": 5
+        },
+        {
+          "rept": 15,
+          "weight": 5
+        }
+      ],
+      "sets": 4,
+      "repts": 15,
+      "weight": 0,
+      "description": ""
+    }
+  },
+  {
+    "model": "workouts.workoutexcercise",
+    "pk": 28,
+    "fields": {
+      "exercise": 1,
+      "workout": 1,
+      "data": null,
+      "sets": 3,
+      "repts": 8,
+      "weight": 0,
+      "description": ""
+    }
+  },
+  {
+    "model": "workouts.workoutexcercise",
+    "pk": 29,
+    "fields": {
+      "exercise": 26,
+      "workout": 5,
+      "data": [
+        {
+          "sets": 4,
+          "rept": 8,
+          "weight": 0
+        }
+      ],
+      "sets": 4,
+      "repts": 12,
+      "weight": 0,
+      "description": ""
+    }
+  },
+  {
+    "model": "workouts.workoutexcercise",
+    "pk": 30,
+    "fields": {
+      "exercise": 27,
+      "workout": 5,
+      "data": [
+        {
+          "sets": 4,
+          "rept": 15,
+          "weight": 0
+        }
+      ],
+      "sets": 4,
+      "repts": 12,
+      "weight": 0,
+      "description": ""
+    }
+  },
+  {
+    "model": "workouts.workoutexcercise",
+    "pk": 31,
+    "fields": {
+      "exercise": 28,
+      "workout": 5,
+      "data": [
+        {
+          "sets": 3,
+          "rept": 12,
+          "weight": 0
+        }
+      ],
+      "sets": 4,
+      "repts": 12,
+      "weight": 0,
+      "description": ""
+    }
+  },
+  {
+    "model": "workouts.workoutexcercise",
+    "pk": 32,
+    "fields": {
+      "exercise": 29,
+      "workout": 5,
+      "data": [
+        {
+          "sets": 3,
+          "rept": 15,
+          "weight": 0
+        }
+      ],
+      "sets": 4,
+      "repts": 12,
+      "weight": 0,
+      "description": ""
+    }
+  },
+  {
+    "model": "workouts.workoutexcercise",
+    "pk": 33,
+    "fields": {
+      "exercise": 30,
+      "workout": 5,
+      "data": [
+        {
+          "sets": 4,
+          "rept": 20,
+          "weight": 0
+        }
+      ],
+      "sets": 4,
+      "repts": 12,
+      "weight": 0,
+      "description": ""
+    }
+  },
+  {
+    "model": "workouts.workoutexcercise",
+    "pk": 34,
+    "fields": {
+      "exercise": 31,
+      "workout": 5,
+      "data": [
+        {
+          "sets": 4,
+          "rept": 1,
+          "weight": 0
+        }
+      ],
+      "sets": 4,
+      "repts": 12,
+      "weight": 0,
+      "description": "El número 1 indica el tiempo 1 min."
+    }
+  },
+  {
+    "model": "workouts.workoutexcercise",
+    "pk": 35,
+    "fields": {
+      "exercise": 32,
+      "workout": 5,
+      "data": [
+        {
+          "sets": 4,
+          "rept": 20,
+          "weight": 0
+        }
+      ],
+      "sets": 4,
+      "repts": 12,
+      "weight": 0,
+      "description": ""
+    }
+  },
+  {
+    "model": "measures.measure",
+    "pk": 1,
+    "fields": {
+      "user": 5,
+      "comment": "",
+      "measures": {
+        "abdomen": 0,
+        "arm_left": 0,
+        "arm_right": 0,
+        "back": 0,
+        "chest": 0,
+        "forearm": 0,
+        "glutes": 0,
+        "hips": 0,
+        "leg_left": 0,
+        "leg_right": 0,
+        "waist": 0,
+        "weight": "110"
+      },
+      "created": "2025-04-22T19:07:12.683Z",
+      "modified": "2025-04-23T19:41:08.855Z",
+      "is_active": true,
+      "deleted": null
+    }
+  },
+  {
+    "model": "measures.measure",
+    "pk": 2,
+    "fields": {
+      "user": 5,
+      "comment": "",
+      "measures": {
+        "abdomen": 0,
+        "arm_left": 0,
+        "arm_right": 0,
+        "back": 0,
+        "chest": 0,
+        "forearm": 0,
+        "glutes": 0,
+        "hips": 0,
+        "leg_left": 0,
+        "leg_right": 0,
+        "waist": 0,
+        "weight": "120"
+      },
+      "created": "2025-04-22T19:07:33.956Z",
+      "modified": "2025-04-23T19:41:13.543Z",
+      "is_active": true,
+      "deleted": null
+    }
+  },
+  {
+    "model": "images.image",
+    "pk": 1,
+    "fields": {
+      "photo": "images/back.png",
+      "content_type": 10,
+      "object_id": 16,
+      "created": "2025-04-23T02:27:19.701Z",
+      "modified": "2025-04-23T02:27:19.701Z"
+    }
+  },
+  {
+    "model": "images.image",
+    "pk": 2,
+    "fields": {
+      "photo": "images/biceps.png",
+      "content_type": 10,
+      "object_id": 17,
+      "created": "2025-04-23T02:27:36.110Z",
+      "modified": "2025-04-23T02:27:36.110Z"
+    }
+  },
+  {
+    "model": "images.image",
+    "pk": 3,
+    "fields": {
+      "photo": "images/abs.png",
+      "content_type": 10,
+      "object_id": 12,
+      "created": "2025-04-23T02:28:26.475Z",
+      "modified": "2025-04-23T02:28:26.475Z"
+    }
+  },
+  {
+    "model": "images.image",
+    "pk": 4,
+    "fields": {
+      "photo": "images/chest.png",
+      "content_type": 10,
+      "object_id": 3,
+      "created": "2025-04-23T02:28:38.475Z",
+      "modified": "2025-04-23T02:28:38.475Z"
+    }
+  },
+  {
+    "model": "images.image",
+    "pk": 5,
+    "fields": {
+      "photo": "images/triceps.png",
+      "content_type": 10,
+      "object_id": 11,
+      "created": "2025-04-23T02:29:50.651Z",
+      "modified": "2025-04-23T02:29:50.651Z"
+    }
+  },
+  {
+    "model": "notifications.notification",
+    "pk": 19,
+    "fields": {
+      "user": 5,
+      "user_to": 1,
+      "content_type": 12,
+      "object_id": 19,
+      "is_read": false,
+      "link": null,
+      "created": "2025-04-16T07:13:30.730Z"
+    }
+  },
+  {
+    "model": "notifications.notification",
+    "pk": 20,
+    "fields": {
+      "user": 5,
+      "user_to": 1,
+      "content_type": 12,
+      "object_id": 20,
+      "is_read": false,
+      "link": null,
+      "created": "2025-04-16T07:17:07.631Z"
+    }
+  }
+]
