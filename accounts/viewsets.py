@@ -14,6 +14,9 @@ from django_filters.rest_framework import DjangoFilterBackend
 from django.contrib.auth import get_user_model
 
 User = get_user_model()
+from flags.models import FlagState
+
+from .serializers import FlagStateSerializer
 
 
 class RegisterApiView(APIView):
@@ -75,6 +78,14 @@ class UserViewSet(viewsets.ModelViewSet):
     @action(detail=False)
     def me(self, request):
         serializer = UserReadSerializer(request.user, context={"request": request})
+        return Response(status=status.HTTP_200_OK, data=serializer.data)
+
+    @action(detail=False)
+    def flags(self, request):
+        models = FlagState.objects.all()
+        serializer = FlagStateSerializer(
+            models, many=True, context={"request": request}
+        )
         return Response(status=status.HTTP_200_OK, data=serializer.data)
 
 

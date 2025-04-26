@@ -15,6 +15,8 @@ from datetime import timedelta
 import os
 import environ
 
+import sentry_sdk
+
 env = environ.Env(
     # set casting, default value
     DEBUG=(bool, False)
@@ -62,6 +64,7 @@ INSTALLED_APPS = [
     "images",
     "notifications",
     "django_cleanup.apps.CleanupConfig",
+    "flags",
     # "storages",
 ]
 
@@ -90,6 +93,7 @@ TEMPLATES = [
                 "django.template.context_processors.request",
                 "django.contrib.auth.context_processors.auth",
                 "django.contrib.messages.context_processors.messages",
+                "django.template.context_processors.request",
             ],
         },
     },
@@ -242,3 +246,12 @@ SWAGGER_SETTINGS = {
 #         "LOCATION": "./temp",
 #     }
 # }
+
+FLAGS = {"TEST_FLAG": []}
+
+sentry_sdk.init(
+    dsn=env("SENTRY"),
+    # Add data like request headers and IP for users,
+    # see https://docs.sentry.io/platforms/python/data-management/data-collected/ for more info
+    send_default_pii=True,
+)

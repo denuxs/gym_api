@@ -6,6 +6,13 @@ from django.contrib.auth import get_user_model
 from accounts.models import Fcmtoken
 
 User = get_user_model()
+from flags.models import FlagState
+
+
+class FlagStateSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = FlagState
+        fields = "__all__"
 
 
 class UserSerializer(serializers.ModelSerializer):
