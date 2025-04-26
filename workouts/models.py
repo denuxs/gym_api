@@ -49,6 +49,7 @@ class WorkoutExcercise(models.Model):
     repts = models.IntegerField(null=True, default=12)
     weight = models.IntegerField(null=True, default=0)
     description = models.TextField(null=True, blank=True)
+    order = models.IntegerField(null=True, default=0)
 
     def __str__(self):
         return self.workout.name

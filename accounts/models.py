@@ -17,6 +17,11 @@ class User(AbstractUser):
     phone = models.IntegerField(default=0)
     age = models.IntegerField(default=0)
 
+    weight = models.IntegerField(default=0)
+    hight = models.IntegerField(default=0)
+
+    experience_level = models.CharField(max_length=14, null=True)
+
     # notifications = GenericRelation("Notification")
 
     class Meta:
