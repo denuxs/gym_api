@@ -43,7 +43,7 @@ def default_sets():
 
 class WorkoutExcercise(models.Model):
     exercise = models.ForeignKey(Exercise, on_delete=models.PROTECT)
-    workout = models.ForeignKey(Workout, on_delete=models.PROTECT)
+    workout = models.ForeignKey(Workout, on_delete=models.CASCADE)
     data = models.JSONField(null=True, blank=True)
     sets = models.IntegerField(null=True, default=4)
     repts = models.IntegerField(null=True, default=12)
