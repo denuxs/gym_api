@@ -42,7 +42,7 @@ class User(AbstractUser):
 
 
 class Fcmtoken(models.Model):
-    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    user = models.ForeignKey(User, on_delete=models.PROTECT)
     token = models.CharField(max_length=200, null=True, blank=True)
     device = models.CharField(max_length=200, null=True, blank=True)
     is_active = models.BooleanField(default=True)

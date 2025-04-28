@@ -18,7 +18,7 @@ class Workout(models.Model):
 
     user = models.ForeignKey(
         User,
-        on_delete=models.CASCADE,
+        on_delete=models.PROTECT,
     )
 
     exercises = models.ManyToManyField(
@@ -42,8 +42,8 @@ def default_sets():
 
 
 class WorkoutExcercise(models.Model):
-    exercise = models.ForeignKey(Exercise, on_delete=models.CASCADE)
-    workout = models.ForeignKey(Workout, on_delete=models.CASCADE)
+    exercise = models.ForeignKey(Exercise, on_delete=models.PROTECT)
+    workout = models.ForeignKey(Workout, on_delete=models.PROTECT)
     data = models.JSONField(null=True, blank=True)
     sets = models.IntegerField(null=True, default=4)
     repts = models.IntegerField(null=True, default=12)
@@ -55,4 +55,4 @@ class WorkoutExcercise(models.Model):
         return self.workout.name
 
     class Meta:
-        ordering = ['order']
+        ordering = ["order"]

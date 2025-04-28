@@ -1,3 +1,5 @@
+from images.models import Image
+from django.contrib.contenttypes.fields import GenericRelation
 from django.db import models
 
 
@@ -7,6 +9,8 @@ class Catalog(models.Model):
 
     created = models.DateTimeField(auto_now_add=True)
     modified = models.DateTimeField(auto_now=True)
+
+    images = GenericRelation(Image)
 
     def __str__(self):
         return self.name

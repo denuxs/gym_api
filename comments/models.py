@@ -11,18 +11,18 @@ from django.contrib.contenttypes.models import ContentType
 class Comment(models.Model):
     user = models.ForeignKey(
         User,
-        on_delete=models.CASCADE,
+        on_delete=models.PROTECT,
         related_name="comments",
     )
     photo = models.ImageField(
         upload_to="comments/", default="default.jpg", blank=True, null=True
     )
     content = models.TextField()
-    content_type = models.ForeignKey(ContentType, on_delete=models.CASCADE)
+    content_type = models.ForeignKey(ContentType, on_delete=models.PROTECT)
     object_id = models.PositiveIntegerField()
     content_object = GenericForeignKey("content_type", "object_id")
     parent = models.ForeignKey(
-        "self", related_name="children", on_delete=models.CASCADE, blank=True, null=True
+        "self", related_name="children", on_delete=models.PROTECT, blank=True, null=True
     )
 
     created = models.DateTimeField(auto_now_add=True, null=True)

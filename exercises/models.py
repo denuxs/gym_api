@@ -20,18 +20,18 @@ class Exercise(models.Model):
 
     equipment = models.ForeignKey(
         Catalog,
-        on_delete=models.CASCADE,
+        on_delete=models.PROTECT,
         related_name="equipment_catalog_set",
     )
 
     muscle = models.ForeignKey(
         Catalog,
-        on_delete=models.CASCADE,
+        on_delete=models.PROTECT,
         related_name="muscle_catalog_set",
     )
     secondary_muscle = models.JSONField(null=True, blank=True, default=list)
 
-    user = models.ForeignKey(User, on_delete=models.CASCADE, null=True)
+    user = models.ForeignKey(User, on_delete=models.PROTECT, null=True)
 
     created = models.DateTimeField(auto_now_add=True)
     modified = models.DateTimeField(auto_now=True)

@@ -52,7 +52,7 @@ def default_muscles():
 class Measure(models.Model):
     user = models.ForeignKey(
         User,
-        on_delete=models.CASCADE,
+        on_delete=models.PROTECT,
     )
     comment = models.TextField(null=True, blank=True)
     measures = models.JSONField(null=True, blank=True, default=default_muscles)
