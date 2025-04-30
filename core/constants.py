@@ -16,3 +16,16 @@ DAYS_OF_WEEK = (
     (6, "Sabado"),
     (7, "Domingo"),
 )
+
+BEGINNER = "beginner"
+WORKOUT_LEVEL = (
+    ("beginner", "Principiante"),
+    ("medium", "Medio"),
+    ("advanced", "Avanzado"),
+)
+
+WORKOUT_GOAL = (
+    ("gain_muscle", "Ganar Musculo"),
+    ("strength", "Fuerza"),
+    ("lose_weight", "Perder Peso"),
+)

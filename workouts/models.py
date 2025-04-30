@@ -1,5 +1,5 @@
 from django.db import models
-from core.constants import GENDER_CHOICES, MALE, DAYS_OF_WEEK
+from core.constants import WORKOUT_LEVEL, BEGINNER, DAYS_OF_WEEK
 
 from exercises.models import Exercise
 
@@ -15,6 +15,7 @@ class Workout(models.Model):
     photo = models.ImageField(
         upload_to="workouts/", default="default.jpg", blank=True, null=True
     )
+    level = models.CharField(max_length=140, choices=WORKOUT_LEVEL, default=BEGINNER)
 
     user = models.ForeignKey(
         User,
