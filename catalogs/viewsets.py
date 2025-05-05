@@ -23,3 +23,10 @@ class CatalogViewSet(viewsets.ModelViewSet):
         "key",
     ]
     ordering_fields = ["key", "id"]
+
+    def paginate_queryset(self, queryset):
+        if "paginator" in self.request.query_params:
+            return None
+        return super().paginate_queryset(
+            queryset,
+        )

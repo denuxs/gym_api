@@ -29,13 +29,23 @@ class ExerciseViewSet(viewsets.ModelViewSet):
         "muscle",
         "equipment",
     ]
-    ordering_fields = ["id", "muscle", "equipment"]
+    ordering_fields = ["id", "name", "muscle", "equipment"]
+
+    def paginate_queryset(self, queryset):
+        if "paginator" in self.request.query_params:
+            return None
+        return super().paginate_queryset(
+            queryset,
+        )
 
     def get_serializer_class(self):
         if self.action in ["create", "update", "partial_update", "destroy"]:
             return ExerciseSerializer
 
         return ExerciseReadSerializer
+
+    def perform_create(self, serializer):
+        serializer.save(user=self.request.user)
 
     @action(["GET"], detail=True, url_path="comments")
     def comments(self, request, pk):

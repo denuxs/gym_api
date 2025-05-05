@@ -18,3 +18,10 @@ class ImageViewSet(viewsets.ModelViewSet):
     ordering_fields = [
         "id",
     ]
+
+    def paginate_queryset(self, queryset):
+        if "paginator" in self.request.query_params:
+            return None
+        return super().paginate_queryset(
+            queryset,
+        )
