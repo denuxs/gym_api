@@ -71,7 +71,8 @@ class WorkoutSerializer(serializers.ModelSerializer):
 
 
 class WorkoutReadSerializer(serializers.ModelSerializer):
-    # day = serializers.CharField(source="get_day_display")
+    day_display = serializers.CharField(source="get_day_display", read_only=True)
+    level_display = serializers.CharField(source="get_level_display", read_only=True)
     exercises = WorkoutExcerciseSerializer(
         many=True, read_only=True, source="workoutexcercise_set"
     )
