@@ -73,11 +73,8 @@ def sendNotification(
     instance,
 ):
     backend_url = env("BACKEND_URL")
-    frontend_url = env("FRONTEND_URL")
-
-    options = messaging.WebpushFCMOptions(
-        link=frontend_url + "/admin/notifications",
-    )
+    fcm_click_redirect = env("FCM_CLICK_REDIRECT")
+    fcm_icon = env("FCM_ICON")
 
     # created_format = humanize.naturaltime(instance.created)
 
@@ -97,7 +94,10 @@ def sendNotification(
             title="AFit Trainer",
             body=f"{name} comento sobre el ejercicio {exercise.name}: {instance.content}",
         ),
-        webpush=messaging.WebpushConfig(fcm_options=options),
+        webpush=messaging.WebpushConfig(
+            notification=messaging.WebpushNotification(icon=fcm_icon),
+            fcm_options=messaging.WebpushFCMOptions(link=fcm_click_redirect),
+        ),
         data=json_data,
         token=fcm_token,
     )
