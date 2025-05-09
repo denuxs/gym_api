@@ -76,7 +76,7 @@ def sendNotification(
     frontend_url = env("FRONTEND_URL")
 
     options = messaging.WebpushFCMOptions(
-        link=frontend_url + "/workouts",
+        link=frontend_url + "/admin/notifications",
     )
 
     # created_format = humanize.naturaltime(instance.created)
