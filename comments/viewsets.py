@@ -1,5 +1,9 @@
-from .models import Comment
-from .serializers import CommentSerializer, CommentReadSerializer
+from .models import Comment, CommentReplies
+from .serializers import (
+    CommentRepliesSerializer,
+    CommentSerializer,
+    CommentReadSerializer,
+)
 
 from rest_framework import viewsets, filters
 from django_filters.rest_framework import DjangoFilterBackend
@@ -28,3 +32,8 @@ class CommentViewSet(viewsets.ModelViewSet):
             return CommentSerializer
 
         return CommentReadSerializer
+
+
+class CommentRepliesViewSet(viewsets.ModelViewSet):
+    queryset = CommentReplies.objects.all()
+    serializer_class = CommentRepliesSerializer

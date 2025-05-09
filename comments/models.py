@@ -33,3 +33,21 @@ class Comment(models.Model):
 
     # class Meta:
     #     ordering = ["-id"]
+
+
+class CommentReplies(models.Model):
+    comment = models.ForeignKey(
+        Comment,
+        on_delete=models.PROTECT,
+        related_name="replies",
+    )
+    user = models.ForeignKey(
+        User,
+        on_delete=models.PROTECT,
+    )
+    content = models.TextField()
+
+    created = models.DateTimeField(auto_now_add=True, null=True)
+
+    def __str__(self):
+        return self.content

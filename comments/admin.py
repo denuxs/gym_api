@@ -1,5 +1,10 @@
-from .models import Comment
+from .models import Comment, CommentReplies
 from django.contrib import admin
+
+
+class CommentRepliesAdminInline(admin.TabularInline):
+    extra = 1
+    model = CommentReplies
 
 
 class CommentAdmin(admin.ModelAdmin):
@@ -13,6 +18,7 @@ class CommentAdmin(admin.ModelAdmin):
     list_per_page = 10
     list_select_related = ("user",)
     list_filter = ("user__username",)
+    inlines = (CommentRepliesAdminInline,)
 
 
 admin.site.register(Comment, CommentAdmin)

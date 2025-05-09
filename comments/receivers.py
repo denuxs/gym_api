@@ -44,23 +44,33 @@ def create_notification(sender, instance, created, **kwargs):
 
         notification = Notification.objects.create(
             user=user,
-            user_to=exercise.user,
+            # user_to=exercise.user,
             content_type=content,
             object_id=instance.id,
             # link=f"/exercises/{exercise.id}/comments",
         )
-        serializer = NotificationSerializer(notification)
+        # serializer = NotificationSerializer(notification)
 
         data = Fcmtoken.objects.filter(user=exercise.user)
 
         for item in data:
             sendNotification(
-                item.token, notification, user, name, exercise, instance, serializer
+                item.token,
+                notification,
+                user,
+                name,
+                exercise,
+                instance,
             )
 
 
 def sendNotification(
-    fcm_token, notification, user, name, exercise, instance, serializer
+    fcm_token,
+    notification,
+    user,
+    name,
+    exercise,
+    instance,
 ):
     backend_url = env("BACKEND_URL")
     frontend_url = env("FRONTEND_URL")
