@@ -39,7 +39,8 @@ from accounts.viewsets import UserViewSet, RegisterApiView, FcmTokenViewSet
 from images.viewsets import ImageViewSet
 from notifications.viewsets import NotificationViewSet
 from posts.viewsets import PostViewSet
-from workouts.viewsets import WorkoutViewSet, WorkoutDetailViewSet
+from routines.viewsets import RoutineViewSet
+
 from measures.viewsets import MeasureViewSet
 from catalogs.viewsets import CatalogViewSet
 from core.dashboard import DashboardApiView
@@ -51,8 +52,7 @@ router.register(r"posts", PostViewSet)
 router.register(r"comments", CommentViewSet)
 router.register(r"images", ImageViewSet)
 router.register(r"exercises", ExerciseViewSet)
-router.register(r"workouts", WorkoutViewSet)
-router.register(r"workouts-detail", WorkoutDetailViewSet)
+router.register(r"routines", RoutineViewSet)
 router.register(r"measures", MeasureViewSet)
 router.register(r"notifications", NotificationViewSet)
 router.register(r"fcmtokens", FcmTokenViewSet)
@@ -66,22 +66,20 @@ schema_view = get_schema_view(
         default_version="v1",
     ),
     public=True,
-    permission_classes=(permissions.AllowAny,),
+    permission_classes=(permissions.IsAdminUser,),
 )
 
 
 def home(request):
-    print(get_language())
-    message = _("Hello, world")
-
-    return HttpResponse(message)
+    return HttpResponse("ok")
 
 
 urlpatterns = [
-    path("", include("rest_framework.urls")),
+    path("afit/", admin.site.urls),
+    path("api-auth", include("rest_framework.urls")),
     path("home/", home),
-    path("admin/", admin.site.urls),
     path("api/", include(router.urls)),
+    path("api/", include("workouts.urls")),
     path("api/auth/token/", TokenObtainPairView.as_view(), name="token_obtain_pair"),
     path("api/token/refresh/", TokenRefreshView.as_view(), name="token_refresh"),
     path("api/token/verify/", TokenVerifyView.as_view(), name="token_verify"),

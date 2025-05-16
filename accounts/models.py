@@ -30,15 +30,15 @@ class User(AbstractUser):
     def __str__(self):
         return self.username
 
-    def delete(self, *args, **kwargs):
-        content = ContentType.objects.get_for_model(User)
+    # def delete(self, *args, **kwargs):
+    #     content = ContentType.objects.get_for_model(User)
 
-        Image.objects.filter(
-            object_id=self.id,
-            content_type=content,
-        ).delete()
+    #     Image.objects.filter(
+    #         object_id=self.id,
+    #         content_type=content,
+    #     ).delete()
 
-        super().delete(*args, **kwargs)
+    #     super().delete(*args, **kwargs)
 
 
 class Fcmtoken(models.Model):
