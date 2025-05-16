@@ -39,7 +39,7 @@ from accounts.viewsets import UserViewSet, RegisterApiView, FcmTokenViewSet
 from images.viewsets import ImageViewSet
 from notifications.viewsets import NotificationViewSet
 from posts.viewsets import PostViewSet
-from routines.viewsets import RoutineViewSet
+from routines.viewsets import RoutineExerciseViewSet, RoutineViewSet
 
 from measures.viewsets import MeasureViewSet
 from catalogs.viewsets import CatalogViewSet
@@ -53,6 +53,7 @@ router.register(r"comments", CommentViewSet)
 router.register(r"images", ImageViewSet)
 router.register(r"exercises", ExerciseViewSet)
 router.register(r"routines", RoutineViewSet)
+router.register(r"routineexercises", RoutineExerciseViewSet)
 router.register(r"measures", MeasureViewSet)
 router.register(r"notifications", NotificationViewSet)
 router.register(r"fcmtokens", FcmTokenViewSet)

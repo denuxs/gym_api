@@ -2,6 +2,7 @@ from rest_framework import serializers
 
 from accounts.serializers import UserSerializer
 from exercises.serializers import ExerciseReadSerializer
+from routines.serializers import RoutineSerializer
 
 from .models import Workout
 
@@ -78,7 +79,8 @@ class WorkoutReadSerializer(serializers.ModelSerializer):
     # )
 
     # routines_name = serializers.SerializerMethodField()
-    user = UserSerializer(read_only=True)
+    # user = UserSerializer(read_only=True)
+    routines = RoutineSerializer(read_only=True, many=True)
 
     class Meta:
         model = Workout

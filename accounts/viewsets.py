@@ -1,4 +1,6 @@
 from accounts.models import Fcmtoken
+from workouts.models import Workout
+from workouts.serializers import WorkoutReadSerializer
 from .serializers import FcmTokenSerializer, UserReadSerializer, UserSerializer
 
 # from django.contrib.auth.models import User
@@ -79,6 +81,16 @@ class UserViewSet(viewsets.ModelViewSet):
     @action(detail=False)
     def me(self, request):
         serializer = UserReadSerializer(request.user, context={"request": request})
+        return Response(status=status.HTTP_200_OK, data=serializer.data)
+
+    @action(detail=False)
+    def workouts(self, request):
+        user = request.user
+        models = Workout.objects.filter(user=user, is_active=True)
+
+        serializer = WorkoutReadSerializer(
+            models, many=True, context={"request": request}
+        )
         return Response(status=status.HTTP_200_OK, data=serializer.data)
 
     @action(detail=False)

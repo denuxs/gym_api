@@ -1,5 +1,9 @@
-from .models import Routine
-from .serializers import RoutineSerializer, RoutineReadSerializer
+from .models import Routine, RoutineExcercise
+from .serializers import (
+    RoutineExcerciseSerializer,
+    RoutineSerializer,
+    RoutineReadSerializer,
+)
 
 from rest_framework import viewsets, filters
 from django_filters.rest_framework import (
@@ -31,3 +35,23 @@ class RoutineViewSet(viewsets.ModelViewSet):
             return RoutineSerializer
 
         return RoutineReadSerializer
+
+
+class RoutineExerciseViewSet(viewsets.ModelViewSet):
+    queryset = RoutineExcercise.objects.all()
+    serializer_class = RoutineExcerciseSerializer
+
+    filter_backends = [
+        DjangoFilterBackend,
+        filters.OrderingFilter,
+        filters.SearchFilter,
+    ]
+    ordering_fields = [
+        "order",
+    ]
+
+    # def get_serializer_class(self):
+    #     if self.action in ["create", "update", "partial_update", "destroy"]:
+    #         return RoutineSerializer
+
+    #     return RoutineReadSerializer
