@@ -1,6 +1,5 @@
-from .models import Workout, WorkoutExcercise
+from .models import Workout
 from .serializers import (
-    WorkoutExcerciseSerializer,
     WorkoutSerializer,
     WorkoutReadSerializer,
 )
@@ -9,11 +8,14 @@ from rest_framework import viewsets, filters
 from django_filters.rest_framework import (
     DjangoFilterBackend,
 )
+from rest_framework.permissions import IsAuthenticated
+from .permissions import IsAdmin
 
 
 class WorkoutViewSet(viewsets.ModelViewSet):
     queryset = Workout.objects.all()
     serializer_class = WorkoutSerializer
+    # permission_classes = [IsAuthenticated, IsAdmin]
 
     filter_backends = [
         DjangoFilterBackend,
@@ -23,11 +25,11 @@ class WorkoutViewSet(viewsets.ModelViewSet):
     search_fields = [
         "user__username",
     ]
-    filterset_fields = ["user", "day", "is_active"]
+    filterset_fields = ["user", "is_active"]
     ordering_fields = [
         "day",
     ]
-    ordering = ["-id"]
+    # ordering = ["-id"]
 
     def get_serializer_class(self):
         if self.action in ["create", "update", "partial_update", "destroy"]:
@@ -36,6 +38,6 @@ class WorkoutViewSet(viewsets.ModelViewSet):
         return WorkoutReadSerializer
 
 
-class WorkoutDetailViewSet(viewsets.ModelViewSet):
-    queryset = WorkoutExcercise.objects.all()
-    serializer_class = WorkoutExcerciseSerializer
+# class WorkoutDetailViewSet(viewsets.ModelViewSet):
+#     queryset = WorkoutExcercise.objects.all()
+#     serializer_class = WorkoutExcerciseSerializer

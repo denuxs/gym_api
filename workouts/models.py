@@ -1,32 +1,27 @@
 from django.db import models
-from core.constants import WORKOUT_LEVEL, BEGINNER, DAYS_OF_WEEK
-
-from exercises.models import Exercise
+from core.constants import DAYS_OF_WEEK
 
 from django.contrib.auth import get_user_model
+
+from routines.models import Routine
 
 User = get_user_model()
 
 
 class Workout(models.Model):
-    name = models.CharField(max_length=140)
+    title = models.CharField(max_length=140)
     description = models.TextField(null=True, blank=True)
-    day = models.IntegerField(default=0, choices=DAYS_OF_WEEK)
+    # day = models.IntegerField(default=0, choices=DAYS_OF_WEEK)
     photo = models.ImageField(
         upload_to="workouts/", default="default.jpg", blank=True, null=True
     )
-    level = models.CharField(max_length=140, choices=WORKOUT_LEVEL, default=BEGINNER)
 
     user = models.ForeignKey(
         User,
         on_delete=models.PROTECT,
     )
 
-    exercises = models.ManyToManyField(
-        Exercise,
-        through="WorkoutExcercise",
-        related_name="+",
-    )
+    routines = models.ManyToManyField(Routine)
 
     created = models.DateTimeField(auto_now_add=True)
     modified = models.DateTimeField(auto_now=True)
@@ -34,7 +29,7 @@ class Workout(models.Model):
     deleted = models.DateTimeField(null=True, blank=True)
 
     def __str__(self):
-        return self.name
+        return self.title
 
 
 def default_sets():
@@ -42,18 +37,18 @@ def default_sets():
     return data.append(dict(repts=0, weight=0))
 
 
-class WorkoutExcercise(models.Model):
-    exercise = models.ForeignKey(Exercise, on_delete=models.PROTECT)
-    workout = models.ForeignKey(Workout, on_delete=models.CASCADE)
-    data = models.JSONField(null=True, blank=True)
-    sets = models.IntegerField(null=True, default=4)
-    repts = models.IntegerField(null=True, default=12)
-    weight = models.IntegerField(null=True, default=0)
-    description = models.TextField(null=True, blank=True)
-    order = models.IntegerField(null=True, default=0)
+# class WorkoutExcercise(models.Model):
+#     exercise = models.ForeignKey(Exercise, on_delete=models.PROTECT)
+#     workout = models.ForeignKey(Workout, on_delete=models.CASCADE)
+#     data = models.JSONField(null=True, blank=True)
+#     sets = models.IntegerField(null=True, default=4)
+#     repts = models.IntegerField(null=True, default=12)
+#     weight = models.IntegerField(null=True, default=0)
+#     description = models.TextField(null=True, blank=True)
+#     order = models.IntegerField(null=True, default=0)
 
-    def __str__(self):
-        return self.workout.name
+#     def __str__(self):
+#         return self.workout.name
 
-    class Meta:
-        ordering = ["order"]
+#     class Meta:
+#         ordering = ["order"]
