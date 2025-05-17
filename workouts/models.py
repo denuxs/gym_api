@@ -1,4 +1,5 @@
 from django.db import models
+from clients.models import Client
 from core.constants import DAYS_OF_WEEK
 
 from django.contrib.auth import get_user_model
@@ -19,6 +20,13 @@ class Workout(models.Model):
     user = models.ForeignKey(
         User,
         on_delete=models.PROTECT,
+    )
+
+    client = models.ForeignKey(
+        Client,
+        on_delete=models.PROTECT,
+        null=True,
+        blank=True,
     )
 
     routines = models.ManyToManyField(Routine)

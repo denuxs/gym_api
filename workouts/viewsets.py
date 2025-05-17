@@ -22,14 +22,21 @@ class WorkoutViewSet(viewsets.ModelViewSet):
         filters.OrderingFilter,
         filters.SearchFilter,
     ]
-    search_fields = [
-        "user__username",
-    ]
-    filterset_fields = ["user", "is_active"]
-    ordering_fields = [
-        "day",
-    ]
+    # search_fields = [
+    #     "user__username",
+    # ]
+    filterset_fields = ["user", "client", "is_active"]
+    # ordering_fields = [
+    #     "day",
+    # ]
     # ordering = ["-id"]
+
+    def paginate_queryset(self, queryset):
+        if "paginator" in self.request.query_params:
+            return None
+        return super().paginate_queryset(
+            queryset,
+        )
 
     def get_serializer_class(self):
         if self.action in ["create", "update", "partial_update", "destroy"]:
