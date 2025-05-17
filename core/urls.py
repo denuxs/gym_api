@@ -32,6 +32,7 @@ from django.utils.translation import get_language, gettext as _
 from django.conf.urls.i18n import i18n_patterns
 
 from rest_framework import routers, permissions
+from clients.viewsets import ClientViewSet
 from comments.viewsets import CommentViewSet
 
 from exercises.viewsets import ExerciseViewSet
@@ -57,6 +58,7 @@ router.register(r"routineexercises", RoutineExerciseViewSet)
 router.register(r"measures", MeasureViewSet)
 router.register(r"notifications", NotificationViewSet)
 router.register(r"fcmtokens", FcmTokenViewSet)
+router.register(r"clients", ClientViewSet)
 
 from drf_yasg.views import get_schema_view
 from drf_yasg import openapi

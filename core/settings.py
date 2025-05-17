@@ -64,6 +64,7 @@ INSTALLED_APPS = [
     "posts",
     "images",
     "notifications",
+    "clients",
     "django_cleanup.apps.CleanupConfig",
     "flags",
     # "storages",
