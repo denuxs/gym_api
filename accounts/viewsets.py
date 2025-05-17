@@ -52,7 +52,7 @@ class UserViewSet(viewsets.ModelViewSet):
         DjangoFilterBackend,
         filters.SearchFilter,
     ]
-    filterset_fields = ["is_active", "is_superuser"]
+    filterset_fields = ["is_active", "is_superuser", "user_type"]
     search_fields = [
         "username",
     ]

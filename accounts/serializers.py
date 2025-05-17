@@ -40,7 +40,8 @@ class UserSerializer(serializers.ModelSerializer):
             "password",
             "weight",
             "height",
-            "experience_level"
+            "experience_level",
+            "user_type",
         ]
 
     def create(self, validated_data):

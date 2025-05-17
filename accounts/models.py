@@ -1,11 +1,7 @@
 from django.db import models
 
 from django.contrib.auth.models import AbstractUser
-from django.contrib.contenttypes.fields import GenericRelation
-
-# from notifications.models import Notification
-from images.models import Image
-from django.contrib.contenttypes.models import ContentType
+from core.constants import CLIENT, GENDER_CHOICES, MALE, USER_TYPES_CHOICES
 
 
 class User(AbstractUser):
@@ -13,7 +9,7 @@ class User(AbstractUser):
         upload_to="users/", default="default.jpg", blank=True, null=True
     )
 
-    gender = models.CharField(max_length=144)
+    gender = models.CharField(max_length=144, choices=GENDER_CHOICES, default=MALE)
     phone = models.IntegerField(default=0)
     age = models.IntegerField(default=0)
 
@@ -22,23 +18,15 @@ class User(AbstractUser):
 
     experience_level = models.CharField(max_length=140, null=True)
 
-    # notifications = GenericRelation("Notification")
+    user_type = models.CharField(
+        max_length=144, choices=USER_TYPES_CHOICES, default=CLIENT
+    )
 
     class Meta:
         ordering = ["-id"]
 
     def __str__(self):
         return self.username
-
-    # def delete(self, *args, **kwargs):
-    #     content = ContentType.objects.get_for_model(User)
-
-    #     Image.objects.filter(
-    #         object_id=self.id,
-    #         content_type=content,
-    #     ).delete()
-
-    #     super().delete(*args, **kwargs)
 
 
 class Fcmtoken(models.Model):

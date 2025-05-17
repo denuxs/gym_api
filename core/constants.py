@@ -1,11 +1,18 @@
-MALE = "MALE"
-FEMALE = "FEMALE"
+MALE = "male"
+FEMALE = "female"
 
 GENDER_CHOICES = (
     (MALE, "Hombre"),
     (FEMALE, "Mujer"),
 )
 
+COACH = "coach"
+CLIENT = "client"
+
+USER_TYPES_CHOICES = (
+    (COACH, "Entrenador"),
+    (CLIENT, "Cliente"),
+)
 
 DAYS_OF_WEEK = (
     (1, "Lunes"),
@@ -18,6 +25,7 @@ DAYS_OF_WEEK = (
 )
 
 BEGINNER = "beginner"
+
 WORKOUT_LEVEL = (
     ("beginner", "Principiante"),
     ("medium", "Medio"),
