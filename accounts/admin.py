@@ -24,7 +24,8 @@ class CustomOutstandingTokenAdmin(OutstandingTokenAdmin):
         return True
 
 
-admin.site.register(User, UserAdmin)
+admin.site.register(User)
+# admin.site.register(User, UserAdmin)
 admin.site.register(Fcmtoken)
 admin.site.register(ContentType)
 admin.site.register(Permission)
