@@ -4,9 +4,7 @@ from django.contrib.contenttypes.models import ContentType
 
 
 class Image(models.Model):
-    photo = models.ImageField(
-        upload_to="images/", default="default.jpg", blank=True, null=True
-    )
+    photo = models.ImageField(upload_to="images/", blank=True, null=True)
     content_type = models.ForeignKey(ContentType, on_delete=models.PROTECT)
     object_id = models.PositiveIntegerField()
     content_object = GenericForeignKey("content_type", "object_id")

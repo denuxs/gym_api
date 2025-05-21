@@ -36,10 +36,10 @@ from clients.viewsets import ClientViewSet
 from comments.viewsets import CommentViewSet
 
 from exercises.viewsets import ExerciseViewSet
-from accounts.viewsets import UserViewSet, RegisterApiView, FcmTokenViewSet
+
+from users.viewsets import UserViewSet
 from images.viewsets import ImageViewSet
 from notifications.viewsets import NotificationViewSet
-from posts.viewsets import PostViewSet
 from routines.viewsets import RoutineExerciseViewSet, RoutineViewSet
 
 from measures.viewsets import MeasureViewSet
@@ -49,7 +49,6 @@ from core.dashboard import DashboardApiView
 router = routers.DefaultRouter()
 router.register(r"catalogs", CatalogViewSet)
 router.register(r"users", UserViewSet)
-router.register(r"posts", PostViewSet)
 router.register(r"comments", CommentViewSet)
 router.register(r"images", ImageViewSet)
 router.register(r"exercises", ExerciseViewSet)
@@ -57,7 +56,7 @@ router.register(r"routines", RoutineViewSet)
 router.register(r"routineexercises", RoutineExerciseViewSet)
 router.register(r"measures", MeasureViewSet)
 router.register(r"notifications", NotificationViewSet)
-router.register(r"fcmtokens", FcmTokenViewSet)
+# router.register(r"fcmtokens", FcmTokenViewSet)
 router.register(r"clients", ClientViewSet)
 
 from drf_yasg.views import get_schema_view
@@ -86,7 +85,7 @@ urlpatterns = [
     path("api/auth/token/", TokenObtainPairView.as_view(), name="token_obtain_pair"),
     path("api/token/refresh/", TokenRefreshView.as_view(), name="token_refresh"),
     path("api/token/verify/", TokenVerifyView.as_view(), name="token_verify"),
-    path("api/auth/register/", RegisterApiView.as_view(), name="auth_register"),
+    # path("api/auth/register/", RegisterApiView.as_view(), name="auth_register"),
     path("api/dashboard/", DashboardApiView.as_view(), name="dashboard"),
     path("api/token/blacklist/", TokenBlacklistView.as_view(), name="token_blacklist"),
     # path('i18n/', include('django.conf.urls.i18n')),

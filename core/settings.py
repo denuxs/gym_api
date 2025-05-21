@@ -54,14 +54,14 @@ INSTALLED_APPS = [
     "rest_framework",
     "drf_yasg",
     "django_filters",
-    "accounts",
+    "users",
+    "profiles",
     "catalogs",
     "exercises",
     "comments",
     "workouts",
     "routines",
     "measures",
-    "posts",
     "images",
     "notifications",
     "clients",
@@ -207,7 +207,7 @@ MEDIA_URL = "/media/"
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
-AUTH_USER_MODEL = "accounts.User"
+# AUTH_USER_MODEL = "accounts.User"
 CORS_ALLOW_ALL_ORIGINS = True
 
 # CORS_ALLOWED_ORIGINS = [
@@ -241,7 +241,7 @@ SIMPLE_JWT = {
     "ACCESS_TOKEN_LIFETIME": timedelta(weeks=1),
     "REFRESH_TOKEN_LIFETIME": timedelta(days=1),
     "UPDATE_LAST_LOGIN": True,
-    "TOKEN_OBTAIN_SERIALIZER": "accounts.serializers.CustomTokenObtainPairSerializer",
+    "TOKEN_OBTAIN_SERIALIZER": "users.serializers.CustomTokenObtainPairSerializer",
 }
 
 SWAGGER_SETTINGS = {
@@ -260,9 +260,9 @@ SWAGGER_SETTINGS = {
 
 FLAGS = {"TEST_FLAG": []}
 
-sentry_sdk.init(
-    dsn=env("SENTRY"),
-    # Add data like request headers and IP for users,
-    # see https://docs.sentry.io/platforms/python/data-management/data-collected/ for more info
-    send_default_pii=True,
-)
+# sentry_sdk.init(
+#     dsn=env("SENTRY"),
+#     # Add data like request headers and IP for users,
+#     # see https://docs.sentry.io/platforms/python/data-management/data-collected/ for more info
+#     send_default_pii=True,
+# )

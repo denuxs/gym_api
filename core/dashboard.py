@@ -4,6 +4,7 @@ from rest_framework.views import APIView
 
 from routines.models import Routine
 from exercises.models import Exercise
+from clients.models import Client
 
 from django.contrib.auth import get_user_model
 
@@ -15,12 +16,12 @@ class DashboardApiView(APIView):
     def get(self, request, format=None):
         routines = Routine.objects.count()
         exercises = Exercise.objects.count()
-        users = User.objects.count()
+        clients = Client.objects.count()
 
         data = {
             "routines": routines,
             "exercises": exercises,
-            "users": users,
+            "clients": clients,
         }
 
         return Response(data)

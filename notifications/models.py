@@ -13,20 +13,14 @@ class Notification(models.Model):
         on_delete=models.PROTECT,
         related_name="notifications",
     )
-    user_to = models.ForeignKey(
-        User,
-        on_delete=models.PROTECT,
-        null=True,
-        blank=True,
-    )
-    # content = models.TextField()
+    content = models.TextField(null=True, blank=True)
 
     content_type = models.ForeignKey(ContentType, on_delete=models.PROTECT)
     object_id = models.PositiveIntegerField()
     content_object = GenericForeignKey("content_type", "object_id")
 
     is_read = models.BooleanField(default=False)
-    link = models.CharField(max_length=255, blank=True, null=True)
+    # link = models.CharField(max_length=255, blank=True, null=True)
 
     created = models.DateTimeField(auto_now_add=True, null=True)
 

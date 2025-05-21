@@ -1,6 +1,6 @@
 from rest_framework import serializers
 
-from accounts.serializers import UserSerializer
+from users.serializers import UserSerializer
 from catalogs.serializers import CatalogSerializer
 from .models import Exercise
 
@@ -19,3 +19,8 @@ class ExerciseSerializer(serializers.ModelSerializer):
     class Meta:
         model = Exercise
         fields = "__all__"
+        extra_kwargs = {
+            "user": {
+                "required": False,
+            },
+        }

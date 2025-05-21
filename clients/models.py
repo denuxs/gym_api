@@ -11,9 +11,7 @@ User = get_user_model()
 
 class Client(models.Model):
     user = models.OneToOneField(User, on_delete=models.PROTECT)
-    photo = models.ImageField(
-        upload_to="clients/", default="default.jpg", blank=True, null=True
-    )
+    photo = models.ImageField(upload_to="clients/", blank=True, null=True)
 
     gender = models.CharField(max_length=144, choices=GENDER_CHOICES, default=MALE)
     phone = models.IntegerField(default=0)
@@ -23,6 +21,7 @@ class Client(models.Model):
     height = models.FloatField(default=0)
 
     experience_level = models.CharField(max_length=140, null=True)
+    coach = models.ForeignKey(User, on_delete=models.PROTECT, related_name="coach")
 
     # class Meta:
     #     ordering = ["-id"]

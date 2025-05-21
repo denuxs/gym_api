@@ -22,21 +22,21 @@ class RoutineSerializer(serializers.ModelSerializer):
 
                 if not id:
                     RoutineExcercise.objects.create(
-                        workout_id=item.get("workout"),
+                        routine_id=item.get("routine"),
                         exercise_id=item.get("exercise"),
                         description=item.get("description"),
                         order=item.get("order"),
-                        data=item.get("sets"),
+                        sets=item.get("sets"),
                     )
                     continue
 
                 find = RoutineExcercise.objects.get(pk=id)
                 if find:
-                    find.workout_id = item.get("workout")
+                    find.routine_id = item.get("routine")
                     find.exercise_id = item.get("exercise")
                     find.description = item.get("description")
                     find.order = item.get("order")
-                    find.data = item.get("sets")
+                    find.sets = item.get("sets")
                     find.save()
 
         # instance.workoutexcercise_set.set(details)

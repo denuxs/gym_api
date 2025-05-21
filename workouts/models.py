@@ -13,9 +13,7 @@ class Workout(models.Model):
     title = models.CharField(max_length=140)
     description = models.TextField(null=True, blank=True)
     # day = models.IntegerField(default=0, choices=DAYS_OF_WEEK)
-    photo = models.ImageField(
-        upload_to="workouts/", default="default.jpg", blank=True, null=True
-    )
+    photo = models.ImageField(upload_to="workouts/", blank=True, null=True)
 
     user = models.ForeignKey(
         User,
@@ -25,8 +23,6 @@ class Workout(models.Model):
     client = models.ForeignKey(
         Client,
         on_delete=models.PROTECT,
-        null=True,
-        blank=True,
     )
 
     routines = models.ManyToManyField(Routine)

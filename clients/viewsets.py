@@ -1,5 +1,3 @@
-from hmac import new
-
 from workouts.models import Workout
 from workouts.serializers import WorkoutReadSerializer
 from .models import Client
@@ -116,5 +114,7 @@ class ClientViewSet(viewsets.ModelViewSet):
 
         if new_password:
             data.pop("password")
+
+        data["coach"] = self.request.user.id
 
         return data

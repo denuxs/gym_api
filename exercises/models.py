@@ -14,9 +14,7 @@ class Exercise(models.Model):
     name = models.CharField(max_length=140)
     description = models.TextField(null=True, blank=True)
 
-    image = models.ImageField(
-        upload_to="exercises/", default="default.jpg", blank=True, null=True
-    )
+    image = models.ImageField(upload_to="exercises/", blank=True, null=True)
 
     equipment = models.ForeignKey(
         Catalog,
@@ -31,7 +29,7 @@ class Exercise(models.Model):
     )
     secondary_muscle = models.JSONField(null=True, blank=True, default=list)
 
-    user = models.ForeignKey(User, on_delete=models.PROTECT, null=True)
+    user = models.ForeignKey(User, on_delete=models.PROTECT)
 
     created = models.DateTimeField(auto_now_add=True)
     modified = models.DateTimeField(auto_now=True)

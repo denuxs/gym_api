@@ -44,6 +44,12 @@ class WorkoutViewSet(viewsets.ModelViewSet):
 
         return WorkoutReadSerializer
 
+    def perform_create(self, serializer):
+        serializer.save(user=self.request.user)
+
+    def perform_update(self, serializer):
+        serializer.save(user=self.request.user)
+
 
 # class WorkoutDetailViewSet(viewsets.ModelViewSet):
 #     queryset = WorkoutExcercise.objects.all()

@@ -4,7 +4,8 @@ from comments.models import Comment
 from comments.serializers import CommentReadSerializer
 
 from .models import Notification
-from accounts.serializers import UserReadSerializer
+
+from users.serializers import UserReadSerializer
 
 
 class NotificationSerializer(serializers.ModelSerializer):

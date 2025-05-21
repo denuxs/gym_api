@@ -4,7 +4,8 @@ from exercises.models import Exercise
 from exercises.serializers import ExerciseSerializer
 
 from .models import Comment, CommentReplies
-from accounts.serializers import UserReadSerializer
+
+from users.serializers import UserReadSerializer
 
 
 class CommentRepliesSerializer(serializers.ModelSerializer):
