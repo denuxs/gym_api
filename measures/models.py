@@ -1,10 +1,9 @@
-from images.models import Image
+from clients.models import Client
 from django.db import models
 
 from django.contrib.auth import get_user_model
 import os
 from uuid import uuid4
-from django.contrib.contenttypes.fields import GenericRelation
 
 User = get_user_model()
 
@@ -50,13 +49,13 @@ def default_muscles():
 
 
 class Measure(models.Model):
-    user = models.ForeignKey(
-        User,
+    client = models.ForeignKey(
+        Client,
         on_delete=models.PROTECT,
+        null=True,
     )
     comment = models.TextField(null=True, blank=True)
     measures = models.JSONField(null=True, blank=True, default=default_muscles)
-    images = GenericRelation(Image)
 
     created = models.DateTimeField(auto_now_add=True)
     modified = models.DateTimeField(auto_now=True)
@@ -64,8 +63,5 @@ class Measure(models.Model):
     is_active = models.BooleanField(default=True)
     deleted = models.DateTimeField(null=True, blank=True)
 
-    def __str__(self):
-        return self.user.username
-
-    # class Meta:
-    #     ordering = ["-id"]
+    # def __str__(self):
+    #     return self.client

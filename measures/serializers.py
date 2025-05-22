@@ -1,6 +1,6 @@
 from rest_framework import serializers
 
-from users.serializers import UserSerializer
+from clients.serializers import ClientSerializer
 
 from .models import Measure
 
@@ -12,7 +12,7 @@ class MeasureSerializer(serializers.ModelSerializer):
 
 
 class MeasureReadSerializer(serializers.ModelSerializer):
-    user = UserSerializer(read_only=True)
+    client = ClientSerializer(read_only=True)
 
     class Meta:
         model = Measure

@@ -14,13 +14,14 @@ class Comment(models.Model):
         on_delete=models.PROTECT,
         related_name="comments",
     )
-    photo = models.ImageField(
-        upload_to="comments/", default="default.jpg", blank=True, null=True
-    )
+    image = models.ImageField(upload_to="comments/", blank=True, null=True)
+
     content = models.TextField()
+
     content_type = models.ForeignKey(ContentType, on_delete=models.PROTECT)
     object_id = models.PositiveIntegerField()
     content_object = GenericForeignKey("content_type", "object_id")
+
     parent = models.ForeignKey(
         "self", related_name="children", on_delete=models.PROTECT, blank=True, null=True
     )
@@ -30,9 +31,6 @@ class Comment(models.Model):
 
     def __str__(self):
         return self.content
-
-    # class Meta:
-    #     ordering = ["-id"]
 
 
 class CommentReplies(models.Model):

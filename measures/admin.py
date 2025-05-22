@@ -4,7 +4,7 @@ from .models import Measure
 
 class MeasureAdmin(admin.ModelAdmin):
     list_display = (
-        "user",
+        "client",
         "created",
     )
     # filter_horizontal = ("images",)

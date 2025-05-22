@@ -9,18 +9,13 @@ User = get_user_model()
 
 class Profile(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE)
-    # bio = models.TextField(null=True, blank=True)
-
     avatar = models.ImageField(upload_to="users/", blank=True, null=True)
 
     phone = models.IntegerField(default=0)
 
-    # class Meta:
-    #     ordering = ["-id"]
-
     def __str__(self):
         return self.user.username
 
-    @receiver(post_save, sender=User)
-    def create_or_update_user_profile(sender, instance, created, **kwargs):
-        Profile.objects.get_or_create(user=instance)
+    # @receiver(post_save, sender=User)
+    # def create_or_update_user_profile(sender, instance, created, **kwargs):
+    #     Profile.objects.get_or_create(user=instance)

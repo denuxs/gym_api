@@ -1,11 +1,7 @@
 from catalogs.models import Catalog
 from django.db import models
-from django.contrib.contenttypes.fields import GenericRelation
 
-from comments.models import Comment
 from django.contrib.auth import get_user_model
-
-from images.models import Image
 
 User = get_user_model()
 
@@ -21,7 +17,6 @@ class Exercise(models.Model):
         on_delete=models.PROTECT,
         related_name="equipment_catalog_set",
     )
-
     muscle = models.ForeignKey(
         Catalog,
         on_delete=models.PROTECT,
@@ -35,11 +30,5 @@ class Exercise(models.Model):
     modified = models.DateTimeField(auto_now=True)
     # deleted = models.DateTimeField(auto_now=True)
 
-    comments = GenericRelation(Comment)
-    images = GenericRelation(Image)
-
     def __str__(self):
         return self.name
-
-    # class Meta:
-    #     ordering = ["muscle"]

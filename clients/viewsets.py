@@ -1,3 +1,5 @@
+from measures.models import Measure
+from measures.serializers import MeasureReadSerializer
 from workouts.models import Workout
 from workouts.serializers import WorkoutReadSerializer
 from .models import Client
@@ -26,6 +28,16 @@ class ClientViewSet(viewsets.ModelViewSet):
         filters.SearchFilter,
     ]
 
+    search_fields = [
+        "user__first_name",
+        "user__last_name",
+    ]
+    filterset_fields = [
+        "user",
+        "coach",
+    ]
+    ordering_fields = ["id"]
+
     def paginate_queryset(self, queryset):
         if "paginator" in self.request.query_params:
             return None
@@ -45,6 +57,16 @@ class ClientViewSet(viewsets.ModelViewSet):
         models = Workout.objects.filter(client=user.client, is_active=True)
 
         serializer = WorkoutReadSerializer(
+            models, many=True, context={"request": request}
+        )
+        return Response(status=status.HTTP_200_OK, data=serializer.data)
+
+    @action(detail=True)
+    def measures(self, request, pk=None):
+        # instance = self.get_object()
+        models = Measure.objects.filter(client=pk)
+
+        serializer = MeasureReadSerializer(
             models, many=True, context={"request": request}
         )
         return Response(status=status.HTTP_200_OK, data=serializer.data)

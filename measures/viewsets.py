@@ -14,10 +14,10 @@ class MeasureViewSet(viewsets.ModelViewSet):
         filters.SearchFilter,
         filters.OrderingFilter,
     ]
-    filterset_fields = ["is_active", "user"]
-    search_fields = [
-        "user__username",
-    ]
+    filterset_fields = ["is_active", "client"]
+    # search_fields = [
+    #     "client__username",
+    # ]
     ordering_fields = [
         "id",
     ]

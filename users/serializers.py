@@ -1,4 +1,3 @@
-import profile
 from rest_framework_simplejwt.serializers import TokenObtainPairSerializer
 from rest_framework import serializers
 from rest_framework_simplejwt.tokens import Token
@@ -29,25 +28,7 @@ class FlagStateSerializer(serializers.ModelSerializer):
 class UserSerializer(serializers.ModelSerializer):
     class Meta:
         model = User
-        # fields = "__all__"
         exclude = ["password"]
-        # fields = [
-        #     "id",
-        #     "username",
-        #     "photo",
-        #     "email",
-        #     "first_name",
-        #     "last_name",
-        #     "is_active",
-        #     "phone",
-        #     "age",
-        #     "gender",
-        #     "password",
-        #     "weight",
-        #     "height",
-        #     "experience_level",
-        #     "user_type",
-        # ]
 
     def create(self, validated_data):
         new_password = validated_data.pop("password", None)

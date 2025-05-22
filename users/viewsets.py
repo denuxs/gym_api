@@ -1,8 +1,9 @@
+from clients.models import Client
+from clients.serializers import ClientReadSerializer
 from workouts.models import Workout
 from workouts.serializers import WorkoutReadSerializer
 from .serializers import UserReadSerializer, UserSerializer
 
-# from django.contrib.auth.models import User
 from rest_framework.decorators import action
 
 from rest_framework import viewsets, filters
@@ -61,6 +62,16 @@ class UserViewSet(viewsets.ModelViewSet):
     @action(detail=False)
     def me(self, request):
         serializer = UserReadSerializer(request.user, context={"request": request})
+        return Response(status=status.HTTP_200_OK, data=serializer.data)
+
+    @action(detail=False)
+    def clients(self, request):
+        user = request.user
+        models = Client.objects.filter(coach=user)
+
+        serializer = ClientReadSerializer(
+            models, many=True, context={"request": request}
+        )
         return Response(status=status.HTTP_200_OK, data=serializer.data)
 
     @action(detail=False)
