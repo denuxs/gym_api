@@ -17,8 +17,8 @@ class RoutineViewSet(viewsets.ModelViewSet):
 
     filter_backends = [
         DjangoFilterBackend,
-        filters.OrderingFilter,
         filters.SearchFilter,
+        filters.OrderingFilter,
     ]
     search_fields = [
         "title",

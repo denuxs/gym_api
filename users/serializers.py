@@ -28,7 +28,15 @@ class FlagStateSerializer(serializers.ModelSerializer):
 class UserSerializer(serializers.ModelSerializer):
     class Meta:
         model = User
-        exclude = ["password"]
+        fields = (
+            "first_name",
+            "last_name",
+            "username",
+            "password",
+            "is_staff",
+            "is_active",
+        )
+        # exclude = ["password"]
 
     def create(self, validated_data):
         new_password = validated_data.pop("password", None)

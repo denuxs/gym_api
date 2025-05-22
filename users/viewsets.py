@@ -29,13 +29,20 @@ class UserViewSet(viewsets.ModelViewSet):
     filter_backends = [
         DjangoFilterBackend,
         filters.SearchFilter,
+        filters.OrderingFilter,
     ]
     filterset_fields = [
         "is_active",
+        "is_staff",
         "is_superuser",
     ]
     search_fields = [
         "username",
+        "first_name",
+        "last_name",
+    ]
+    ordering_fields = [
+        "id",
     ]
 
     def get_serializer_class(self):
