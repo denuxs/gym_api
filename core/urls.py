@@ -31,33 +31,8 @@ from rest_framework_simplejwt.views import (
 from django.utils.translation import get_language, gettext as _
 from django.conf.urls.i18n import i18n_patterns
 
-from rest_framework import routers, permissions
-from clients.viewsets import ClientViewSet
-from comments.viewsets import CommentViewSet
-
-from exercises.viewsets import ExerciseViewSet
-
-from users.viewsets import UserViewSet
-from images.viewsets import ImageViewSet
-from notifications.viewsets import NotificationViewSet
-from routines.viewsets import RoutineExerciseViewSet, RoutineViewSet
-
-from measures.viewsets import MeasureViewSet
-from catalogs.viewsets import CatalogViewSet
+from rest_framework import permissions
 from core.dashboard import DashboardApiView
-
-router = routers.DefaultRouter()
-router.register(r"catalogs", CatalogViewSet)
-router.register(r"users", UserViewSet)
-router.register(r"comments", CommentViewSet)
-router.register(r"images", ImageViewSet)
-router.register(r"exercises", ExerciseViewSet)
-router.register(r"routines", RoutineViewSet)
-router.register(r"routineexercises", RoutineExerciseViewSet)
-router.register(r"measures", MeasureViewSet)
-router.register(r"notifications", NotificationViewSet)
-# router.register(r"fcmtokens", FcmTokenViewSet)
-router.register(r"clients", ClientViewSet)
 
 from drf_yasg.views import get_schema_view
 from drf_yasg import openapi
@@ -80,12 +55,20 @@ urlpatterns = [
     path("afit/", admin.site.urls),
     path("api-auth", include("rest_framework.urls")),
     path("home/", home),
-    path("api/", include(router.urls)),
+    path("api/", include("catalogs.urls")),
+    path("api/", include("users.urls")),
+    path("api/", include("profiles.urls")),
+    path("api/", include("comments.urls")),
+    path("api/", include("images.urls")),
+    path("api/", include("exercises.urls")),
+    path("api/", include("routines.urls")),
+    path("api/", include("measures.urls")),
+    path("api/", include("notifications.urls")),
+    path("api/", include("clients.urls")),
     path("api/", include("workouts.urls")),
     path("api/auth/token/", TokenObtainPairView.as_view(), name="token_obtain_pair"),
     path("api/token/refresh/", TokenRefreshView.as_view(), name="token_refresh"),
     path("api/token/verify/", TokenVerifyView.as_view(), name="token_verify"),
-    # path("api/auth/register/", RegisterApiView.as_view(), name="auth_register"),
     path("api/dashboard/", DashboardApiView.as_view(), name="dashboard"),
     path("api/token/blacklist/", TokenBlacklistView.as_view(), name="token_blacklist"),
     # path('i18n/', include('django.conf.urls.i18n')),

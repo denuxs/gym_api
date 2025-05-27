@@ -1,9 +1,9 @@
 from rest_framework.routers import DefaultRouter
 from .viewsets import (
-    ExerciseViewSet,
+    ProfileViewSet,
 )
 
 router = DefaultRouter()
-router.register("exercises", ExerciseViewSet)
+router.register("profiles", ProfileViewSet)
 
 urlpatterns = router.urls

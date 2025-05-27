@@ -64,7 +64,7 @@ class ClientViewSet(viewsets.ModelViewSet):
     @action(detail=True)
     def measures(self, request, pk=None):
         # instance = self.get_object()
-        models = Measure.objects.filter(client=pk)
+        models = Measure.objects.filter(client=pk).order_by("-id")
 
         serializer = MeasureReadSerializer(
             models, many=True, context={"request": request}
