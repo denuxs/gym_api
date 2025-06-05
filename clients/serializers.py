@@ -12,6 +12,7 @@ class ClientSerializer(serializers.ModelSerializer):
 
 
 class ClientReadSerializer(serializers.ModelSerializer):
+    coach = UserReadSerializer(read_only=True)
     username = serializers.CharField(source="user.username")
     fullname = serializers.CharField(source="user.get_full_name")
     user = UserReadSerializer(read_only=True)

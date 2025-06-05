@@ -101,6 +101,7 @@ class ClientViewSet(viewsets.ModelViewSet):
         username = data.get("username")
         new_password = data.get("password", None)
         is_active = data.get("is_active")
+        avatar = data.get("avatar")
 
         # TO DO
         bool_map = {"true": True, "false": False}
@@ -112,6 +113,8 @@ class ClientViewSet(viewsets.ModelViewSet):
             user.first_name = first_name
             user.last_name = last_name
             user.is_active = is_active
+            user.avatar = avatar
+            user.company_id = self.request.user.company_id
 
             if new_password:
                 user.set_password(new_password)
@@ -125,6 +128,8 @@ class ClientViewSet(viewsets.ModelViewSet):
                 first_name=first_name,
                 last_name=last_name,
                 is_active=is_active,
+                avatar=avatar,
+                company=self.request.user.company,
             )
 
         data["user"] = user.id
@@ -134,9 +139,12 @@ class ClientViewSet(viewsets.ModelViewSet):
         data.pop("username")
         data.pop("is_active")
 
+        if avatar:
+            data.pop("avatar")
+
         if new_password:
             data.pop("password")
 
-        data["coach"] = self.request.user.id
+        # data["coach"] = self.request.user.id
 
         return data
