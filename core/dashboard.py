@@ -1,5 +1,5 @@
 from rest_framework.response import Response
-from rest_framework import status
+from rest_framework import permissions
 from rest_framework.views import APIView
 
 from routines.models import Routine
@@ -12,6 +12,7 @@ User = get_user_model()
 
 
 class DashboardApiView(APIView):
+    permission_classes = [permissions.IsAuthenticatedOrReadOnly]
 
     def get(self, request, format=None):
         routines = Routine.objects.count()
