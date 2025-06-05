@@ -1,20 +1,3 @@
-"""
-URL configuration for core project.
-
-The `urlpatterns` list routes URLs to views. For more information please see:
-    https://docs.djangoproject.com/en/5.1/topics/http/urls/
-Examples:
-Function views
-    1. Add an import:  from my_app import views
-    2. Add a URL to urlpatterns:  path('', views.home, name='home')
-Class-based views
-    1. Add an import:  from other_app.views import Home
-    2. Add a URL to urlpatterns:  path('', Home.as_view(), name='home')
-Including another URLconf
-    1. Import the include() function: from django.urls import include, path
-    2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
-"""
-
 from django.contrib import admin
 from django.http import HttpResponse
 from django.urls import path, include
@@ -52,12 +35,11 @@ def home(request):
 
 
 urlpatterns = [
+    path("", home, name="home"),
     path("afit/", admin.site.urls),
-    path("api-auth", include("rest_framework.urls")),
-    path("home/", home),
+    path("api/", include("companies.urls")),
     path("api/", include("catalogs.urls")),
     path("api/", include("users.urls")),
-    path("api/", include("profiles.urls")),
     path("api/", include("comments.urls")),
     path("api/", include("images.urls")),
     path("api/", include("exercises.urls")),
@@ -71,6 +53,7 @@ urlpatterns = [
     path("api/token/verify/", TokenVerifyView.as_view(), name="token_verify"),
     path("api/dashboard/", DashboardApiView.as_view(), name="dashboard"),
     path("api/token/blacklist/", TokenBlacklistView.as_view(), name="token_blacklist"),
+    path("api-auth", include("rest_framework.urls")),
     # path('i18n/', include('django.conf.urls.i18n')),
     path(
         "swagger<format>/", schema_view.without_ui(cache_timeout=0), name="schema-json"

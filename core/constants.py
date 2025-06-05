@@ -37,3 +37,9 @@ WORKOUT_GOAL = (
     ("strength", "Fuerza"),
     ("lose_weight", "Perder Peso"),
 )
+
+
+KEY_CHOICES = (
+    ("muscle", "Musculo"),
+    ("equipment", "Equipo"),
+)
