@@ -1,16 +1,16 @@
 from rest_framework_simplejwt.serializers import TokenObtainPairSerializer
 from rest_framework import serializers
+
 from rest_framework_simplejwt.tokens import Token
-
-from django.contrib.auth import get_user_model
-
-from profiles.serializers import ProfileSerializer
 
 # from accounts.models import Fcmtoken
 
-User = get_user_model()
 from flags.models import FlagState
 from django.contrib.contenttypes.models import ContentType
+
+from django.contrib.auth import get_user_model
+
+User = get_user_model()
 
 
 class ContentTypeSerializer(serializers.ModelSerializer):
@@ -32,11 +32,13 @@ class UserSerializer(serializers.ModelSerializer):
             "first_name",
             "last_name",
             "username",
-            "password",
             "is_staff",
+            "password",
             "is_active",
+            "company",
+            "avatar",
         )
-        # exclude = ["password"]
+        extra_kwargs = {"password": {"write_only": True}}
 
     def create(self, validated_data):
         new_password = validated_data.pop("password", None)
@@ -50,7 +52,8 @@ class UserSerializer(serializers.ModelSerializer):
 
 
 class UserReadSerializer(serializers.ModelSerializer):
-    profile = ProfileSerializer(read_only=True)
+    name = serializers.CharField(source="get_full_name")
+    fullname = serializers.CharField(source="get_full_name")
 
     class Meta:
         model = User

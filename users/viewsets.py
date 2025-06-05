@@ -3,23 +3,17 @@ from clients.serializers import ClientReadSerializer
 from workouts.models import Workout
 from workouts.serializers import WorkoutReadSerializer
 from .serializers import UserReadSerializer, UserSerializer
-
 from rest_framework.decorators import action
-
-from rest_framework import viewsets, filters
+from rest_framework import viewsets, filters, status
 from rest_framework.response import Response
-from rest_framework import status
-from rest_framework.views import APIView
-from rest_framework import permissions
 from django_filters.rest_framework import DjangoFilterBackend
+from flags.models import FlagState
+from .serializers import FlagStateSerializer, ContentTypeSerializer
+from django.contrib.contenttypes.models import ContentType
 
 from django.contrib.auth import get_user_model
 
 User = get_user_model()
-from flags.models import FlagState
-
-from .serializers import FlagStateSerializer, ContentTypeSerializer
-from django.contrib.contenttypes.models import ContentType
 
 
 class UserViewSet(viewsets.ModelViewSet):
@@ -44,6 +38,13 @@ class UserViewSet(viewsets.ModelViewSet):
     ordering_fields = [
         "id",
     ]
+
+    def paginate_queryset(self, queryset):
+        if "paginator" in self.request.query_params:
+            return None
+        return super().paginate_queryset(
+            queryset,
+        )
 
     def get_serializer_class(self):
         if self.action in ["create", "update", "partial_update", "destroy"]:
