@@ -6,4 +6,4 @@ from .viewsets import (
 router = DefaultRouter()
 router.register("catalogs", CatalogViewSet)
 
-urlpatterns = router.urls
+# urlpatterns = router.urls
