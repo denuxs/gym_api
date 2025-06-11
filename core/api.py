@@ -20,7 +20,7 @@ from exercises.viewsets import ExerciseViewSet
 from images.viewsets import ImageViewSet
 from measures.viewsets import MeasureViewSet
 from notifications.viewsets import NotificationViewSet
-from routines.viewsets import RoutineViewSet
+from routines.viewsets import RoutineExerciseViewSet, RoutineViewSet
 from users.viewsets import UserViewSet
 from workouts.viewsets import WorkoutViewSet
 
@@ -32,6 +32,7 @@ router.register("comments", CommentViewSet)
 router.register("images", ImageViewSet)
 router.register("exercises", ExerciseViewSet)
 router.register("routines", RoutineViewSet)
+router.register("routineexercises", RoutineExerciseViewSet)
 router.register("measures", MeasureViewSet)
 router.register("notifications", NotificationViewSet)
 router.register("clients", ClientViewSet)

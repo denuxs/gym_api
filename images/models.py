@@ -13,5 +13,5 @@ class Image(models.Model):
     created = models.DateTimeField(auto_now_add=True, null=True)
     modified = models.DateTimeField(auto_now=True)
 
-    def __str__(self):
-        return self.image.url
+    # def __str__(self):
+    #     return self.image
