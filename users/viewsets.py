@@ -57,7 +57,7 @@ class UserViewSet(viewsets.ModelViewSet):
         instance = self.get_object()
 
         if "password" in data:
-            password = request.data.get("password")
+            password = data.get("password")
             instance.set_password(password)
             data.pop("password")
 

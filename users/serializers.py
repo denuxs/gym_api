@@ -1,3 +1,4 @@
+
 from rest_framework_simplejwt.serializers import TokenObtainPairSerializer
 from rest_framework import serializers
 
@@ -54,6 +55,8 @@ class UserSerializer(serializers.ModelSerializer):
 class UserReadSerializer(serializers.ModelSerializer):
     name = serializers.CharField(source="get_full_name")
     fullname = serializers.CharField(source="get_full_name")
+
+    client = serializers.IntegerField(source="client.id")
 
     class Meta:
         model = User
