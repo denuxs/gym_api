@@ -16,10 +16,8 @@ class Client(models.Model):
     weight = models.FloatField(default=0)
     height = models.FloatField(default=0)
 
-    experience_level = models.CharField(max_length=140, null=True)
+    # experience_level = models.CharField(max_length=140, null=True)
     coach = models.ForeignKey(User, on_delete=models.PROTECT, related_name="coach")
-
-    is_active = models.BooleanField(default=True)
 
     created = models.DateTimeField(auto_now_add=True)
     modified = models.DateTimeField(auto_now=True)
