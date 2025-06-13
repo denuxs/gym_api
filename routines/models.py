@@ -14,7 +14,6 @@ class Routine(models.Model):
     exercises = models.ManyToManyField(
         Exercise,
         through="RoutineExcercise",
-        # related_name="+",
     )
 
     created = models.DateTimeField(auto_now_add=True)
@@ -25,8 +24,8 @@ class Routine(models.Model):
 
 
 class RoutineExcercise(models.Model):
-    exercise = models.ForeignKey(Exercise, on_delete=models.PROTECT)
     routine = models.ForeignKey(Routine, on_delete=models.CASCADE)
+    exercise = models.ForeignKey(Exercise, on_delete=models.PROTECT)
     sets = models.JSONField(null=True, blank=True)
     description = models.TextField(null=True, blank=True)
     order = models.IntegerField(default=0)

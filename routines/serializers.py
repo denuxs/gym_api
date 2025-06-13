@@ -8,40 +8,39 @@ class RoutineSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Routine
-
         fields = "__all__"
 
+    def create(self, validated_data):
+        instance = super().create(validated_data)
+        exercises = self.initial_data.get('exercises', [])
+        # routine = Routine.objects.create(**validated_data)
+
+        for item in exercises:
+            RoutineExcercise.objects.create(
+                routine=instance,
+                exercise_id=item.get("exercise"),
+                description=item.get("description"),
+                order=item.get("order"),
+                sets=item.get("sets"),
+            )
+        return instance
+
     def update(self, instance, validated_data):
+        instance = super().update(instance, validated_data)
+
         if "exercises" in self.initial_data:
             exercises = self.initial_data.get("exercises")
 
-            # print(instance.exercises.all())
+            instance.exercises.clear() # Clear existing relationships
 
             for item in exercises:
-                id = item.get("id")
-
-                if not id:
-                    RoutineExcercise.objects.create(
-                        routine_id=item.get("routine"),
-                        exercise_id=item.get("exercise"),
-                        description=item.get("description"),
-                        order=item.get("order"),
-                        sets=item.get("sets"),
-                    )
-                    continue
-
-                find = RoutineExcercise.objects.get(pk=id)
-                if find:
-                    find.routine_id = item.get("routine")
-                    find.exercise_id = item.get("exercise")
-                    find.description = item.get("description")
-                    find.order = item.get("order")
-                    find.sets = item.get("sets")
-                    find.save()
-
-        # instance.workoutexcercise_set.set(details)
-        instance.__dict__.update(**validated_data)
-        instance.save()
+                RoutineExcercise.objects.create(
+                    routine=instance,
+                    exercise_id=item.get("exercise"),
+                    description=item.get("description"),
+                    order=item.get("order"),
+                    sets=item.get("sets"),
+                )
         return instance
 
 
